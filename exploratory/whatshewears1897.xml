@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vogue Project Test Markup</title>
+            <author>Molly Wright</author>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Excerpt from Vogue Magazine, "What She Wears" article.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>New York</region>
+                  <repository>
+                     <title>Vogue Archive</title>
+                     <origDate when="1897-05-20">May 20, 1897</origDate>
+                  </repository>
+                  <idno>Vol. 9 Iss. 20</idno>
+                  <msName>What She Wears: Need of a Spring Function...</msName>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc xml:id="sectionBorder">
+                     <typeNote>Geometric border around the heading for the What She Wears
+                        article.</typeNote>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <!-- For a potential project implementation, I would also like to be able to notate the materials mentioned within the texts. -->
+   <text>
+      <body>
+         <div1>
+            <head hand="#sectionBorder">WHAT SHE WEARS</head>
+            <div2>
+               <head>NEED OF A SPRING FUNCTION - CHAMBRY GOWN - CORDED SILKS DISPLACING THE HEAVIER
+                  QUALITIES - SOME "SNOB" COSTUMES WHICH ARE THE LATEST PARISIAN CREATIONS</head>
+               <p> ALl the well-known town houses closed, the smart owners flown to the four points
+                  of the compass, how dreary things begin to look for the residual not yet liberated
+                  from the long-borne torments of a city in upheaval-a city where nothing is left
+                  undone to make its householder's life, in- doors and out, as uncomfortable as
+                  possible! Neither his doorway, nor his street approach, nor the air he breathes by
+                  night or day within his domicile is on the one hand decent or on the other
+                  healthful. Municipal tyranny and despotism render the tax-payer's life in this
+                  metropolis anything but an enviable lot; nor may a tenant be looked upon other
+                  than the helpless, miserable victim of street jobbery. At the first sign of mild
+                  weather, could a part of the town population have followed their inclination, they
+                  would have fled in thousands after their horrible winter's experience. As it is,
+                  of a certainty not one will remain who has the chance of leaving. </p>
+            </div2>
+            <div2>
+               <head>WANTED - A SPRING EQUIVALENT FOR THE HORSE SHOW</head>
+               <p>One cannot but go on deploring the want of some great spring function which would
+                  gather the smart world together and show off the season's new fashions. This
+                  dulness has made it come to pass that demi-saison dressing is kept up until the
+                  town is emptied of its fashionable contingent. Except such gowns as are worn at
+                  private affairs which the public know nothing about, nothing smart in the way of
+                  clothes is seen publicly at all. Unless strangers visited our watering places they
+                  could get no idea of the choice creations women are wearing. That limit is
+                  restricted to only a few favored localities where great fortunes flourish as the
+                  green bay-tree.</p>
+            </div2>
+            <div2>
+               <head>THE WEARING OF HAND-MADE LACE OBLIGA-TORY FOR THE WOMAN WHO WOULD BE
+                  SMART</head>
+               <p>The use of lace this summer is to be regal, and where the entire gown may not be
+                  fashioned of it, for all the smart world are not million- aires, those who are not
+                  will adorn themselves with yards of it for trimming, for very beautiful is real
+                  lace in flouncing, and not to be despised. Chambry gowns trimmed with real lace
+                  are dreams, for what is lovelier than that gauze or more suggestive of the Newport
+                  season drawing so near? One lovely gown of this order now on its way to scenes of
+                  conquest by and by you may call up before you in fancy, by starting with its white
+                  satin slip to begin with, and notice the white chiffon and satin flounces on the
+                  bottom in plissés. Over this falls one of white mousseline de soie, finished with
+                  a plissé and over this again the dream-like white Chambry strewn with lilac 316
+                  branches, untrimmed around the bottom, all three skirts separately hung, but
+                  joined at the belt. The front is not gored, but drawn up straight across, caught
+                  on the left hip and folded in a standing line towards the bottom. The space on the
+                  left is filled in with a three flounce panel of solid lilac tissue, each flounce
+                  incrusted with a barb of Venice point. These flounces are also sewed on a double
+                  foundation of lilac tissue. This panel is then slipped under the slanting side of
+                  the Chambry gauze and fastened back under the opposite gore seam, when it is
+                  raised several inches higher than the front, producing distinct lines of grace and
+                  preserving the harmony of the main skirt lines. A white silk bodice lining is
+                  round, draped with white mousseline de soie, the back laid in the finest of
+                  plaits, clasped by a wide belt of deep pansy satin, beautifully fitted in wide
+                  bias folds. Over the upper front half of bodice is a double mousse- line de soie
+                  chemisette boléro attached to col- lar band, fitting into the shoulders and laid
+                  in wide box-plaits, one flounce shorter than the other and having at the bottom
+                  the same Ven- ice barb incrustation. These flounces are shorter in the centre,
+                  reaching only the top of the belt, which runs into an upper rounding point, and is
+                  trimmed down the middle with several satin choux. White mousseline de soie
+                  sleeves, shirred over the arm, with butterfly puffs above of Chambry gauze. Wrists
+                  ex- quisitely incrusted with lace, and flaring collar band a mass of small
+                  puckered mousseline de soie frills and upper plaitings of lace. For garden party,
+                  Casino, dinner, dance or recep- tion it needs little imagination to picture the
+                  success of blonde or brunette beauty wearing it.</p>
+            </div2>
+            <div2>
+               <head> THE OLD GROS-GRAIN AGAIN IN FAVOR</head>
+               <p> Corded silks, the old gros-grains we were so fond of, have come in as the smart
+                  silks for dressy affairs this summer, and being much lighter of texture than those
+                  rich poult de soies are preferable. Youngish matrons are wearing these silks with
+                  a very pretty style of bodice, having a picturesque element that would lend itself
+                  admirably to a portrait. One such gown which is worthy of description has a
+                  matchless color that might be a pale damask, rose or ruby tint. Its demi-traine
+                  skirt has a narrow tablier of white satin, over which is laid a flat bit of
+                  sixteenth-century altar lace of quaint design, and finished on the bottom by a
+                  double plissé of cream-colored mousseline de soie; above it a band of match satin
+                  ribbon in loops, starting from a flat bow in the centre. The bodice foundation is
+                  a white silk lining, cut into a deep V back and front, with the gros-grain draped
+                  over into a half-bodice, with a short flat basque to the hips only, where it is
+                  very rounding and flares out quaintly, leav- ing the front in full cross drapery
+                  of silk, fastening on the left side, but well toward the front, with four handsome
+                  antique buttons brilliantly jeweled. The top of bodice has a cream-white satin
+                  scarf drawn across the shoul- ders to form a short boléro, passing over the top of
+                  under-bodice, then drawn up into a few plaits at the bust, where it is fastened by
+                  two larger antique jeweled buttons, connected by a jeweled chain. The shoulders,
+                  when fitted, show the neck to be half-low, and an inside mousseline de soie
+                  chemisette, à la Vierge, is let in and drawn down into a V in front. A jeweled or
+                  velvet collar must be worn, the neck being exposed for precisely that style of
+                  ornamentation. Very short sleeves, merely a band to hold double mousseline de soie
+                  plissés, with big black bows of that soft French satin ribbon now the rage for
+                  hats and gowns. There are no ends, and the bows lie like epaulettes across the
+                  shoulders.</p>
+            </div2>
+            <div2>
+               <head>HOUSE COSTUME</head>
+               <p>The new play called <mentioned><title type="play">Snob</title> by <persName>M.
+                        Gustave</persName> Guiches</mentioned>, at the <placeName>Renaissance,
+                     Paris</placeName>, brought out many deliciously new and pretty toilettes,
+                     <persName>Mlle. Granier</persName> looking enchantingly lovely in four beauty
+                  frocks, and <persName>Mlle. Mignard </persName> running As these gowns are her
+                  very close on three. the newest creations from the best gown mak- ers in the
+                  world, their description is of great importance. In the first act, <persName>Mlle.
+                     Granier</persName> is seen wearing a charming house-dress, a re- ception gown
+                  of figured mousseline de soie, of bluet ground, with a large bold design of
+                  bluets, stems, leaves and branches overrunning the surface in an unrestrained
+                  manner. A skirt of this design and character has no need of trimming, but hangs in
+                  the grace of well arranged drapery, clasped in at the waist by long scarf to
+                  match, with the ends fringed in steel beads. These scarfs, fringed with beads or
+                  knotted fringe, are seen on many French gowns as the newest of smart touches. The
+                  round bodice is drawn down into the waist by simple gathers, having an open front
+                  with a straight vest in white satin, elaborately embroidered in steel, the edges
+                  overlapping the gown fronts, and fine double bows of black and white pékiné ribbon
+                  ornament the centre.</p>
+            </div2>
+            <div2>
+               <head>TRAVELING GOWN</head>
+               <p>In the second act <persName>Mlle. Granier</persName> wears a traveling gown in
+                  gray cloth, walking length, skirt untrimmed. Its bodice is a long boléro, with
+                  open fronts trimmed on each side length- ways, and spreading out into squares, low
+                  at the sides with white passementerie. A pink- ish-red plastron of mousseline de
+                  soie plissé, with collar band of the same over white silk. New model sleeves with
+                  double bias epaulettes simply stitched.</p>
+            </div2>
+            <div2>
+               <head>BALL GOWN</head>
+               <p> In the third and last act, <persName type="title">Mlle. G.</persName>
+                  wears a superb lace gown of marvelously beautiful white guipure, over cream white
+                  satin, the front spangled with gold, including low bodice front as one with the
+                  skirt. On the sides of the skirt branches of green and white orchids are posed
+                  irregularly with the happiest effect. The low bodice of white satin is simply
+                  draped with guipure, having a bertha of the same lace, falling from the
+                  décolletage, and a spray of orchids on the left. Guipure sleeves from shoulder to
+                  wrist fit the arm like a glove. A wide diamond and pearl collier round the neck of
+                  the choicest and rarest gems.</p>
+            </div2>
+            <div2>
+               <head>CREPE DE CHINE TEA GOWN </head>
+               <p><persName>Mlle G</persName>- -also wears an exquisite tea-gown in rose pink crêpe
+                  de chine, having a princesse back, and quantities of flowing skirt drapery. The
+                  front is composed entirely of lace inser- tions, flowing down from a small open V
+                  shaped neck as a pendant scarf, each side bordered by a lace jabot, with two short
+                  ends crossing kerchief-wise at the neck, always so prettily effective. Beyond and
+                  next the lace jabots come two crêpe de chine stoles from shoulder to hem graduated
+                  in width, em- broidered in gold sequins in a V design with spaces between, and the
+                  edges to match. Half-way up the skirt on the sides beyond these stoles two
+                  flounces of lace are flatly laid VOGUE with space between-evidently to break the
+                  sharp line of the stoles, as well as to elaborate the front symmetrically. There
+                  are crêpe de chine sleeves of moderate top fulness, close- fitting to the arm,
+                  with the wrists lace-trimmed on the opening of outside seam.</p>
+            </div2>
+            <div2>
+               <head>WHITE HUSSAR JACKETS</head>
+               <p> Very chic are little Hussar jackets in white cloth, for park, or road driving
+                  later on in the summer by the sea. Boléros of white cloth braided and befrogged
+                  are quite like eton waists, trim and becoming, and equally fit for driving.</p>
+            </div2>
+            <div2>
+               <head>LIFE</head>
+               <p>I saw many people, in gorgeous garments, sitting at tables gay with rich glass and
+                  silver and gold. They were very merry, singing and laughing over their feasting.
+                  But as I looked closer I saw that the dishes before them and the goblets which
+                  they raised to their lips were all empty. And this is the story of life.</p>
+            </div2>
+            <figure>
+               <figDesc>A simplistic ink illustration depicting a woman in a hat adorned with
+                  flowers and a floral dress with flowing sleeves. </figDesc>
+            </figure>
+         </div1>
+      </body>
+   </text>
+</TEI>
