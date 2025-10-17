@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vogue 1890s "What She Wears" </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published in Vougue, April 15, 1893</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Scanned page from vogue magezine, late 19th centruy.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="article" n="1893-04-15">
+               <head> WHAT SHE WEARS </head>
+            <note place="margin">VOGUE</note>
+               <lg>
+                  <l n="1">IT has only been necessary to use one's eyes, for</l>
+                  <l n="2">the last week, to see what she wears and what</l>
+                  <l n="3">she is going to wear for many months to come.</l>
+                  <l n="4">The shop windows have been full of novelties,</l>
+                  <l n="5">and the promenadors on Fifth Avenue have dis-</l>
+                  <l n="6">played an endless number of new and startling cos-</l>
+                  <l n="7">times. It would be unchartitable to give even the</l>
+                  <l n="8">initials of a lady whom I saw stepping into her</l>
+                  <l n="9">carriage before the Hotel Waldorf, the other day,</l>
+                  <figure>
+                     <figDesc>Photograph of a woman wearing a long (presumibly white) dress, with a window and plants visible in the background</figDesc>
+                  </figure>
+                  <l n="10"><hi rend="italic">Miss Barclay</hi></l>
+                  <l n="11">as I must describe her costume in all its bizarre</l>
+                  <l n="12">ugliness. The colors were royal purple and apple</l>
+                  <l n="13">green, a startling contrast. The skirt was of the</l>
+                  <l n="14">darker color, so full that it hung in huge folds and</l>
+                  <l n="15">wobbled as she walked. Its trimmings were flounces</l>
+                  <l n="16">and ruches of apple green, and a very wide frill or</l>
+                        <l n="17">bertha of the same color encircled the shoulders.</l>
+                  </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
