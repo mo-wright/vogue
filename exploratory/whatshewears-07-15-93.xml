@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+   type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+   type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vogue Project: "What She Wears" Encoding</title>
+            <author>Trinity Taylor</author>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Excerpt from Vogue Magazine, “What She Wears” article.</p>
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>New York</region>
+                  <repository>
+                     <title>Vogue Archive</title>
+                     <origDate when="1893-07-15">July 15, 1893</origDate>
+                  </repository>
+                  <idno>Vol. 2 Iss. 3</idno>
+                  <msName>What She Wears</msName>
+               </msIdentifier>
+               <physDesc>
+                  <typeDesc xml:id="sectionBorder">
+                     <typeNote>Decorative border framing the “What She Wears” section
+                        heading.</typeNote>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div1>
+            <head>WHAT SHE WEARS</head>
+
+            <div2>
+               <p> I had an opportunity not long ago of seeing the complete trousseau, I was going
+                  to say, but probably outfit would be a better word, of a very pretty married woman
+                  who was going to <placeName>Newport</placeName>, on a visit to one of the most
+                  “swagger” houses there. The lady I speak of is not very rich, and never employs an
+                  expensive dressmaker, but she has a room fitted up as a workroom at the top of her
+                  house, the only furniture of which is a deal table, big enough to serve as a
+                  dining-board for eight or ten guests; a cheval glass and enormous cupboards on all
+                  sides, to hold skirts, new materials and all that a dressmaker requires. Here she
+                  employs two sewing women for six weeks in the spring and autumn, who, under her
+                  direction—and she has a wonderful taste, almost a genius, indeed, for the
+                  fashioning of outer garments—make all the lovely toilettes that she wears to balls
+                  and dinners in the winter, and to <placeName>Newport</placeName> and
+                     <placeName>Lenox</placeName> in the summer. It was her summer outfit that I
+                  went to see, and for the first time I realized how very tasteful and becoming the
+                  present fashions might become under skillful management. </p>
+
+               <p> Of ball gowns she had only two, a primrose-colored <material>surah</material>,
+                  which was not yellow or canary color, but just the soft pale tinge which belongs
+                  to the primrose alone. The skirt was veiled with white lace flounces, each one
+                  about three-eighths of a yard wide, and the low bodice was also covered with
+                  billows of lace which were held in place by straps and bows of black velvet, of
+                  which also the girdle was made. The other ball dress was of silver gray gros
+                  grain, exquisitely embroidered in silk, with perpendicular vines of blue, brown,
+                  and green, and the back breadth was of gray moiré, such as was worn in olden
+                  times, made into a demi-train. The trimmings of the low corsage and the large
+                  balloon sleeves were of sky blue silk velvet, and the bretelles of it passed over
+                  each shoulder and were continued on each side of the skirt, thus making a finish
+                  to the embroidered vines. It was a really lovely gown. </p>
+
+               <p> Of afternoon costumes there was a great variety. I fell in love with one—made of
+                     <material>Algerienne flounces</material>, covering to the waist a lilac silk
+                  skirt. The high corsage was of delicate lilac silk, fairly hidden under delicious
+                  chiffon ruffles with an embroidered edge—the sleeves were made of ruffle after
+                  ruffle of chiffon, narrowing down to the wrist, and the girdle, instead of coming
+                  down over the diaphragm as girdles have been doing of late, drew in at the
+                  waist—and had three carved mother-of-pearl buckles—one in front and one under each
+                  arm. The breakfast gowns were all cambrics and linens and all most picturesquely
+                  and becomingly fashioned. There was a yachting costume of Galatea cloth, in a
+                  delicate shade of blue, made with an Eton jacket to wear with a white silk shirt,
+                  and there was a traveling dress in pale buff linen, very fetching indeed. </p>
+
+               <p> The tea gown (that indispensable garment for house parties) was a marvelous
+                  combination of white silk, acres of white lace, and soft apple-green trimmings.
+                  Shoes and stockings to match every toilette were there, and the latter won my
+                  particular admiration. Never did I see such dainty, flimsy fabrics of silk and
+                  fine lace, the latter embroidered on the stockings and tapering to the ankle,
+                  where they swelled toward the calf of the leg. They certainly were fearfully and
+                  wonderfully made. </p>
+
+               <p> And, by the way, English fashion papers tell us that the reign of white stockings
+                  is beginning again in <placeName>England</placeName>. The old Queen always had a
+                  mania for them and her well-colored hose first came to be generally worn; actually
+                  prohibited them in Court circles. On one occasion a royal princess was dismissed
+                  from the presence chamber because she wore a pair of black silk stockings with a
+                  colored gown. The venerable lady was obliged to give in at last, however, and
+                  colored stockings have been generally worn in the Queen’s household for several
+                  years. Now, however, that white is so much in fashion, white stockings have
+                  appeared again, which so pleases the Sovereign that she herself ordered
+                  twenty-five pairs for the <persName>Princess May</persName>’s trousseau. Poor
+                  Princess! Let us hope that she has small, dainty feet. </p>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>
