@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-family: vogueDupe;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: vogueDupe;
+  src: url(fonts/DubielPlain.ttf);
+}
+
+
+h2{
+    text-align: center;
+}
+
+#navBar {
+  position: sticky; /* A sticky navBar stays at the top when you scroll downwards. I like having these. Change as needed :). - Molly */
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  
+#navBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  }
+  
+#navBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
