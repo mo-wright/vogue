@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>City Plan</title>
+            <author>Trinity Taylor</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Vogue Magazine. Transcribed and encoded by Trinity Taylor.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcribed from a 1995 Vogue editorial, photographed by Van Lamsweerde/Matadin and
+               published by Condé Nast.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+
+         <div type="page" n="1">
+            <p>Orange aid, THIS PAGE: A citrus-colored top in <note type="material">wool
+                  jersey</note> matches the narrow lines of a stretch-<note type="material"
+                  >wool</note> pencil <note type="garment">skirt</note>. Top, Vogue Pattern #1687.
+               Fabric from Tessuti. Skirt, Vogue Pattern #9359. Fabric from B &amp; J Fabrics,
+               NYC.</p>
+            <p>OPPOSITE PAGE: Vogue’s take on the reigning monarch of dressing—the sleeveless shift.
+                  <note type="material">Silk taffeta</note>
+               <note type="garment">dress</note>, Vogue Pattern #9357. Fabric from B &amp; J
+               Fabrics, NYC. Details, pattern information, see in This Issue.</p>
+            <p>Fashion Editor: Camilla Nickerson<lb/>Photographer: Van Lamsweerde/Matadin</p>
+            <p><note type="image">Image: full-page opener with title “city plan.”</note></p>
+         </div>
+
+         <div type="page" n="2">
+            <p>When it comes to dressing well, the rules are simple: slimly cut <note type="garment"
+                  >dresses</note>, <note type="garment">pants</note>, and tops in fabrics that
+               stretch or shine.</p>
+            <p><note type="image">Image: model crouched in metallic mini-dress against night skyline
+                  backdrop.</note></p>
+         </div>
+
+         <div type="page" n="3">
+            <p>The new urban suit, THIS PAGE, is a slim-fitting sleeveless top with matching
+               cigarette <note type="garment">pants</note> in high-tech stretch fabric. Top, Vogue
+               Pattern #9407. Pants, Vogue Pattern #9042. Fabric from Schoeller Textil USA.</p>
+            <p>OPPOSITE PAGE: An <note type="color">orange</note>
+               <note type="material">wool jersey</note>
+               <note type="garment">dress</note> with the new little cap sleeves for dancing to a
+               city beat. Dress, Vogue Pattern #8981. Fabric from Tessuti. Details, pattern
+               information, see in This Issue.</p>
+            <p><note type="image">Image: model seated in gray stretch top and cigarette
+                  pants.</note></p>
+         </div>
+
+         <div type="page" n="4">
+            <p><note type="image">Image only page: orange cap-sleeve shift dress in motion, skyline
+                  background.</note></p>
+         </div>
+
+         <div type="page" n="5">
+            <p><hi rend="smallcaps">BEAUTY NOTE</hi> The clean lines of city-chic clothes demand
+               simplified makeup. Giving the look of baby-soft skin, Elizabeth Arden Flawless Finish
+               Everyday Makeup SPF 10 in Ivory. Hair is boosted by J. F. Lazartigue’s Nature L
+               Volume Conditioner/Styling Gel.</p>
+            <p><note type="image">Image: close portrait with glossy short-sleeve shirt and tailored
+                  trousers.</note></p>
+         </div>
+
+         <div type="page" n="6">
+            <p><note type="image">Image only page: glossy <note type="color">orange</note>
+                  short-sleeve shirt, high-waist trousers, city-night backdrop.</note></p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
