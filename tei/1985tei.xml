@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Strong Sense of Ease</title>
+            <author>Trinity Taylor</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Vogue Magazine. Transcribed and encoded by Trinity Taylor.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcribed from a 1985 Vogue editorial, photographed by Andrea Blanch and published
+               by Condé Nast.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+
+         <div type="page" n="1">
+            <p>Part of the fashion idiom, “easy dressing”—meaning dressing that’s unstudied,
+               uncomplicated, easy to wear… all in an attractive, polished, real-life way. The
+               concept’s American. We started it. We do it best. And we keep doing it better. This
+               season, “easy” goes to a whole new level—racier, sharper, more sophisticated. What
+               does it: fabric with more character, patterns with more strength, more precision…
+               color!</p>
+
+            <p>There’s a new character to Ralph Lauren’s sportive American classics, like his
+               traditional <note type="garment">trousers</note>, this page, are in a bold floral
+               print of <note type="material">silk</note>, and his shawl-collared “robe” is vivid
+               purple in soft, languorous <note type="material">silk charmeuse</note>. Another plus:
+               these looks needn’t wait for warm weather, a resort—this is terrific at-home dressing
+               any time. Trousers, about $358. Robe-jacket, about $658. Late Dec. at Saks Fifth
+               Avenue, NYC; Hudson-Belk’s, Raleigh NC; Polo/Ralph Lauren, San Antonio. Ring and
+               bracelet, Paloma Picasso for Tiffany &amp; Co. Donald Judd chair, courtesy Max
+               Protetch Gallery, NYC.</p>
+
+            <p>Everybody loved the look, the Fred Astaire nonchalance of Ralph Lauren’s impeccable,
+               classic <note type="garment">trousers</note>, in brilliant chrome <note
+                  type="material">silk charmeuse</note>, opposite. Here, played against a navy
+               double-breasted <note type="material">wool gabardine</note> jacket and white tank.
+               Trousers, about $358. Jacket, about $396. Late December at Barneys New York;
+               Polo/Ralph Lauren, Costa Mesa CA; Polo/Ralph Lauren, Denver; Polo/Ralph Lauren, San
+               Francisco. Rings and bracelets, Bulgari at the Pierre Hotel, NYC. Elizabeth Jackson
+               chair for Arc International, Inc., NYC. These, next two pages: hair, Madeleine Cofano
+               for Bruno Dessange; makeup, Laura Mercier. Details, more stores, last pages.</p>
+
+            <p><note type="image">Image: full-page color spread of Ralph Lauren trousers and
+                  robe.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+         <div type="page" n="2">
+            <p>A STRONG SENSE OF EASE</p>
+
+            <p>Typical of this “laid back” American approach: very polished sweater-and-skirt
+               dressing for low-key evenings. And what a sweater-and-skirt this is! By Ralph Lauren,
+               this page, a long, soft-moving, bias-cut skirt of flag-red <note type="material">silk
+                  crepe de Chine</note> with a generously sized navy cotton turtleneck sweater. The
+               turtleneck—so important this winter—keeps evolving for warm weather, with long
+               sleeves, short sleeves, even on halters. Skirt, about $258. Sweater, about $198.
+               Turnout late December at Alcott &amp; Andrews, NYC; Short Hills NJ; Hartford CT;
+               Washington DC; Polo/Ralph Lauren, Atlanta. Skirt, Polo/Ralph Lauren, Ft. Lauderdale.
+               Elizabeth Jackson chair for Arc International, Inc., NYC.</p>
+
+            <p>Pure pow! The dress everybody applauded, wanted!—Donna Karan’s—opposite. In
+               double-faced, full-bodied bright red <note type="material">silk</note>—strong
+               shouldered, tightly cinched at the waist, with a graceful, ankle-length skirt—it sets
+               up a whole new definition of shape and a new kind of dressing for easy evenings.
+               Donna Karan New York. About $890. Late January. At Bloomingdale’s; L.H. Rogers, Salem
+               MA; Alexander’s Edge, Virginia Beach; Hudson’s, Hattie, Palm Beach FL and Scottsdale
+               AZ; Eleanor Keehan, Los Angeles. Chair, Lawrence Originals, c. 1960, courtesy
+               Fifty-50, NYC. Details, more stores, see next to last pages.</p>
+
+            <p><note type="image">Image: model seated in red silk skirt and navy sweater.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+         <div type="page" n="3">
+            <p><note type="image">Image only page: full-page visual continuation of “A Strong Sense
+                  of Ease” — two models in monochrome knits and silk, photographed mid-motion
+                  against a neutral backdrop.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+         <div type="page" n="4">
+            <p>A STRONG SENSE OF EASE… PATTERNS ARE PRECISE, SHARP—UNSENTIMENTAL</p>
+
+            <p>The best of these patterns, when they aren’t in strong color, are in strong black or
+               navy with white, like this very attractive city dressing for working women—easy to
+               wear, but polished, meant to be taken seriously. David Hayes’s black-and-white <note
+                  type="garment">suit</note>, left: a body-close, pointed-edge jacket and short,
+               narrow skirt, both in strongly textured <note type="material">silk cloque</note>—a
+               look that moves from day into evening. About $460.</p>
+
+            <p>Regimental precision—the navy-and-white stripes, right, of Gloria Sachs’s <note
+                  type="material">silk</note> button-back blouse and classic <note type="garment"
+                  >trouser</note>: all the raciness of a jumpsuit. Top, about $220. Trousers, about
+               $290. And then there are patterns so precise, they give you a feeling of texture.
+               Anne Klein’s starring jacket, left—long, clean, collarless—continues in
+               black-and-white, perfect proportion with this short, slim <note type="material"
+                  >linen/satin</note> skirt; with trousers. Louis Dell’Olio for Anne Klein &amp; Co.
+               Jacket, about $380; skirt, about $160. Jewelry, Paloma Picasso for Tiffany &amp;
+               Co.</p>
+
+            <p>Another attractive jacket, right, by Mondi, in <note type="material">navy
+                  gabardine</note>, slightly more classic but not blazer-y—it’s longer, more
+               relaxed, it moves. Here, over matching trousers, a white shirt. Jacket, about $209.
+               Trousers, about $160. Shirt, about $120. Hair, Edward Tricomi for Pipino-Buccheri,
+               NYC; makeup, Laura Mercier. Details, more stores, see last pages.</p>
+
+            <p><note type="image">Image: two standing models, one in a black-and-white Hayes suit,
+                  another in navy stripes.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+         <div type="page" n="5">
+            <p><note type="image">Image only page: editorial photo featuring models seated in
+                  tailored jackets and striped blouses, architectural background.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+         <div type="page" n="6">
+            <p>A STRONG SENSE OF EASE… THE SINGULAR CHARM OF A SOFT SUIT IN A STRONG MIX OF
+               PATTERNS</p>
+
+            <p>Usually hard to find: suit dressing that strikes the right balance between crispness
+               and ease. You find it, opposite, in Oscar de la Renta’s striking plaid/check <note
+                  type="garment">suit</note> of navy-and-white <note type="material">wool</note>—the
+               jacket lightly shaped and rounder, the skirt short, narrow, slit; the look sharpened
+               by the jolt of a red-and-white striped <note type="material">silk</note> blouse.
+               About $1190. Late January at Saks Fifth Avenue; Sara Fredericks, Boston &amp; Palm
+               Beach; Montaldo’s; Higbee’s; Balle’s. Jean Prouvé chair, Global Furniture, NYC.</p>
+
+            <p>In a more dressed mood, this page, Bill Blass’s soft-falling 7/8 coat and slim,
+               softly shaped, knee-length straight skirt, in a controlled, allover “palmette” print
+               (fabric, Abraham) with stripes: a striped <note type="garment">silk halter</note>
+               that wraps at the throat (Delbos, Teseo), glory at night, a pulled-together,
+               altogether charming way to look. About $2570. Late January at Saks Fifth Avenue, NYC;
+               Sara Fredericks, Boston; Martha, Palm Beach &amp; Bal Harbour; John Baldwin, St.
+               Petersburg FL; Frost Bros., San Antonio and Ohio; Frost Bros. Hair, Ray Allington for
+               Vidal Sassoon; makeup, Margaret Avery. Details, more stores, last pages.</p>
+
+            <p><note type="image">Image: model in de la Renta check suit and red striped
+                  blouse.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+         <div type="page" n="7">
+            <p><note type="image">Image only page: full-page color photograph closing the series —
+                  model in plaid Oscar de la Renta suit, seated beside red-striped fabric
+                  backdrop.</note></p>
+            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
