@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
+<?xml-model href="../hwODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -32,7 +31,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                north-of-south-version—blue-eyed, gray-pink plaid <note type="material">silk
                   crepe</note>. Geoffrey designed the shirt-and-sash-side and one of his new
                T-shirt-based tops. And a beautiful way it unwraps—beautifully. Gianfranco Ferré,
-               about $950. At Lord &amp;amp; Taylor, N.Y.; Gattle’s, Bal Harbour; Magnin; Liberty House,
+               about $950. At Lord &amp; Taylor, N.Y.; Gattle’s, Bal Harbour; Magnin; Liberty House,
                Hawaii. Accessories and men’s fashion details, next to last page. These 12 pages:
                hair, Harry King of Cinandre; makeup, Way Bandy.</p>
 
