@@ -33,22 +33,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                color!</p>
 
             <p>There’s a new character to Ralph Lauren’s sportive American classics, like his
-               traditional <note type="garment">trousers</note>, this page, are in a bold floral
-               print of <note type="material">silk</note>, and his shawl-collared “robe” is vivid
-               purple in soft, languorous <note type="material">silk charmeuse</note>. Another plus:
+               traditional <rs type="garment">trousers</rs>, this page, are in a bold floral
+               print of <rs type="material">silk</rs>, and his <rs type="garment-piece">shawl-collared</rs> <rs type="garment">robe</rs> is vivid
+               <rs type="color">purple</rs> in soft, languorous <note type="material">silk charmeuse</note>. Another plus:
                these looks needn’t wait for warm weather, a resort—this is terrific at-home dressing
-               any time. Trousers, about $358. Robe-jacket, about $658. Late Dec. at Saks Fifth
+               any time. <rs type="garment">Trousers</rs>, about $358. <rs type="garment">Robe-jacket</rs>, about $658. Late Dec. at Saks Fifth
                Avenue, NYC; Hudson-Belk’s, Raleigh NC; Polo/Ralph Lauren, San Antonio. Ring and
                bracelet, Paloma Picasso for Tiffany &amp; Co. Donald Judd chair, courtesy Max
                Protetch Gallery, NYC.</p>
 
             <p>Everybody loved the look, the Fred Astaire nonchalance of Ralph Lauren’s impeccable,
-               classic <note type="garment">trousers</note>, in brilliant chrome <note
-                  type="material">silk charmeuse</note>, opposite. Here, played against a navy
-               double-breasted <note type="material">wool gabardine</note> jacket and white tank.
-               Trousers, about $358. Jacket, about $396. Late December at Barneys New York;
+               classic <rs type="garment">trousers</rs>, in brilliant chrome <rs
+                  type="material">silk charmeuse</rs>, opposite. Here, played against a <rs type="color">navy</rs>
+               <rs type="garment-piece">double-breasted</rs> <note type="material">wool gabardine</note> <rs type="garmnet">jacket</rs> and <rs type="color">white</rs> <rs type="garment">tank</rs>.
+               <rs type="garment">Trousers</rs>, about $358. <rs type="garment">Jacket</rs>, about $396. Late December at Barneys New York;
                Polo/Ralph Lauren, Costa Mesa CA; Polo/Ralph Lauren, Denver; Polo/Ralph Lauren, San
-               Francisco. Rings and bracelets, Bulgari at the Pierre Hotel, NYC. Elizabeth Jackson
+               Francisco. <rs type="garment">Rings</rs> and <rs type="garment">bracelets</rs>, Bulgari at the Pierre Hotel, NYC. Elizabeth Jackson
                chair for Arc International, Inc., NYC. These, next two pages: hair, Madeleine Cofano
                for Bruno Dessange; makeup, Laura Mercier. Details, more stores, last pages.</p>
 
@@ -60,24 +60,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="page" n="2">
             <p>A STRONG SENSE OF EASE</p>
 
-            <p>Typical of this “laid back” American approach: very polished sweater-and-skirt
-               dressing for low-key evenings. And what a sweater-and-skirt this is! By Ralph Lauren,
-               this page, a long, soft-moving, bias-cut skirt of flag-red <note type="material">silk
-                  crepe de Chine</note> with a generously sized navy cotton turtleneck sweater. The
-               turtleneck—so important this winter—keeps evolving for warm weather, with long
-               sleeves, short sleeves, even on halters. Skirt, about $258. Sweater, about $198.
-               Turnout late December at Alcott &amp; Andrews, NYC; Short Hills NJ; Hartford CT;
-               Washington DC; Polo/Ralph Lauren, Atlanta. Skirt, Polo/Ralph Lauren, Ft. Lauderdale.
-               Elizabeth Jackson chair for Arc International, Inc., NYC.</p>
+            <p>Typical of this “laid back” American approach: very polished <rs type="garment">sweater</rs>-and-<rs type="garment">skirt</rs>
+               dressing for low-key evenings. And what a <rs type="garment">sweater</rs>-and-<rs type="garment">skirt</rs> this is! By Ralph Lauren,
+               this page, a long, soft-moving, <rs type="garment-piece">bias-cut skirt</rs> of <rs type="color">flag-red</rs> <rs type="material">silk
+                  crepe de Chine</rs> with a generously sized <rs type="color">navy</rs> <rs type="material">cotton</rs> <rs type="garment">turtleneck sweater</rs>. The
+               <rs type="garment">turtleneck</rs>—so important this winter—keeps evolving for warm weather, with 
+               <rs type="garment-piece">long sleeves</rs>, <rs type="garment-piece">short sleeves</rs>, even on <rs type="garment-piece">halters</rs>. <rs type="garment">Skirt</rs>, about $258. <rs type="garment">Sweater</rs>, about $198.
+               Turnout late December at Alcott &amp; <placeName>Andrews, NYC</placeName>; <placeName>Short Hills NJ</placeName>; <placeName>Hartford CT</placeName>;
+               <placeName>Washington DC</placeName>; Polo/Ralph Lauren, <placeName>Atlanta</placeName>. Skirt, Polo/Ralph Lauren, <placeName>Ft. Lauderdale</placeName>.
+               Elizabeth Jackson chair for Arc International, Inc., <placeName>NYC</placeName>.</p>
 
             <p>Pure pow! The dress everybody applauded, wanted!—Donna Karan’s—opposite. In
-               double-faced, full-bodied bright red <note type="material">silk</note>—strong
-               shouldered, tightly cinched at the waist, with a graceful, ankle-length skirt—it sets
+               double-faced, full-bodied <rs type="color">bright red</rs> <rs type="material">silk</rs>—strong
+               shouldered, tightly cinched at the <rs type="garment-piece">waist</rs>, with a graceful, ankle-length <rs type="garment">skirt</rs>—it sets
                up a whole new definition of shape and a new kind of dressing for easy evenings.
-               Donna Karan New York. About $890. Late January. At Bloomingdale’s; L.H. Rogers, Salem
-               MA; Alexander’s Edge, Virginia Beach; Hudson’s, Hattie, Palm Beach FL and Scottsdale
-               AZ; Eleanor Keehan, Los Angeles. Chair, Lawrence Originals, c. 1960, courtesy
-               Fifty-50, NYC. Details, more stores, see next to last pages.</p>
+               Donna Karan <placeName>New York</placeName>. About $890. Late January. At Bloomingdale’s; L.H. Rogers, <placeName>Salem
+               MA</placeName>; Alexander’s Edge, <placeName>Virginia Beach</placeName>; Hudson’s, Hattie, <placeName>Palm Beach FL</placeName> and <placeName>Scottsdale
+               AZ</placeName>; Eleanor Keehan, Los <placeName>Angeles</placeName>. Chair, Lawrence Originals, c. 1960, courtesy
+               Fifty-50, <placeName>NYC</placeName>. Details, more stores, see next to last pages.</p>
 
             <p><note type="image">Image: model seated in red silk skirt and navy sweater.</note></p>
             <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
@@ -93,27 +93,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="page" n="4">
             <p>A STRONG SENSE OF EASE… PATTERNS ARE PRECISE, SHARP—UNSENTIMENTAL</p>
 
-            <p>The best of these patterns, when they aren’t in strong color, are in strong black or
-               navy with white, like this very attractive city dressing for working women—easy to
-               wear, but polished, meant to be taken seriously. David Hayes’s black-and-white <note
-                  type="garment">suit</note>, left: a body-close, pointed-edge jacket and short,
-               narrow skirt, both in strongly textured <note type="material">silk cloque</note>—a
+            <p>The best of these patterns, when they aren’t in strong color, are in strong <rs type="color">black</rs> or
+               <rs type="color">navy</rs> with <rs type="color">white</rs>, like this very attractive city dressing for working women—easy to
+               wear, but polished, meant to be taken seriously. David Hayes’s <rs type="color">black</rs>-and-<rs type="color">white</rs> <rs
+                  type="garment">suit</rs>, left: a body-close, pointed-edge jacket and short,
+               narrow <rs type="garment">skirt</rs>, both in strongly textured <rs type="material">silk cloque</rs>—a
                look that moves from day into evening. About $460.</p>
 
-            <p>Regimental precision—the navy-and-white stripes, right, of Gloria Sachs’s <note
-                  type="material">silk</note> button-back blouse and classic <note type="garment"
-                  >trouser</note>: all the raciness of a jumpsuit. Top, about $220. Trousers, about
+            <p>Regimental precision—the <rs type="color">navy</rs>-and-<rs type="color">white</rs> stripes, right, of Gloria Sachs’s <rs
+                  type="material">silk</rs> <rs type="garment-piece">button-back</rs> <rs type="garment">blouse</rs> and classic <rs type="garment"
+                  >trouser</rs>: all the raciness of a <rs type="garment">jumpsuit</rs>. <rs type="garment">Top</rs>, about $220. <rs type="garment">Trousers</rs>, about
                $290. And then there are patterns so precise, they give you a feeling of texture.
                Anne Klein’s starring jacket, left—long, clean, collarless—continues in
-               black-and-white, perfect proportion with this short, slim <note type="material"
-                  >linen/satin</note> skirt; with trousers. Louis Dell’Olio for Anne Klein &amp; Co.
-               Jacket, about $380; skirt, about $160. Jewelry, Paloma Picasso for Tiffany &amp;
+               <rs type="color">black</rs>-and-<rs type="color">white</rs>, perfect proportion with this short, slim <rs type="material"
+                  >linen</rs>/<rs type="material">satin</rs> <rs type="garment">skirt</rs>; with <rs type="garment">trousers</rs>. Louis Dell’Olio for Anne Klein &amp; Co.
+               <rs type="garment">Jacket</rs>, about $380; <rs type="garment">skirt</rs>, about $160. <rs type="garment">Jewelry</rs>, Paloma Picasso for Tiffany &amp;
                Co.</p>
 
-            <p>Another attractive jacket, right, by Mondi, in <note type="material">navy
-                  gabardine</note>, slightly more classic but not blazer-y—it’s longer, more
-               relaxed, it moves. Here, over matching trousers, a white shirt. Jacket, about $209.
-               Trousers, about $160. Shirt, about $120. Hair, Edward Tricomi for Pipino-Buccheri,
+            <p>Another attractive <rs type="garment">jacket</rs>, right, by Mondi, in <rs type="color">navy</rs><rs type="material">
+                  gabardine</rs>, slightly more classic but not <rs type="garment">blazer</rs>-y—it’s longer, more
+               relaxed, it moves. Here, over matching <rs type="garment">trousers</rs>, a <rs type="color">white</rs> <rs type="garment">shirt</rs>. <rs type="garment">Jacket</rs>, about $209.
+               <rs type="garment">Trousers</rs>, about $160. <rs type="garment">Shirt</rs>, about $120. Hair, Edward Tricomi for Pipino-Buccheri,
                NYC; makeup, Laura Mercier. Details, more stores, see last pages.</p>
 
             <p><note type="image">Image: two standing models, one in a black-and-white Hayes suit,
@@ -131,21 +131,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A STRONG SENSE OF EASE… THE SINGULAR CHARM OF A SOFT SUIT IN A STRONG MIX OF
                PATTERNS</p>
 
-            <p>Usually hard to find: suit dressing that strikes the right balance between crispness
-               and ease. You find it, opposite, in Oscar de la Renta’s striking plaid/check <note
-                  type="garment">suit</note> of navy-and-white <note type="material">wool</note>—the
-               jacket lightly shaped and rounder, the skirt short, narrow, slit; the look sharpened
-               by the jolt of a red-and-white striped <note type="material">silk</note> blouse.
-               About $1190. Late January at Saks Fifth Avenue; Sara Fredericks, Boston &amp; Palm
-               Beach; Montaldo’s; Higbee’s; Balle’s. Jean Prouvé chair, Global Furniture, NYC.</p>
+            <p>Usually hard to find: <rs type="garment">suit</rs> dressing that strikes the right balance between crispness
+               and ease. You find it, opposite, in Oscar de la Renta’s striking plaid/check <rs
+                  type="garment">suit</rs> of navy-and-white <rs type="material">wool</rs>—the
+               <rs type="garment">jacket</rs> lightly shaped and rounder, the skirt short, narrow, slit; the look sharpened
+               by the jolt of a <rs type="color">red</rs>-and-<rs type="color">white</rs> striped <note type="material">silk</note> <rs type="garment">blouse</rs>.
+               About $1190. Late January at Saks Fifth Avenue; Sara Fredericks, <placeName>Boston</placeName> &amp; <placeName>Palm
+               Beach</placeName>; Montaldo’s; Higbee’s; Balle’s. Jean Prouvé chair, Global Furniture, <placeName>NYC</placeName>.</p>
 
-            <p>In a more dressed mood, this page, Bill Blass’s soft-falling 7/8 coat and slim,
-               softly shaped, knee-length straight skirt, in a controlled, allover “palmette” print
-               (fabric, Abraham) with stripes: a striped <note type="garment">silk halter</note>
+            <p>In a more dressed mood, this page, Bill Blass’s soft-falling <rs type="garment">7/8 coat</rs> and slim,
+               softly shaped, <rs type="garment">knee-length straight skirt</rs>, in a controlled, allover “palmette” print
+               (fabric, Abraham) with stripes: a striped <rs type="garment">silk halter</rs>
                that wraps at the throat (Delbos, Teseo), glory at night, a pulled-together,
-               altogether charming way to look. About $2570. Late January at Saks Fifth Avenue, NYC;
-               Sara Fredericks, Boston; Martha, Palm Beach &amp; Bal Harbour; John Baldwin, St.
-               Petersburg FL; Frost Bros., San Antonio and Ohio; Frost Bros. Hair, Ray Allington for
+               altogether charming way to look. About $2570. Late January at Saks Fifth Avenue, <placeName>NYC</placeName>;
+               Sara Fredericks, <placeName>Boston</placeName>; Martha, <placeName>Palm Beach</placeName> &amp; Bal Harbour; John Baldwin, <placeName>St.
+               Petersburg FL</placeName>; Frost Bros., <placeName>San Antonio</placeName> and <placeName>Ohio</placeName>; Frost Bros. Hair, Ray Allington for
                Vidal Sassoon; makeup, Margaret Avery. Details, more stores, last pages.</p>
 
             <p><note type="image">Image: model in de la Renta check suit and red striped
