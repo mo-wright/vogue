@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>What She Wears</title>
+            <author>Vogue Magezine</author>
+            <editor> Tara McGee</editor>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>Penn State University, Digital Humanities</publisher>
+            <date when="2025">2025</date>
+            <availability status="free">
+               <p>Distributed for educational and research use only.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title level="a">What She Wears</title>
+               <author>Vogue Magazine</author>
+               <pubPlace>New York</pubPlace>
+               <publisher>Condé Nast</publisher>
+               <date when="1915-12-01">December 1, 1925</date>
+               <note>Transcribed from the December 1, 1925 issue of <title level="j">Vogue</title>,
+                  Published by Condé Nast in New York.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>94</p>
+         <p> (Illustration of two women wearing long pleated skirts with hats.)</p>
+         <p>(Left) In the <note type="color">black</note> <note type="material">velvet</note> <note type="garment">frock</note> with stiff <note type="color">gold</note> inserts, at the extreme left, the new
+            kinetic silhouette gets its motion from a pleated circular front that swings free at the
+            bottom. Beside it is a <note type="material">rep</note> <note type="garment">frock</note> with a long tie collar and an intricately cut skirt
+            section that moves gracefully with the wearer </p>
+         <p> (Illustration of two women wearing long <note type="garment">cape</note>s with <note type="material">fur</note> trim at neck, bottom, and
+            cuffs.)</p>
+         <p>(Right) <note type="garment">Cape</note>s or ingenious swaying panels at the back transform the static lines of last
+            season into the animated silhouette of the moment. Both of these <note type="fur">fur</note>- trimmed <note type="material">velvet</note>
+            <note type="garment">coat</note>s are plain at the front </p>
+         <p>(Illustration of woman wearing <note type="material">chiffon</note> <note type="garment">dress</note> with flying sections)</p>
+         <p> The fluttering sheerness of <note type="material">chiffon</note> lends itself especially well to loose hanging
+            panels and flying sections of <note type="material">chiffon</note>s lends itself especially well to loose hanging
+            panels and flying sections – a mode that calls for great skill and originality on the
+            part of the designers </p>
+         <p>(Illustration of a woman wearing a short <note type="color">cream</note> and <note type="color">gold</note> <note type="garment">dress</note>; smoking a cigarette.)</p>
+         <p> This slim <note type="garment">gown</note> of <note type="color">cream</note> <note type="material">net</note> and <note type="color">brown</note> and <note type="color">gold</note> <note type="material">brocade</note>, slightly moulded to the figure,
+            finds all its motion in the frothy fulness at the bottom of the shaped circular flounce </p>
+         <p>(Illustration of a woman wearing a long <note type="garment">dress</note> with an uneven cut <note type="garment">dress</note> so that it
+            flares.)</p>
+         <p>For evening, a slightly moulded bodice is often seen above an uneven skirt so cut that
+            it flares with graceful motion when the wearer walks or dances </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <p>Copyright 2012 © Condé Nast</p>
+
+         <p>December 1, 1925 95</p>
+
+         <p>The Silhouette Moves!</p>
+         <p>Sketches</p>
+         <p>and</p>
+         <p>Notes</p>
+         <p>That Show the Modern Spirit of the Animated</p>
+         <p>Fashion of the Flare</p>
+
+         <p> (Left) The fulness and the pointed cut of the deep <note type="garment">cape</note> on this <note type="velvet">velvet</note> <note type="garment">wrap</note> give it its
+            animation</p>
+
+         <p>On these three models, the motion of the mode is obtained in three ways-by swinging
+            jabots on the <note type="material">velveteen</note> <note type="garment">frock</note> at the left, by circular cut in the <note type="material">broadcloth</note> model in
+            the middle, and by the wide semicircular front of the <note type="material">velours</note> <note type="garment">coat</note> at the right </p>
+
+         <p>FLARES that spring from the front, the side, or the back, the circular swing of <note type="garment">coat</note>s,
+            the sweep of new <note type="garment">cape</note>s, the flying lines of the jabot and the scarf, have all called
+            into being a new mode--the mode of motion. The straight silhouette of past seasons was
+            inert, static. The new, flared line is a living, moving, modern thing. The rough
+            sketches on these two pages, showing clothes that smart women are wearing now,
+            illustrate this theme of motion. The unfinished lines of these sketches, which have not
+            as yet settled into repose, express the ever-shifting grace of the mobile silhouette.
+            This is the impression presented by the new flaring fashions. Every step, every move
+            displaces a godet, a pleat, a drapery, and sets astir a new dynamic rhythm.</p>
+         <p>It has been a long time making its way-this mode of motion. This winter marks its first
+            general acceptance. We clung for a long time to the straight, restricted line, because
+            it gave us so little trouble. It was young. It was simple. It was smart because it was
+            simple and young. And, as long as we kept to it tenaciously, we could not go very far
+            wrong.</p>
+         <p>But what has this new flared line to offer to offset the security of the old, familiar,
+            tube-like silhouette? Vogue believes that it has a great deal to give in the furthering
+            of a more progressive mode. Its first great advantage is its comfort. The straight line
+            was made for standing still in a strenuous world keyed to motion. The flared line is
+            designed for easy, unrestricted action. The new silhouette makes us less self-conscious
+            about our clothes-walking, sitting, dancing-and more conscious of a new and exhilarating
+            freedom and grace. Moreover, as long as the straight silhouette dominated clothes, the
+            mode itself could not go forward. When two seams made a dress, what was left to
+            encourage the invention of a Vionnet, who works with fabrics as a sculptor moulds his
+            planes? What was left to stimulate the plastic skill of a Jean Patou, the kinetic, or
+            made-for-motion, designs of a Lucien Lelong, the genius of all the designers to whom the
+            making of clothes is an art expressive of its age?</p>
+         <p> Within the new conception of the flare, there is no end to the variations that are
+            possible. The precisely tailored <note type="material">tweed</note> <note type="garment">frock</note>, with its concealed pleats that flare only
+            in motion, the <note type="material">chiffon</note> dress with its flying scarfs and floating panels, are both in the
+            same modern spirit. But each meets in its own way the demands of its fabric and the
+            needs of the occasion for which it is especially intended. Not only does the flared
+            silhouette give a wider scope to the designer, but it offers more individuality to the
+            woman who wears it. While the straight line was becoming to the great majority-to the
+            average woman and the average figure-,it had little to give to the exception. The woman
+            whose charm is her dignity comes into her own this year, because she chooses the type of
+            flare that will emphasize that quality. On the other hand, the slight, young girl now
+            wears the new moulded lines, clinging and then flaring, short and free, to accent every
+            lithe line. She adopts the Greek grace of a Diana, not of a Minerva-and the new mode
+            offers both. The tall woman chooses clothes that will tend to shorten the effect of
+            length. Even a short woman finds the particular kind of flowing lines that will make her
+            look less square. The skilful use of flares can be made to bring out one's good points
+            and to minimize less fortunate ones.</p>
+         <p>With the coming of the flare, we begin a new era of individuality-altogether modern, a
+            little dangerous, and always interesting. There is no longer any single formula for
+            chic. And just how the flare is to be adapted to its time and to its wearers is a story
+            to be continued in many more issues of Vogue in the weeks to come.</p>
+
+         <p>Copyright ©2012 Condé Nast</p>
+
+      </body>
+   </text>
+</TEI>
