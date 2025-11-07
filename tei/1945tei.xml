@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../hwODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -26,28 +26,28 @@
          <p> 
             Many happy returns to the Debutante Party 
             (even without the old fine “careless rapture”). There is hardly one Debutante who does not
-            include,in her daily schedule, work for some of the great relief needs, college
-            course,Nurse Aid or Day Nursery work.But over this layer of serious ideas and genuine
+            include, in her daily schedule, work for some of the great relief needs, college
+            course, Nurse Aid or Day Nursery work. But over this layer of serious ideas and genuine
             good works there is again this year the light but delicious frosting of debutante
-            parties.Most of them will again be the great group presentation balls which were wartime
+            parties. Most of them will again be the great group presentation balls which were wartime
             innovations but there will be a few individual parties. The debutante this year may
             still not have a seven man escort as her mother might have had ; she will quite probably
             rush down for college for her own debut; there will be fewer fittings, fewer debutante
-            luncheons, much,much less <note type="material">flurry.</note> And although clothes may seem less important to her
+            luncheons, much, much less flurry. And although clothes may seem less important to her
             than to her pre-war debutante predecessors , she will probably manage to affix her
             personal signature to her own wardrobe; will know that it is not “ how many” but “how
-            memorable” that really matters, when she chooses her clothes. With her beautiful white
-            Coming Out party dress this season a debutante may wear a<note type="clothes"> short crimson velvet</note> or
-            duvetyn coat. Wear <note type="accessory">wrist- length white gloves</note> , and carry a tight little white furs
+            memorable” that really matters, when she chooses her clothes. With her beautiful <rs type="color">white</rs>
+            Coming Out <rs type="garment">party dress</rs> this season a debutante may wear a short <rs type="color">crimson</rs> <rs type="material">velvet</rs> or
+            <rs type="material">duvetyne</rs> <rs type="garment">coat</rs>. Wear <rs type="garment">wrist-length gloves</rs> in <rs type="color">white</rs> , and carry a tight little white furs
             (opposite page). If it is not her coming out party,she will probably choose a
-            colour.When it is not a party,but just a small dancing evening dress again, this season
-            … black perhaps...bare on top as her debut dress.
+            colour. When it is not a party, but just a small dancing evening dress again, this season
+            … <rs type="color">black</rs> perhaps...bare on top as her debut dress.
             
-            <note type="photo"> Image </note>
+            <note type="image"> Image </note>
             
             WHITE TO COME OUT IN.
           
-            Beautiful, great-skirted ball dress made for Miss Betty Tyson by Herman Patrick tappe of heavy
+            Beautiful, <rs type="garment-piece">great-skirted </rs> <rs type="garment">ball dress</rs> made for Miss Betty Tyson by Herman Patrick tappe of heavy
             silk brocade, plumed and embroidered with medallions of sequins, rhinestones,bugle
             beads. Miss Tyson daughter of Mr.and Mrs George Tyson made her debut in November at a
             party given by her aunt,Mrs.Geogre Mesta,in Washington. </p>
