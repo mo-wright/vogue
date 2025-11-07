@@ -1,34 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
+
          <titleStmt>
             <title>What She Wears</title>
-            <author>Vogue Magezine</author>
-            <editor>Tara McGee</editor>
+            <author>Tara McGee</author>
          </titleStmt>
 
-         <publicationStmt>
-            <publisher>Penn State University, Digital Humanities</publisher>
-            <date when="2025">2025</date>
-            <availability status="free">
-               <p>Distributed for educational and research use only.</p>
-            </availability>
-         </publicationStmt>
 
+
+         <publicationStmt>
+            <p>Vogue Magazine. Transcribed and encoded by Tara McGee.</p>
+         </publicationStmt>
          <sourceDesc>
-            <bibl>
-               <title level="a">What She Wears</title>
-               <author>Vogue Magazine</author>
-               <pubPlace>New York</pubPlace>
-               <publisher>Condé Nast</publisher>
-               <date when="1915-12-01">December 1, 1915</date>
-               <note>Transcribed from the December 1, 1915 issue of <title level="j">Vogue</title>,
-                  Published by Condé Nast in New York.</note>
-            </bibl>
+            <p>Transcribed from a 1915 Vogue article.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -38,66 +27,121 @@
          <p>December 1 65</p>
          <p>SEEN in the SHOPS</p>
 
-         <p><note type="garment">Skating Sets</note> to Play Up the Latest Sport, Pretty Boudoir Things for Christmas Gifts, and
-            Two Practical Waists for a Balance Wheel</p>
-         <p>(illustration of a woman wearing a checkered scarf, hat, and muff.) Since skating bids
-            fair to succeed dancing as a fas, a skating set of <note type="material">velveteen</note> and <note type="material">chiffon</note> <note type="material">velvet</note> is one
-            of the most acceptable fights; <note type="garment">hat</note>, $10; <note type="garment">scarf</note>, $15; <note type="garment">muff</note>, $40</p>
-         <p>(illustration of a woman wearing <note type="color">white</note> dress with colored <note type="material">linen</note> suspenders) Something
-            new is a combination of <note type="color">white</note> and colored <note type="material">linen</note> in a <note type="garment">suspender waist</note> that launders
-            beautifully; $2.95 </p>
-         <p>(illustration of a woman wearing a simple blouse with buttons, wearing a striped belt
-            and plain skirt.) Particularly good in a simple <note type="garment">blouse</note> is the new heavy <note type="material">silk</note> called <note type="material">silk
-            broadcloth</note>; in <note type="color">white</note> or <note type="color">flesh color</note>; $5.95 </p>
-         <p>(illustration of a woman wearing a striped scarf with a fluffy hat.) <note type="color">Black</note> and <note type="color">white</note>
-            striped <note type="material"><note type="material">velvet</note></note> line with brilliant <note type="color">green</note> velvet forms the <note type="garment">scarf</note> of a <note type="garment">skating set</note>; the
-            <note type="garment">hat</note> is like the <note type="garment">scarf</note>, with a gay <note type="material">worsted</note> trimming; <note type="garment">hat</note>, $12; <note type="garment">scarf</note>, $15 </p>
-         <p>SIMPLE <note type="material">crêpe de Chine</note> <note type="garment">negligées</note> of the type illustrated at the lower left make most
-            acceptable Christmas gifts, because they are practical, as well as attractive; crêpe de
-            Chine is the most serviceable of materials for this purpose.</p>
-         <p>The model shown may be had in <note type="color">pink</note>, <note type="color">blue</note>, or <note type="color">white</note> <note type="material"><note type="material">crêpe de Chine</note></note>, or it may be had in
-            other colors to order. The <note type="garment">fichu</note>, edged with a narrow <note type="material">knife plaiting</note> of the crêpe de
-            Chine, is practically the only trimming. <note type="material">Knife plaiting</note> also appears at the Empire
-            waist-line in both front and back.</p>
-         <p>The model sketched in the middle at the bottom of the page is also of <note type="material">crêpe de Chine</note>.
-            The front is softly box plaited, and the back shows two groups of box plaits at each
-            side. Delicate <note type="material">lace</note> of a lovely pattern is used around the neck and to form the sleeves;
-            the flowing coat of <note type="material"><note type="material">chiffon</note> cloth</note> has angel sleeves.</p>
+         <p><rs type="garment">Skating Sets</rs> to Play Up the Latest Sport, Pretty Boudoir Things
+            for Christmas Gifts, and Two Practical Waists for a Balance Wheel</p>
+         <p><note type="image"> Illustration of a woman wearing a checkered scarf, hat, and
+               muff.</note></p>
+         <p> Since skating bids fair to succeed dancing as a fas, a skating set of <rs
+               type="material">velveteen</rs> and <rs type="material">chiffon</rs>
+            <rs type="material">velvet</rs> is one of the most acceptable fights; <rs type="garment"
+               >hat</rs>, $10; <rs type="garment">scarf</rs>, $15; <rs type="garment">muff</rs>,
+            $40</p>
+         <p><note type="image">Illustration of a woman wearing a white dress with colored linen
+               suspenders.</note></p>
+         <p> Something new is a combination of <rs type="color">white</rs> and colored <rs
+               type="material">linen</rs> in a <rs type="garment-piece">suspender waist</rs> that
+            launders beautifully; $2.95 </p>
+         <p><note type="image">Illustration of a woman wearing a simple blouse with buttons, wearing
+               a striped belt and plain skirt.</note></p>
+         <p> Particularly good in a simple <rs type="garment">blouse</rs> is the new heavy <rs
+               type="material">silk</rs> called <rs type="material">silk broadcloth</rs>; in <rs
+               type="color">white</rs> or <rs type="color">flesh color</rs>; $5.95 </p>
+         <p><note type="imge">Illustration of a woman wearing a striped scarf with a fluffy
+               hat.</note>
+            <rs type="color">Black</rs> and <rs type="color">white</rs> striped <rs type="material"
+               >velvet</rs> line with brilliant <rs type="color">green</rs>
+            <rs type="material">velvet</rs> forms the <rs type="garment">scarf</rs> of a <rs
+               type="garment">skating set</rs>; the <rs type="garment">hat</rs> is like the <rs
+               type="garment">scarf</rs>, with a gay <rs type="material">worsted</rs>
+            <rs type="garment-piece">trimming</rs>; <rs type="garment">hat</rs>, $12; <rs
+               type="garment">scarf</rs>, $15 </p>
+         <p>SIMPLE <rs type="material">crêpe de Chine</rs>
+            <rs type="garment">negligées</rs> of the type illustrated at the lower left make most
+            acceptable Christmas gifts, because they are practical, as well as attractive; <rs
+               type="material">crêpe de Chine</rs> is the most serviceable of materials for this
+            purpose.</p>
+         <p>The model shown may be had in <rs type="color">pink</rs>, <rs type="color">blue</rs>, or
+               <rs type="color">white</rs>
+            <rs type="material">crêpe de Chine</rs>, or it may be had in other colors to order. The
+               <rs type="garment">fichu</rs>, edged with a narrow <rs type="garment-piece">knife
+               plaiting</rs> of the <rs type="material">crêpe de Chine</rs>, is practically the only
+               <rs type="garment-piece">trimming</rs>. <note type="garment-piece">Knife
+               plaiting</note> also appears at the <rs type="garment-piece">Empire waist-line</rs>
+            in both front and back.</p>
+         <p>The model sketched in the middle at the bottom of the page is also of <rs
+               type="material">crêpe de Chine</rs>. The front is softly box plaited, and the back
+            shows two groups of <rs type="garment-piece">box plaits</rs> at each side. Delicate <rs
+               type="material">lace</rs> of a lovely pattern is used around the neck and to form the
+            sleeves; the flowing coat of <rs type="material">chiffon cloth</rs> has <rs
+               type="garment-piece">angel sleeves</rs>.</p>
 
-         <p>A <note type="garment">CAP</note> AND A FLYAWAY <note type="garment">PETTICOAT</note></p>
+         <p>A <rs type="garment">CAP</rs> AND A FLYAWAY <rs type="garment">PETTICOAT</rs></p>
 
-         <p> With the <note type="garment">negligée</note> just described is a boudoir <note type="garment">cap</note> of <note type="material">chiffon</note><note type="material">cloth</note> and <note type="material">Binche <note type="material">lace</note></note>. The
-            <note type="garment">cap</note> is made entirely by hand and is trimmed with a satin rosette at each side, which is
-            the only decoration. It may be had in <note type="color">flesh color</note>, <note type="color">pink</note>, or <note type="color">blue</note> <note type="material"> chiffon cloth</note>.
-            <note type="garment">Petticoats</note> are so much in demand that the model at the lower right would be most
-            acceptable to the girl who is fond of fluffy things . The top is made of soft <note type="material">French
-               taffeta</note>, and the flounce is of <note type="material">plaited chiffon</note>, with a ruching at the bottom. Bows and
-            streamers of <note type="material">taffeta ribbon</note> trim the ruffle. The <note type="garment">petticoat</note> comes in <note type="colors">light colors</note>.</p>
-         <p> The <note type="garment">underbodice</note> with the <note type="garment">petticoat</note> has been made to order to match the <note type="garment">skirt</note>. It is of
-            <note type="material">ribbons</note> and plaited <note type="material">chiffon</note>. </p>
+         <p> With the <rs type="garment">negligée</rs> just described is a boudoir <rs
+               type="garment">cap</rs> of <rs type="material">chiffon</rs><rs type="material"
+               >cloth</rs> and <rs type="material">Binche <rs type="material">lace</rs></rs>. The
+               <rs type="garment">cap</rs> is made entirely by hand and is trimmed with a <rs
+               type="material">satin</rs>
+            <rs type="material">rosette</rs> at each side, which is the only decoration. It may be
+            had in <rs type="color">flesh color</rs>, <rs type="color">pink</rs>, or <rs
+               type="color">blue</rs>
+            <rs type="material"> chiffon cloth</rs>. <rs type="garment">Petticoats</rs> are so much
+            in demand that the model at the lower right would be most acceptable to the girl who is
+            fond of fluffy things . The top is made of soft <rs type="material"
+                  ><placeName>French</placeName> taffeta</rs>, and the flounce is of <rs
+               type="material">plaited chiffon</rs>, with a ruching at the bottom. <rs
+               type="garment-piece">Bows</rs> and <rs type="garment-piece">streamers</rs> of <rs
+               type="material">taffeta ribbon</rs> trim the <rs type="garment-piece">ruffle</rs>.
+            The <rs type="garment">petticoat</rs> comes in <rs type="color">light colors</rs>.</p>
+         <p> The <rs type="garment-piece">underbodice</rs> with the <rs type="garment"
+               >petticoat</rs> has been made to order to match the <rs type="garment">skirt</rs>. It
+            is of <rs type="material">ribbons</rs> and <rs type="material">plaited chiffon.</rs>
+         </p>
 
          <p>PICTURESQUE SETS</p>
 
-         <p>The <note type="garment">two skating</note> sets illustrated on this page are most appropriate as Christmas gifts.
-            The one at the upper left is of smart <note type="color">black</note> and <note type="color">white</note> checked <note type="material">velveteen</note> and <note type="color">red</note> <note type="material">chiffon</note>
-            <note type="material">velvet</note>. The <note type="garment">skating sets</note> are exclusive designs of the shop which made them. </p>
-         <p>The set sketched at the upper right is of a <note type="color">black</note> and <note type="color">white</note> striped <note type="materrial">velvet</note>, lined with a
-            brilliant <note type="color">green</note> <note type="material">chiffon</note><note type="material">velvet</note>. The <note type="garment">hat</note> is of the same combination, with a <note type="material">fur</note> band and
-            a gaily colored <note type="material">worsted</note> decoration of fruit. </p>
-         <p> Very simple is the heavy <note type="material">silk</note> waist in the second sketch from the upper right. The
-            material is the new <note type="material">silk</note> broad-cloth. <note type="color">White</note> <note type="material">silk</note> is used on the collar and cuffs.</p>
-         <p>Second from the left is a <note type="garment">suspender waist</note> in <note type="color">pink</note> and <note type="color">white</note>, or <note type="color">blue</note> and <note type="color">white</note> <note type="matertial">linen</note>.
-            Hem-stitching marks the division of the materials. The collar may be worn either open or
-            closed. </p>
-         <p>(Illustration of a woman wearing a <note type="color">pink</note>, <note type="color">blue</note>, or <note type="color">white</note> <note type="material">crêpe de chine</note> negligée.) A
-            pretty as well as a practical Christmas gift is a <note type="material">crêpe de Chine</note> <note type="garment">negligée</note> with a
-            surplice bodice frilled with narrow box plaitings; $11.75 </p>
-         <p>(Illustration of a woman wearing princesse negligées.) The princesse lines are as
-            popular is <note type="garment">negligées</note> as in formal garments is proved by this <note type="material">crêpe de Chine</note> model;
-            <note type="garment">negligée</note>, $11.75; <note type="garmnet">cap</note>, $5 </p>
-         <p>(Illustration of a woman wearing a fluffy petticoat with <note type="material">chiffon</note> and ribbon.) She who is
-            fond of fluffy things will be charmed with a <note type="garment">petticoat</note> flounced with <note type="material">chiffon</note> and ribbon;
-            <note type="garment">petticoat</note>, $9.75; <note type="garment">underblouse</note> to match. $9.25 </p>
+         <p>The two <rs type="garment"> skating sets</rs> illustrated on this page are most
+            appropriate as Christmas gifts. The one at the upper left is of smart <rs type="color"
+               >black</rs> and <rs type="color">white</rs> checked <rs type="material"
+               >velveteen</rs> and <rs type="color">red</rs>
+            <rs type="material">chiffon</rs>
+            <rs type="material">velvet</rs>. The <rs type="garment">skating sets</rs> are exclusive
+            designs of the shop which made them. </p>
+         <p>The set sketched at the upper right is of a <rs type="color">black</rs> and <rs
+               type="color">white</rs> striped <rs type="material">velvet</rs>, lined with a
+            brilliant <rs type="color">green</rs>
+            <rs type="material">chiffon</rs><rs type="material">velvet</rs>. The <rs type="garment"
+               >hat</rs> is of the same combination, with a <rs type="material">fur</rs> band and a
+            gaily colored <rs type="material">worsted</rs>
+            <rs type="garment-piece">decoration of fruit. </rs></p>
+         <p> Very simple is the heavy <rs type="material">silk</rs>
+            <rs type="garment-piece">waist</rs> in the second sketch from the upper right. The
+            material is the new <rs type="material">silk</rs>
+            <rs type="material">broad-cloth</rs>. <rs type="color">White</rs>
+            <rs type="material">silk</rs> is used on the <rs type="garment-piece">collar</rs> and
+               <rs type="garment-piece">cuffs</rs>.</p>
+         <p>Second from the left is a <rs type="garment-piece">suspender waist</rs> in <rs
+               type="color">pink</rs> and <rs type="color">white</rs>, or <rs type="color">blue</rs>
+            and <rs type="color">white</rs>
+            <rs type="material">linen</rs>. Hem-stitching marks the division of the materials. The
+               <rs type="garment-piece">collar</rs> may be worn either open or closed. </p>
+         <p><note type="image">Illustration of a woman wearing a pink, blue, or white crêpe de chine
+               negligée.</note></p>
+         <p> A pretty as well as a practical Christmas gift is a <rs type="material">crêpe de
+               Chine</rs>
+            <rs type="garment">negligée</rs> with a <rs type="garment-piece">surplice bodice</rs>
+            frilled with narrow box plaitings; $11.75 </p>
+         <p><note type="image">Illustration of a woman wearing princesse negligées. </note></p>
+         <p>The <rs type="garment-piece">princesse lines</rs> are as popular is <rs type="garment"
+               >negligées</rs> as in formal garments is proved by this <rs type="material">crêpe de
+               Chine</rs> model; <rs type="garment">negligée</rs>, $11.75; <rs type="garment"
+               >cap</rs>, $5 </p>
+         <p><note type="image">Illustration of a woman wearing a fluffy petticoat with chiffon and
+               ribbon.</note></p>
+         <p> She who is fond of fluffy things will be charmed with a <rs type="garment"
+               >petticoat</rs> flounced with <rs type="material">chiffon</rs> and <rs type="material">ribbon</rs>; <rs
+               type="garment">petticoat</rs>, $9.75; <rs type="garment-piece">underblouse</rs> to
+            match. $9.25 </p>
 
          <p> Note. – Addresses of the shops will be furnished on request, or the Shopping Service of
             Vogue will buy for you without extra charge. Address Vogue Shopping Service, 443 Fourth

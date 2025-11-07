@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<?xml-model href="../hwODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -26,18 +25,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="page" n="1">
             <p>Pretty color; easy fashion</p>
             <p>TOGETHER AGAIN!</p>
-            <p>News at night, right—the look of a top and, instead of pants, a long slim skirt—this
+            <p>News at night, right—the look of a <rs type="garment">top</rs> and, instead of <rs type="garment">pants</rs>, a <rs>long slim skirt</rs>—this
                season’s newest “pijama dressing!” Here’s Geoffrey Beene’s super-soft,
-               north-of-south-version—blue-eyed, gray-pink plaid <note type="material">silk
-                  crepe</note>. Geoffrey designed the shirt-and-sash-side and one of his new
-               T-shirt-based tops. And a beautiful way it unwraps—beautifully. Gianfranco Ferré,
-               about $950. At Lord &amp; Taylor, N.Y.; Gattle’s, Bal Harbour; Magnin; Liberty House,
-               Hawaii. Accessories and men’s fashion details, next to last page. These 12 pages:
+               north-of-south-version—<rs type="color">blue</rs>-eyed, <rs type="color">gray-pink</rs> plaid <rs type="material">silk
+                  crepe</rs>. Geoffrey designed the <rs type="garment-piece">shirt-and-sash-side</rs> and one of his new
+               <rs type="garment">T-shirt-based tops</rs>. And a beautiful way it unwraps—beautifully. Gianfranco Ferré,
+               about $950. At Lord &amp; Taylor, <placeName>N.Y</placeName>.; Gattle’s, <placeName>Bal Harbour</placeName>; <placeName>Magnin</placeName>; Liberty House,
+               <placeName>Hawaii</placeName>. Accessories and men’s fashion details, next to last page. These 12 pages:
                hair, Harry King of Cinandre; makeup, Way Bandy.</p>
 
             <p>The kind of dress a lot of women have been beating the bushes for years, left—a
-               short, simply pretty late-day/little-dinner dress—banana <note type="material">silk
-                  crepe de Chine</note>, bare-necked, with sleeves that just slip off the shoulder.
+               short, simply pretty late-day/little-<rs type="garment">dinner dress</rs>—<rs type="color">banana</rs> <rs type="material">silk
+                  crepe de Chine</rs>, <rs type="garment-piece">bare-necked</rs>, with <rs type="garment-piece">sleeves</rs> that just slip off the shoulder.
                Monty Susman for Mollie Parnis; Altair, Coondogale Silk Company. About $385. Bergdorf
                Goodman; Saks; Neiman-Marcus; Lillie Rubin—South and West; Swanson’s. A reminder:
                those woodsy, misty scents for men (Aramis for one) are a nice mood-changer at night.
@@ -58,23 +57,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                color!</p>
 
             <p>There’s a new character to Ralph Lauren’s sportier American classics, like his
-               traditional <note type="garment">trousers</note>, this page, are in a bold floral
-               print of <note type="material">silk</note>, and his shawl-collared “robe” is vivid
-               purple in soft, languorous <note type="material">silk charmeuse</note>. Another plus:
+               traditional <rs type="garment">trousers</rs>, this page, are in a bold floral
+               print of <rs type="material">silk</rs>, and his <rs type="garment">shawl-collared “robe”</rs> is vivid
+               <rs type="color">purple</rs> in soft, languorous <rs type="material">silk charmeuse</rs>. Another plus:
                these looks needn’t wait for warm weather, a resort—this is terrific at-home dressing
-               any time. Trousers, about $358. Robe-jacket, about $658. Late Dec. at Saks Fifth
-               Avenue, NYC; Hudson-Belk’s, Raleigh NC; Polo/Ralph Lauren, San Antonio. Ring and
+               any time. <rs type="garment">Trousers</rs>, about $358. <rs type="garment">Robe-jacket</rs>, about $658. Late Dec. at Saks Fifth
+               Avenue, <placeName>NYC</placeName>; Hudson-Belk’s, <placeName>Raleigh NC</placeName>; Polo/Ralph Lauren, <placeName>San Antonio</placeName>. Ring and
                bracelet, Paloma Picasso for Tiffany &amp;amp; Co. Donald Judd chair, courtesy Max Protetch
-               Gallery, NYC.</p>
+               Gallery, <placeName>NYC</placeName>.</p>
 
             <p>Everybody loved the look, the Fred Astaire nonchalance of Ralph Lauren’s impeccable,
-               classic <note type="garment">trousers</note>… in brilliant chrome <note
-                  type="material">silk charmeuse</note>, opposite. Here, played against a navy
-               double-breasted <note type="material">wool gabardine</note> jacket and white tank.
-               Trousers, about $358. Jacket, about $396. Late December at Barneys New York;
-               Polo/Ralph Lauren, Costa Mesa CA; Polo/Ralph Lauren, Denver, Polo/Ralph Lauren, San
-               Francisco. Rings and bracelets, Bulgari at the Pierre Hotel, NYC. Elizabeth Jackson
-               chair for Arc International, Inc., NYC. These, next two pages: hair, Madeleine Cofano
+               classic <rs type="garment">trousers</rs>… in brilliant <rs type="color">chrome</rs> <rs
+                  type="material">silk charmeuse</rs>, opposite. Here, played against a <rs type="color">navy</rs>
+               double-breasted <rs type="material">wool gabardine</rs> <rs type="garment">jacket</rs> and <rs type="color">white</rs> <rs type="garment">tank</rs>.
+               <rs type="garment">Trousers</rs>, about $358. <rs type="garment">Jacket</rs>, about $396. Late December at Barneys <placeName>New York</placeName>;
+               Polo/Ralph Lauren, <placeName>Costa Mesa CA</placeName>; Polo/Ralph Lauren, <placeName>Denver</placeName>, Polo/Ralph Lauren, <placeName>San
+               Francisco</placeName>. Rings and bracelets, Bulgari at the Pierre Hotel, <placeName>NYC</placeName>. Elizabeth Jackson
+               chair for Arc International, Inc., <placeName>NYC</placeName>. These, next two pages: hair, Madeleine Cofano
                for Bruno Dessange; makeup, Laura Mercier. Details, more stores, last pages.</p>
 
             <p><note type="image">Models in bold floral trousers, purple robe, and yellow scarf;
