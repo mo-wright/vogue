@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Party clothes </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Above: Gold kid party pouch, room for a debutante’s make-up. 8 dollars, plus tax. Lord and
+            Taylor. Above, centre: Delicate snowflake star pin of <note type="jewlery ">rhinestone</note> with a fake <note type="jewlery">pearl</note> in
+            its heart.(Because it is the perfect debutante jewel-touch, it is shown also on the
+            white dresses on this page and on page 159).<note type="dollars"> $45,</note> plus tax By castleliff; Jay Thorpe.
+            Above, right: Little-group-grown-up coiffure for long hair, for evening. Swept back,
+            held with combs, brushed into big soft curls;very nice with bare shoulders. By Micheal
+            of Helena Rubinstein. Right: Young dancing dress, <note type="color">pure white</note>. Very fitted, strapless
+            bodice of rayon faille, slightly lowered waistline, looped-up rayon faille, skirt. <note type="shoe">Sizes
+            10 to 16</note><note type="dollars">.$80</note>.<note type="store">Saks Fifth Ave</note>.Ready <note type="date">Dec.15</note> Right,centre:Little round-collared cape of
+            white Russian ermine,closed with bunches of ermine tails. Just to elbows, the better to
+            show a tiny waist <note type="dollars">$425</note>,including tax.<note type="person"> Esther Dorothy.</note> Far right: Short,squared jacket of
+            white American broadtail wide sleeves,no collar. Equally pretty and proper with fragile
+            dancing dress or after-ski clothes $165, plus tax.Bonwit Teller. Below: For long ,
+            shining hair, a white satin band iced with rhinestones on one side .<note type="dollars"> $4</note> Altman. Centre:
+            Made for dancing-in-white soft kid ballet slippers. By Capezio.<note type="dollars">$4</note>.Lord and  Taylor. Far
+            right: White party dress with curved, off-the-shoulder bodice of rayon fallie ; a
+            floating ribbon-banded rayon chiffon skirt by Ceil Chapman.<note type="shoe">Sizes 10 to 16.</note><note type="dollars">$80</note> Saks Fifth
+            Ave. Ready <note type="date">Dec.15 </note>Washable doeskin gloves by kislav. 
+            
+         <note type="photos">   9 images </note>
+            
+        <note type="captionsofimages">    Caption 1: Gold kid bag very junior-sized 
+            
+            Caption 2: Evening star, Pseudo pearl and rhinestones
+            
+            Caption 3: Little-girl curls young-lady coiffure for dancing evenings 
+            
+            Caption 4: Young, white,and bare-shouldered as a dress can be 
+            
+            Caption 5: Half-a-cape is best for young parties 
+            
+            Caption 6: Little party coat bolero-brief
+            
+            Caption 7: White kid ballet slippers; glove-soft 
+            
+            Caption 8: For long hair stain- and- glitter 
+            
+            Caption 9: White party give it short gloves, star pins </note>
+            
+            The debutante comes in white 
+            
+         </p>
+      </body>
+   </text>
+</TEI>

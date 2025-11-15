@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>What She Wears</title>
-            <author>Vogue Magezine</author>
-            <editor> Tara McGee</editor>
+            <author> Tara McGee </author>
          </titleStmt>
 
          <publicationStmt>
             <publisher>Penn State University, Digital Humanities</publisher>
             <date when="2025">2025</date>
-            <availability status="free">
-               <p>Distributed for educational and research use only.</p>
-            </availability>
          </publicationStmt>
 
          <sourceDesc>
             <bibl>
-               <title level="a">What She Wears</title>
+               <title>What She Wears</title>
                <author>Vogue Magazine</author>
                <pubPlace>New York</pubPlace>
                <publisher>Condé Nast</publisher>
-               <date when="1915-12-01">December 1, 1925</date>
-               <note>Transcribed from the December 1, 1925 issue of <title level="j">Vogue</title>,
+               <date when="1915-12-01">December 1, 1915</date>
+               <note>Transcribed from the December 1, 1915 issue of <title>Vogue</title>,
                   Published by Condé Nast in New York.</note>
             </bibl>
          </sourceDesc>
@@ -35,27 +31,26 @@
    <text>
       <body>
          <p>94</p>
-         <p> (Illustration of two women wearing long pleated skirts with hats.)</p>
-         <p>(Left) In the <note type="color">black</note> <note type="material">velvet</note> <note type="garment">frock</note> with stiff <note type="color">gold</note> inserts, at the extreme left, the new
-            kinetic silhouette gets its motion from a pleated circular front that swings free at the
-            bottom. Beside it is a <note type="material">rep</note> <note type="garment">frock</note> with a long tie collar and an intricately cut skirt
-            section that moves gracefully with the wearer </p>
-         <p> (Illustration of two women wearing long <note type="garment">cape</note>s with <note type="material">fur</note> trim at neck, bottom, and
-            cuffs.)</p>
-         <p>(Right) <note type="garment">Cape</note>s or ingenious swaying panels at the back transform the static lines of last
-            season into the animated silhouette of the moment. Both of these <note type="fur">fur</note>- trimmed <note type="material">velvet</note>
-            <note type="garment">coat</note>s are plain at the front </p>
-         <p>(Illustration of woman wearing <note type="material">chiffon</note> <note type="garment">dress</note> with flying sections)</p>
-         <p> The fluttering sheerness of <note type="material">chiffon</note> lends itself especially well to loose hanging
-            panels and flying sections of <note type="material">chiffon</note>s lends itself especially well to loose hanging
-            panels and flying sections – a mode that calls for great skill and originality on the
+         <p><note type="image">Illustration of two women wearing long pleated skirts with hats.</note></p>
+         <p>(Left) In the <rs type="color">black</rs> <rs type="material">velvet</rs> <rs type="garment">frock</rs> with stiff <rs type="color">gold</rs> <rs type="garment-piece">inserts</rs>, at the extreme left, the new
+            kinetic <rs type="garment-piece">silhouette</rs> gets its motion from a <rs type="material">pleated</rs> <rs type="garment-piece">circular front</rs> that swings free at the
+            bottom. Beside it is a <rs type="material">rep</rs> <rs type="garment">frock</rs> with a long <rs type="garment-piece">tie collar</rs> and an intricately cut <rs type="garment-piece">skirt
+            section</rs> that moves gracefully with the wearer </p>
+         <p><note type="image">Illustration of two women wearing long capes with fur trim at neck, bottom, and
+            cuffs.</note></p>
+         <p>(Right) <rs type="garment">Cape</rs>s or ingenious <rs type="garment-piece">swaying panels</rs> at the back transform the static lines of last
+            season into the animated silhouette of the moment. Both of these <rs type="material">fur</rs>- trimmed <rs type="material">velvet</rs>
+            <rs type="garment">coat</rs>s are plain at the front </p>
+         <p><note type="illustration">Illustration of woman wearing chiffon dress with flying sections</note></p>
+         <p> The fluttering sheerness of <rs type="material">chiffon</rs> lends itself especially well to <rs type="garment-piece">loose hanging
+            panels</rs> and <rs type="garment-piece">flying sections</rs> of <rs type="material">chiffon</rs> – a mode that calls for great skill and originality on the
             part of the designers </p>
-         <p>(Illustration of a woman wearing a short <note type="color">cream</note> and <note type="color">gold</note> <note type="garment">dress</note>; smoking a cigarette.)</p>
-         <p> This slim <note type="garment">gown</note> of <note type="color">cream</note> <note type="material">net</note> and <note type="color">brown</note> and <note type="color">gold</note> <note type="material">brocade</note>, slightly moulded to the figure,
-            finds all its motion in the frothy fulness at the bottom of the shaped circular flounce </p>
-         <p>(Illustration of a woman wearing a long <note type="garment">dress</note> with an uneven cut <note type="garment">dress</note> so that it
-            flares.)</p>
-         <p>For evening, a slightly moulded bodice is often seen above an uneven skirt so cut that
+         <p><note type="image">Illustration of a woman wearing a short cream and gold dress; smoking a cigarette.</note></p>
+         <p> This slim <rs type="garment">gown</rs> of <rs type="color">cream</rs> <rs type="material">net</rs> and <rs type="color">brown</rs> and <rs type="color">gold</rs> <rs type="material">brocade</rs>, slightly moulded to the figure,
+            finds all its motion in the frothy fulness at the bottom of the <rs type="garment-piece">shaped circular flounce</rs> </p>
+         <p><note type="image">Illustration of a woman wearing a long dress with an uneven cut dress so that it
+            flares.</note></p>
+         <p>For evening, a slightly <rs type="garment-piece">moulded bodice</rs> is often seen above an <rs type="garment-piece">uneven skirt</rs> so cut that
             it flares with graceful motion when the wearer walks or dances </p>
 
 
