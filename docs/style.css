@@ -65,3 +65,20 @@ img:hover{
     transform: scale(1.8);
     transition-duration: 0.4s;
     }
+.sectionBox {
+    background:
+        linear-gradient(to bottom, #f7f7f7, #efefef),
+        url("https://www.transparenttextures.com/patterns/paper.png");
+    background-size: cover;
+    
+    padding: 25px;
+    margin: 40px auto;
+    width: 75%;
+
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+
+    column-width: 350px;
+    column-gap: 40px;
+}
