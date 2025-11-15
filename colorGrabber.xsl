@@ -7,7 +7,7 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" include-content-type="no"
         indent="yes"/>
 
-
+<!--  this code will auto-populate many colors mentioned with their swatches, but not all of them. Output will have to be edited a bit once database is finalized. -->
 
     <xsl:template match="/">
         <html>
@@ -21,8 +21,8 @@
                 <div id="navBar">
                     <a href="index.html">Home</a>
                     <a href="original.html">Original Texts</a>
-                    <a href="nothing">Link</a>
-                    <!-- add real links later -Molly !-->
+                    <a href="swatches.html">Swatch Gallery</a>
+                    
                 </div>
 
 
@@ -36,7 +36,7 @@
                             <p>
                                 <xsl:value-of select="upper-case(.)"/>
                             </p>
-                            <div class="sampleColor"/>
+                            <div class="sampleColor" style="background-color: {.};"/>
                         </div>
                     </xsl:for-each-group>
                 </div>
