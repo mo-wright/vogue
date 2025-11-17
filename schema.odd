@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Homework / Potential Vogue Customization Beta</title>
+        <title>Vogue Customization</title>
         <author>Molly Wright</author>
       </titleStmt>
       <publicationStmt>
@@ -43,7 +43,7 @@
           <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
         </application>
       </appInfo>
-    </encodingDesc>
+    <appInfo><application ident="RomaJS" version="1.3.0" when="2025-11-06T20:15:15.805Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -51,17 +51,13 @@
       <p>Customized</p>
       <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
         <moduleRef n="01" key="tei"/>
-        <moduleRef n="02" key="header"
-          except="abstract appInfo application authority availability biblFull cRefPattern calendar calendarDesc catDesc catRef category change citeData citeStructure classCode classDecl conversion correction correspAction correspContext correspDesc creation distributor editorialDecl encodingDesc extent funder geoDecl hyphenation interpretation keywords langUsage language licence listChange listPrefixDef namespace normalization notesStmt prefixDef principal profileDesc projectDesc punctuation quotation refState refsDecl rendition revisionDesc samplingDecl schemaRef segmentation seriesStmt sponsor stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass unitDecl unitDef xenoData"/>
+        <moduleRef n="02" key="header" except="abstract appInfo application authority availability biblFull cRefPattern calendar calendarDesc catDesc catRef category change citeData citeStructure classCode classDecl conversion correction correspAction correspContext correspDesc creation distributor editorialDecl encodingDesc extent funder geoDecl hyphenation interpretation keywords langUsage language licence listChange listPrefixDef namespace normalization notesStmt prefixDef principal profileDesc projectDesc punctuation quotation refState refsDecl rendition revisionDesc samplingDecl schemaRef segmentation seriesStmt sponsor stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass unitDecl unitDef xenoData"/>
         <moduleRef n="03" key="core" except="binaryObject"/>
-        <moduleRef n="04" key="textstructure"
-          except="argument back div4 div5 div6 div7 front group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
+        <moduleRef n="04" key="textstructure" except="argument back div4 div5 div6 div7 front group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
         <moduleRef n="09" key="cmc"/>
         <moduleRef n="18" key="analysis"/>
-        <moduleRef n="11" key="msdescription"
-          except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation collection colophon condition custEvent custodialHist depth dim dimensions explicit filiation finalRubric foliation height heraldry history incipit institution locus locusGrp msFrag msItem msItemStruct msPart musicNotation objectDesc objectType origPlace provenance recordHist rubric scriptDesc seal sealDesc secFol signatures source stamp summary support supportDesc surrogates watermark width"/>
-        <moduleRef n="14" key="namesdates"
-          except="addName affiliation age birth bloc climate death district education faith floruit forename genName gender geo langKnowledge langKnown listEvent listNym listObject listOrg listPerson listPlace listRelation nameLink nationality nym occupation offset persPronouns personGrp persona population relation residence roleName settlement sex socecStatus state surname terrain trait"/>
+        <moduleRef n="11" key="msdescription" except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation collection colophon condition custEvent custodialHist depth dim dimensions explicit filiation finalRubric foliation height heraldry history incipit institution locus locusGrp msFrag msItem msItemStruct msPart musicNotation objectDesc objectType origPlace provenance recordHist rubric scriptDesc seal sealDesc secFol signatures source stamp summary support supportDesc surrogates watermark width"/>
+        <moduleRef n="14" key="namesdates" except="addName affiliation age birth bloc climate death district education faith floruit forename genName gender geo langKnowledge langKnown listEvent listNym listObject listOrg listPerson listPlace listRelation nameLink nationality nym occupation offset persPronouns personGrp persona population relation residence roleName settlement sex socecStatus state surname terrain trait"/>
         <moduleRef n="15" key="figures" except="cell formula notatedMusic row table"/>
         <moduleRef n="22" key="certainty"/>
         <elementSpec ident="note" mode="change">
@@ -109,7 +105,7 @@
         <classSpec ident="att.segLike" type="atts" mode="delete"/>
         <classSpec ident="att.timed" type="atts" mode="delete"/>
         <classSpec ident="att.transcriptional" type="atts" mode="delete"/>
-      </schemaSpec>
+      <elementSpec ident="rs" mode="change"><attList><attDef ident="type" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="garment"/><valItem mode="add" ident="garment-piece"/><valItem mode="add" ident="material"/><valItem mode="add" ident="color"/></valList></attDef></attList></elementSpec></schemaSpec>
     </body>
   </text>
 </TEI>

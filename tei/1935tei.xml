@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>What She Wears</title>
+            <author>Vogue Magezine</author>
+            <editor>Tara McGee</editor>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>Penn State University, Digital Humanities</publisher>
+            <date when="2025">2025</date>
+            <availability status="free">
+               <p>Distributed for educational and research use only.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title level="a">What She Wears</title>
+               <author>Vogue Magazine</author>
+               <pubPlace>New York</pubPlace>
+               <publisher>Condé Nast</publisher>
+               <date when="1935-12-01">December 1, 1935</date>
+               <note>Transcribed from the December 1, 1935 issue of <title level="j">Vogue</title>,
+                  Published by Condé Nast in New York.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <p><note type="image">4 illustrations of women wearing fancy <rs type="garment">hats</rs>. From left to right, the first woman is
+            wearing a mixture of <rs type="color">dark red</rs> <rs type="material">feathers</rs> starting at the top of her forehead. The woman to
+               the right is wearing a <rs type="color">blue</rs> <rs type="garment">scarf</rs> with  <rs type="color">dark blue</rs> horizontal lines. The <rs type="garment">hat</rs> is similar
+            with a <rs type="color">blue</rs> feather on the left of her head. The woman on the bottom left is wearing a
+            <rs type="color">black</rs> <rs type="garment">veil</rs> with polka dots, her <rs type="garment">hat</rs> is a <rs type="color">black</rs> circle with <rs type="color">red</rs> and <rs type="color">orange</rs> <rs type="material">flowers</rs>. It is
+               sitting downward. The woman to the right is wearing a  <rs type="color">dark blue</rs> <rs type="garment">hat</rs> with hints of <rs type="color">orange</rs>
+            and <rs type="color">red</rs>. The <rs type="garment">hat</rs> is sitting downward covering the right side of her face</note></p>
+         
+         <p> Mightier than the <rs type="garment">hat</rs> is the <rs type="garment-piece">trimming</rs>. <placeName>Paris</placeName> is swamping tiny <rs type="garment">caps</rs> with <rs type="material">feathers</rs>,
+            <rs type="material">flowers</rs>, <rs type="garment">veils</rs></p>
+         <p> Glistening <rs type="material"> pheasant feathers</rs> almost pitch over your nose on Rebouax's microscopic
+            <rs type="material">antelope</rs> <rs type="garment">cap</rs></p>
+         <p> <rs type="color">Blue</rs> <rs type="material">kingfishers</rs> alight on Rebouax's high <rs type="garment">cap</rs> of striped <rs type="material">velvet</rs>. A <rs type="garment">scarf</rs>, too. <persName>Bendel</persName>
+            imported both</p>
+         <p>A dotted <rs type="garment">veil</rs>, huge as a <rs type="garment">cap</rs>, goes over your head first; over that Agnès puts <rs type="material">felt petals</rs>
+             and gay <rs type="material">flowers</rs> that pass for a <rs type="garment">hat</rs>; and over that the back of the <rs type="garment">veil</rs> again.
+            Complicated but alluring</p>
+         <p>Glycerinized <rs type="material">ostrich</rs> contrives that Gay 'Ninety Agnès <rs type="garment">hat</rs> that rises in the back to show
+            your curls</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <p> (SIGNED) RBNV</p>
+
+
+
+         <p> Copyright © 2012 Condé Nast </p>
+
+
+
+         <p>(4 illustrations of women in delicate <note type="garment">hat</note>s. Starting on the left, a woman is seen
+            wearing an upturned <note type="color">blue</note> <note type="garment">hat</note>, she has short curly hair and is wearing a pearl necklace.
+            The woman to her right has short curly hair and is wearing a colorful <note type="garment">hat</note> with
+            <note type="color">green</note>s,<note type="color">blue</note>s, and <note type="color">orange</note>s. The woman on the far right is wearing a similar <note type="garment">hat</note> to the
+            woman on her right. She also has a <note type="color">red</note> flower around her neck. The woman on the bottom
+            is wearing a dark <note type="color">black</note> <note type="garment">cloak</note>, her <note type="garment">hat</note> is <note type="color">black</note> with a <note type="color">red</note> bow.)</p>
+
+         <p>Ruchings of <note type="color">blue</note> <note type="material">velvet</note> upholster the façade of <persName>Suzy</persName>’s wistful poke <note type="garment">bonnet</note> of <note type="color">black</note>
+            <note type="material">felt</note>, which rises abruptly to show the public your new high-above-the-forehead curls.
+            Jay-Thorpe imported this</p>
+         <p><note type="material">Ostrich</note> tips and <note type="matrial">flowers</note> that might have come out of an attic trunk are piled on a
+            <note type="material">velvet</note> <note type="garment">toque</note> (two views shown) that <persName>Suzy</persName>, tongue in cheek, calls “Petite Grand’mere.”
+            Bergdorf Goodman has it </p>
+         <p>A mammoth <note type="garment">veil</note>—not unlike the old Russian head-dresses—drifts mistily over Talbot’s
+            small <note type="color">black</note> <note type="material">velvet</note> skull-<note type="garment">cap</note> accented with colour, then floats around the shoulders.
+            Saks-Fifth Avenue importation</p>
+
+
+
+
+
+
+
+
+
+
+         <p> 57</p>
+
+
+         <p>Copyright © 2012 Condé Nast </p>
+
+      </body>
+   </text>
+</TEI>

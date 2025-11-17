@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -26,7 +24,7 @@
          <p>GIFTS-THE BALL GOWNS OF 1896</p>
          <p> On brisk and gay the autumn has been with weddings, two of which were emphatically
             red-letter functions. Then followed the Horse Show, always a dashing affair-a gathering
-            of smart men and women, fine horses and equipages, and showy parade of beauty and gowns,
+            of smart men and women, fine horses and equipages, and showy parade of beauty and <rs type="garment">gowns</rs>,
             boxed off and ticketed for the gazing multitudes in genuine peep-show fashion. Men were
             in their best form, and came in for their innings fairly. Gallantry, grooming and good
             looks told with capital effect in the brilliant picture. Now comes the finish of our
@@ -35,69 +33,78 @@
             affection, than of what we are having made to wear, or planning to order in the near
             future, or wearing at the present moment. </p>
          <p>The world will bear witness that we are in our apparel as smart as possible; our street
-            <note type="garment">gowns</note>, <note type="garment">hats</note>, <note type="material">furs</note> and the rest as faultless and as fit as it is possible to have them.
+            <rs type="garment">gowns</rs>, <rs type="garment">hats</rs>, <rs type="material">furs</rs> and the rest as faultless and as fit as it is possible to have them.
             The only visible neglect is that we are quite late-and we always are in preparing for
             our toilettes de cérémonie. We shall have to do all that in a rush, as January is only
             three weeks off. But, apropos of the shopping and the gifts, whisper it not in Gath that
             books, pictures, silver, glass, china, etc., are to play a decided second fiddle, this
-            year, to <note type="material">jewels</note>, <note type="material">laces</note> and <note type="material">furs</note>, particularly the last of the trio. All my cousins and
-            my aunts are talking <note type="material">fur</note>, <note type="material">fur</note>, <note type="material">fur</note>. What wonder, when the creations are so lovely! A
-            Christmas list reads off like a menagerie inventory. You will find seal, otter, monkey,
-            beaver and bear; ermine, chinchilla, mink, the lambs of Persia and Thibet, fox and lynx.
-            By the way, there is a new departure in making up lynx and fox in their natural
+            year, to <rs type="material">jewels</rs>, <rs type="material">laces</rs> and <rs type="material">furs</rs>, particularly the last of the trio. All my cousins and
+            my aunts are talking <rs type="material">fur</rs>, <rs type="material">fur</rs>, <rs type="material">fur</rs>. What wonder, when the creations are so lovely! A
+            Christmas list reads off like a menagerie inventory. You will find <rs type="material">seal</rs>, <rs type="material">otter</rs>, <rs type="material">monkey</rs>,
+            <rs type="material">beaver</rs> and <rs type="material">bear</rs>; <rs type="material">ermine</rs>, <rs type="material">chinchilla</rs>, <rs type="material">mink</rs>, the <rs type="material">lambs</rs> of Persia and Thibet, <rs type="material">fox</rs> and <rs type="material">lynx</rs>.
+            By the way, there is a new departure in making up <rs type="material">lynx</rs> and <rs type="material">fox</rs> in their natural
             skins.</p>
-         <p> Lynx abounds in lovely coloring, the <note type="color">yellows</note> paling into <note type="color">white</note>, and the long hairs
-            flecked with many shades of <note type="color">gray</note>. Thibet is dyed every color, to match different cloths,
+         <p> <rs type="material">Lynx</rs> abounds in lovely coloring, the <note type="color">yellows</note> paling into <note type="color">white</note>, and the long hairs
+            flecked with many shades of <note type="color">gray</note>. Thibet is dyed every color, to match different <rs type="material">cloths</rs>,
             and <note type="material">astrachan</note> has gone a peg higher in exclusiveness than its once proud rival, <note type="material"><placeName>Persian</placeName>
             lamb</note>, because the latter is now so well imitated by the manufacturers. The medley of
-            furs now considered the chic thing has brought about a pooling of furs in families, by
+            <rs type="material">furs</rs> now considered the chic thing has brought about a pooling of <rs type="material">furs</rs> in families, by
             which elder daughters profit, and younger ones are better satisfied with newer purchases
             at less value. De gustibus non. </p>
+<<<<<<< HEAD
+         <p> Now for un petit mot about ball and <rs type="garment">dinner gowns</rs>, for the dinner-dance season is
+            staring us in the face. We all know the succés of <rs type="material">flowers</rs> and <rs type="material">tulle</rs> last year, and we
+            are glad to learn that both are to reign in ninety-six. All kinds of <rs type="material">nets</rs>, <rs type="material">gauzes</rs>,
+            lisses, and the newest and sheerest of <rs type="material" >grenadines</rs>, flowered like watercolored pictures.
+            I hope the débutantes at the coming Patriarchs will scorn <rs type="material">silks</rs> and <rs type="material">satins</rs> for their
+            gowns and pay tribute to their own youth and beauty in <rs type="material">tulle</rs>, the ideal <rs type="garment">frock</rs> for that
+=======
          <p> Now for un petit mot about ball and dinner gowns, for the dinner-dance season is
             staring us in the face. We all know the succés of flowers and tulle last year, and we
             are glad to learn that both are to reign in ninety-six. All kinds of nets, gauzes,
             lisses, and the newest and sheerest of grenadines, flowered like watercolored pictures.
             I hope the débutantes at the coming Patriarchs will scorn silks and satins for their
             gowns and pay tribute to their own youth and beauty in <note type="i">tulle</note>, the ideal frock for that
+>>>>>>> 8e9614db0014b286ebbad4029eab43d497d68257
             enchanting occasion.</p>
-         <p> The rosebud element will monopolize the strictly floral gowns they are theirs by
+         <p> The rosebud element will monopolize the strictly floral <rs type="garment">gowns</rs> they are theirs by
             natural right, but all young women, matrons or maids, it is to be hoped, will array
             themselves in them for the beauty and becomingness of this poetic fashion. </p>
-         <p>As an example of devotion to a flower, the gown in question is trimmed with myosotis or
-            forget-me-nots. There are two immensely full skirts of white tulle falling over a gupe
-            of white soie de Lyons, and all three skirts are gathered on one band. The tulle skirts
-            are hemmed, with a vine heading embroidered in white floss, exceedingly dainty and
-            effective. The d collet corsage, draped en b b in double tulle, rises into a slight
-            point, back and front, and is headed by a full garland of forget-me-nots, which form
-            shoulder straps to the bodice. The sleeves are made of many thicknesses of tulle caught
-            under the flowers on the shoulders and draped so as to expose the arm in front, and then
-            draped fully The into the armhole in a bouffant way. sleeve is finished at the elbow by
-            a band of a sky-blue velvet, matching the bouquets which are coquettishly fastened on
-            the outside. garland of myosotis is worn round the throat, and connected from this
-            gorgette to the décolletage are eight floral chains, slender and lovely; three in the
+         <p>As an example of devotion to a <rs type="garment-piece">flower</rs>, the <rs type="garment">gown</rs> in question is trimmed with <rs type="material">myosotis</rs> or
+            <rs type="material">forget-me-nots</rs>. There are two immensely full <rs type="garment-piece">skirts</rs> of <rs type="color">white</rs> <rs type="material">tulle</rs> falling over a <rs type="garment-piece">gupe</rs>
+            of white soie de Lyons, and all three skirts are gathered on one band. The <rs type="material">tulle</rs> <rs type="garment-piece">skirts</rs>
+            are hemmed, with a <rs type="garment-piece">vine heading</rs> embroidered in <rs type="color">white</rs> <rs type="material">floss</rs>, exceedingly dainty and
+            effective. The <rs type="garment-piece">collet</rs> <rs type="garment-piece">corsage</rs>, draped in <rs type="material">double tulle</rs>, rises into a slight
+            point, back and front, and is headed by a full <rs type="garment-piece">garland</rs> of <rs type="material">forget-me-nots</rs>, which form
+            <rs type="garment-piece">shoulder straps</rs> to the <rs type="garment-piece">bodice</rs>. The <rs type="garment-piece">sleeves</rs> are made of many thicknesses of <rs type="material">tulle</rs> caught
+            under the flowers on the <rs type="garment-piece">shoulders</rs> and draped so as to expose the arm in front, and then
+            draped fully into the armhole in a bouffant way. The <rs type="garment-piece">sleeve</rs> is finished at the elbow by
+            a band of a <rs type="color">sky-blue</rs> <rs type="material">velvet</rs>, matching the <rs type="garment-piece">bouquets</rs> which are coquettishly fastened on
+            the outside. <rs type="garment-piece">garland of myosotis</rs> is worn round the throat, and connected from this
+            <rs type="garment-piece">gorgette</rs> to the <rs type="garment-piece">décolletage</rs> are <rs type="garment-piece">eight floral chains</rs>, slender and lovely; three in the
             back, three in the front, and short ones on each shoulder, which fit over the neck
-            perfectly. The girdle is of sky-blue velvet, fastened in the back with a smart bow.
-            white aigrette, supported by a knot of forget- me-nots, is posed a little to one side of
+            perfectly. The <rs type="garment-piece">girdle</rs> is of <rs type="color">sky-blue</rs> <rs type="material">velvet</rs>, fastened in the <rs type="garment-piece">back</rs> with a smart <rs type="garment-piece">bow</rs>.
+            <rs type="color">white</rs> <rs type="garment">aigrette</rs>, supported by <rs type="garment-piece">a knot</rs> of forget- me-nots, is posed a little to one side of
             the head, the hair being dressed in waves, rolled off from the face, and pretty,
             careless coils in the back running up into a little knot, with a drooping wave curled in
             the middle of the forehead.</p>
-         <p> Another charming gown has floral effects derived from exquisite silk embroideries, the
-            newest of the fine trimmings. A satin skirt is the foundation usually for these
-            transparent draperies of tulle or gauzes favored by matrons young and beautiful. </p>
+         <p> Another charming gown has floral effects derived from exquisite <rs type="material">silk</rs> <rs type="garment-piece">embroideries</rs>, the
+            newest of the fine trimmings. A <rs type="material">satin</rs> <rs type="material">skirt</rs> is the foundation usually for these
+            <rs type="garment-piece">transparent draperies</rs> of <rs type="material">tulle</rs> or <rs type="material">gauzes</rs> favored by matrons young and beautiful. </p>
          <p>The skirt, in this instance, is <note type="color">cream-white</note> satin, and the tulle overdress a
             <note type="color">pinkish-mauve</note>, but instead of being hemmed is only doubled, then gathered at the waist,
             and afterward shirred a little distance, say nine or ten inches below, and drawn down
             snugly to the figure and tacked to the <note type="material">satin</note> gupe. Two broad bands of <note type="material">silk</note> embroidery,
-            roses in every shade, start en tablier at the bottom of the <note type="material">tulle</note> skirt and are
-            graduated a little toward the waist, leaving space for a pointed girdle of the same
-            embroidery to show between and encircle the waist in a narrow belt, fastening on the
-            left panel with a bouquet of violets. Corsage bébé, V-shaped décolletage, headed by a
-            broad band of this lovely lisse embroidery, with bouquet of violets on the left
-            shoulder. White satin elbow sleeves draped with tulle so as to show the inner side of
-            the arm, across which are two narrow straps of embroidery. Hair dressed low on the face,
-            a few short curls in the back, and run through the top a superb jeweled hairpin, a
-            triple diamond aigrette. The necklace is an almost invisible gold chain, from which is
-            suspended three enormous jewels, a diamond in the centre, with ruby and emerald on
+            roses in every shade, start en tablier at the bottom of the <note type="material">tulle</note> <rs type="garment">skirt</rs> and are
+            graduated a little toward the <rs type="garment-piece">waist</rs>, leaving space for a pointed <rs type="garment">girdle</rs> of the same
+            embroidery to show between and encircle the <rs type="garment-piece">waist</rs> in a narrow <rs type="garment">belt</rs>, fastening on the
+            left panel with a <rs type="garment">bouquet</rs> of <rs type="material">violets</rs>. <rs type="garment-piece">Corsage bébé</rs>, <rs type="garment-piece">V-shaped décolletage</rs>, headed by a
+            broad <rs type="garment-piece">band</rs> of this lovely lisse embroidery, with bouquet of violets on the left
+            shoulder. <rs type="color">White</rs> satin <rs type="garment-piece">elbow sleeves</rs> draped with <rs type="material">tulle</rs> so as to show the inner side of
+            the arm, across which are two <rs type="garment-piece">narrow straps</rs> of <rs type="material">embroidery</rs>. Hair dressed low on the face,
+            a few short curls in the back, and run through the top a superb <rs type="garment">jeweled hairpin</rs>, a
+            triple <rs type="material">diamond</rs> <rs type="garment">aigrette</rs>. The <rs type="garment">necklace</rs> is an almost invisible gold chain, from which is
+            suspended three enormous <rs type="material">jewels</rs>, a <rs type="material">diamond</rs> in the centre, with <rs type="material">ruby</rs> and <rs type="material">emerald</rs> on
             sides.</p>
       </body>
    </text>
