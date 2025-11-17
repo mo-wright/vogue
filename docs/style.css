@@ -4,11 +4,6 @@ h1 {
     font-weight: normal;
 }
 
-  body {
-    margin: 0;              /* remove default spacing */
-    height: 100vh;          /* fill the viewport */
-    background: red;        /* solid red background */
-}
 
 
 @font-face {
