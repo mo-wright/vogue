@@ -186,5 +186,11 @@ body {
     margin: 0; /* remove default body margin */
     padding: 20px; /* space inside the border */
     border: 20px solid transparent;
-    border-image: url('border.jpg') 30 repeat; /* your image */
+    border-image: url('border.jpg') 30 repeat;
+}
+
+.entry{
+    background-color:white;
+    padding:20px;
+    margin-bottom: 5%;
 }
