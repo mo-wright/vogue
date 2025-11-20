@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-=======
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
->>>>>>> 8e9614db0014b286ebbad4029eab43d497d68257
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -32,7 +27,6 @@
          <p> 
             Many happy returns to the Debutante Party 
             (even without the old fine “careless rapture”). There is hardly one Debutante who does not
-<<<<<<< HEAD
             include, in her daily schedule, work for some of the great relief needs, college
             course, Nurse Aid or Day Nursery work. But over this layer of serious ideas and genuine
             good works there is again this year the light but delicious frosting of debutante
@@ -45,9 +39,9 @@
             personal signature to her own wardrobe; will know that it is not “ how many” but “how
             memorable” that really matters, when she chooses her clothes. With her beautiful <rs type="color">white</rs>
             Coming Out <rs type="garment">party dress</rs> this season a debutante may wear a short <rs type="color">crimson</rs> <rs type="material">velvet</rs> or
-            <rs type="material">duvetyne</rs> <rs type="garment">coat</rs>. Wear <rs type="garment">wrist-length gloves</rs> in <rs type="color">white</rs> , and carry a tight little white furs
+            <rs type="material">duvetyne</rs> <rs type="garment">coat</rs>. Wear <rs type="garment">wrist-length gloves</rs> in <rs type="color">white</rs> , and carry a tight little <rs type="color">white</rs> <rs type="material">furs</rs>
             (opposite page). If it is not her coming out party,she will probably choose a
-            colour. When it is not a party, but just a small dancing evening dress again, this season
+            colour. When it is not a party, but just a small dancing <rs type="garment">evening dress</rs> again, this season
             … <rs type="color">black</rs> perhaps...bare on top as her debut dress.
             
             <note type="image"> Image </note>
@@ -55,33 +49,31 @@
             WHITE TO COME OUT IN.
           
             Beautiful, <rs type="garment-piece">great-skirted </rs> <rs type="garment">ball dress</rs> made for Miss Betty Tyson by Herman Patrick tappe of heavy
-=======
-            include,in her daily schedule, work for some of the great relief needs, college
-            course,Nurse Aid or Day Nursery work.But over this layer of serious ideas and genuine
+            include, in her daily schedule, work for some of the great relief needs, college
+            course, Nurse Aid or Day Nursery work. But over this layer of serious ideas and genuine
             good works there is again this year the light but delicious frosting of debutante
-            parties.Most of them will again be the great group presentation balls which were wartime
+            parties. Most of them will again be the great group presentation balls which were wartime
             innovations but there will be a few individual parties. The debutante this year may
-            still not have a seven man escort as her mother might have had ; she will quite probably
+            still not have a seven man escort as her mother might have had; she will quite probably
             rush down for college for her own debut; there will be fewer fittings, fewer debutante
             luncheons, much,much less <note type="material">flurry.</note> And although clothes may seem less important to her
             than to her pre-war debutante predecessors , she will probably manage to affix her
             personal signature to her own wardrobe; will know that it is not “ how many” but “how
-            memorable” that really matters, when she chooses her clothes. With her beautiful white
-            Coming Out party dress this season a debutante may wear a<note type="clothes"> short crimson velvet</note> or
-            duvetyn coat. Wear <note type="accessory">wrist- length white gloves</note> , and carry a tight little white furs
+            memorable” that really matters, when she chooses her clothes. With her beautiful <rs type="color">white</rs>
+            Coming Out party <rs type="garment">dress</rs> this season a debutante may wear a short <rs type="color">crimson</rs> <rs type="material">velvet</rs> or
+            <rs type="material">duvetyn</rs> coat. Wear wrist-length <rs type="color">white</rs> <rs type="garment">gloves</rs> , and carry a tight little <rs type="color">white</rs> <rs type="material">furs</rs>
             (opposite page). If it is not her coming out party,she will probably choose a
-            colour.When it is not a party,but just a small dancing evening dress again, this season
-            … black perhaps...bare on top as her debut dress.
+            colour .When it is not a party,but just a small dancing evening dress again, this season
+            … <rs type="color">black</rs> perhaps...bare on top as her debut dress.
             
             <note type="photo"> Image </note>
             
             WHITE TO COME OUT IN.
           
-            Beautiful, great-skirted ball dress made for Miss Betty Tyson by Herman Patrick tappe of heavy
->>>>>>> 8e9614db0014b286ebbad4029eab43d497d68257
-            silk brocade, plumed and embroidered with medallions of sequins, rhinestones,bugle
-            beads. Miss Tyson daughter of Mr.and Mrs George Tyson made her debut in November at a
-            party given by her aunt,Mrs.Geogre Mesta,in Washington. </p>
+          Beautiful, great-skirted <rs type="garment">ball dress</rs> made for <persName>Miss Betty Tyson</persName> by <persName>Herman Patrick Tappe</persName> of heavy
+           <rs type="material">silk</rs> <rs type="material">brocade</rs>, plumed and embroidered with medallions of <rs type="material">sequins</rs>, <rs type="material">rhinestones</rs>, <rs type="material">bugle
+            beads</rs>. <persName>Miss Tyson</persName> daughter of <persName>Mr.</persName> and <persName>Mrs George Tyson</persName> made her debut in November at a
+            party given by her aunt, <persName>Mrs.Geogre Mesta</persName>, in Washington</p>
       </body>
    </text>
 </TEI>
