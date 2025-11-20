@@ -118,7 +118,7 @@ border: 1px solid black; }
 /* NAV BAR */
 
 #navBar {
-    background-color: black;
+    background-color: #FF6EC7;
     padding: 15px 25px;
     border-radius: 50px; /* circular (pill-shaped) edges */
     width: 90%;
@@ -141,7 +141,7 @@ border: 1px solid black; }
 
 /* Hover effect */
 #navBar a:hover {
-    background-color: #333;
+    background-color: #FF6EC7;
     transform: translateY(-2px); /* small float up */
 }
 
@@ -156,13 +156,13 @@ body {
 #vogue-title {
     font-size: 80px;
     font-weight: bold;
-    color: #000; /* black text */
+    color: #FF1493; /* black text */
     text-align: center;
     margin: 20px 0; /* space from top */
 
     /* 3D text shadow */
     text-shadow:
-        2px 2px 0 #555,
+        2px 2px 0 #FF6EC7,
         4px 4px 0 #333,
         6px 6px 0 #111;
 
@@ -176,4 +176,15 @@ body {
 @keyframes spin {
     from { transform: rotateY(0deg); }
     to { transform: rotateY(360deg); }
+}
+
+body {
+    background: linear-gradient(135deg, #e6f0ff, #a7c7e7, #5a8fc7);
+}
+
+body {
+    margin: 0; /* remove default body margin */
+    padding: 20px; /* space inside the border */
+    border: 20px solid transparent;
+    border-image: url('border.jpg') 30 repeat; /* your image */
 }
