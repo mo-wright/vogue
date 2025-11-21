@@ -141,7 +141,7 @@ border: 1px solid black; }
 
 /* Hover effect */
 #navBar a:hover {
-    background-color: #FF6EC7;
+    background-color: #8ACE00;
     transform: translateY(-2px); /* small float up */
 }
 
@@ -194,3 +194,26 @@ body {
     padding:20px;
     margin-bottom: 5%;
 }
+
+.subnav {
+    background-color: #8ACE00;
+    padding: 15px 25px;
+    border-radius: 50px; 
+    width: 50%;
+    height: 20%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.subnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 25px;
+    transition: 0.3s;}
+    
+.subnav a:hover {
+    background-color: #FF6EC7;
+    transform: translateY(-1px);}
