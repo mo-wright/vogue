@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <note type="image">[Photograph of a woman submerged in shallow water. She has short
+               brown hair, grayish-blue eye makeup, and a red lip on. She is wearing a white strapped
+               casual dress/swimsuit with a red pattern.]</note></p>
+
+         <p>
+            <note type="image">[Top: a black and white image of a woman laying down on some sand.
+               She has long, styled dark hair and is holding sunglasses between her hands. She is
+               wearing a stiff, black dress.]</note></p>
+
+         <p> The fashion south: going swimmingly</p>
+
+         <p> And that's not said just for the pun of it. The fact of <rs type="garment"
+               >bathing-suit</rs> resort fashion is this: the smartest <rs type="garment">suits</rs>
+            are all cut along the same new line-smart, simple, like a very good <rs type="garment"
+               >street dress</rs>, with <rs type="garment-piece">sheaths</rs> and <rs
+               type="garment-piece">Empire waists</rs> predominating-but they're going about it in a
+            beautiful, never-before variety of fabrics. The square necked <rs type="garment-piece">sheath</rs> at left, for
+            instance: it's <rs type="material">embroidery</rs> in a new oceanic form--embroidered <rs type="material">Orlon</rs>, <rs type="material">Glen plaid</rs>s are
+            seagoing now; the one shown above is elasticized. And you might take the plunge now in a
+            lighter weave of the same <rs type="material">woollen</rs> your <rs type="garment">winter coat</rs> is made of--watch for <rs type="garment">bathing suit</rs>s
+            of <rs type="material">tweed</rs>, <rs type="material">camel's hair</rs>, <rs type="material">Glen plaid</rs> <rs type="material">wool</rs> suiting. Facing page: <rs type="garment">Bathing-sheath</rs> fashion in
+            rare new form--embroidery that takes beautifully to the water (it's <rs type="material">Orlon</rs>) and holds its
+            smooth line (there's <rs type="material">Latex</rs> knitted into this <rs type="material">fabric</rs>, too). The <rs type="material">embroidery</rs>: the newest
+            vintage of <rs type="color">red</rs>--the <rs type="color">vin rose</rs> colour reported in November 15th Vogue. A Catalina
+            bathing-sheath, $25. Best's; Burdine's; Hudson's; Marshall Field. Helena Rubinstein's
+            Waterproof Make-up. Above: <rs type="garment">Bathing-sheath</rs> that's a Glen plaid suit--there's a short
+            flare of <rs type="garment">skirt</rs> to button on after you swim. And this fabric (a <rs type="color">red</rs>-and-<rs type="color">navy blue</rs> plaid)
+            has ideas about fit as well as about fashion; it's <rs type="material">Celaperm acetate</rs> and <rs type="material">cotton faille</rs>,
+            elasticized to keep it in line. By Flexees, $18. Macy's; Shillito's; Burdine's.
+            Sunglasses from Kobley &amp; Stern.</p>
+
+         <p> [Photograph of two women on a beach. The leftmost woman wears a light-colored, short
+            dress with a matching brimmed hat covering most of her face. The rightmost woman wears a
+            dark-colored romper, also short in length, with sunglasses and a wicker-appearing hat.
+            She leans against a beach chair.]</p>
+
+         <p> Newest <rs type="garment">woollens</rs>: ocean-going</p>
+
+         <p> Most news, at sea, since the "Nautilus": swimming <rs type="material">tweed</rs>s, Empire-cut <rs type="garment">jersey</rs>s, and <rs type="material">Glen
+            plaid</rs> bathing-suitings. All these, from the Brigance resorts collection--where,
+            annually, some of the summer's most adventuresome fashions for swimming get their
+            starts. Far left: <rs type="color">White</rs> <rs type="material">tweed</rs> <rs type="garment">suit</rs> -- now ocean-going, <rs type="garment">Camisole</rs> <rs type="garment-piece">neckline</rs>, close-sheathed
+            cut. In basket-weave wool, about $30. </p>
+         <p> Near left: <rs type="garment">Empire dress</rs>--now ocean-going, <rs type="color">Black</rs> <rs type="garment">jersey</rs> (<rs type="material">Sag-No-Mor</rs> worsted) with a
+            <rs type="color">black</rs> <rs type="material">satin</rs> <rs type="garment-piece">bodice</rs>. About $25. Sunglasses from Koblery &amp; Stern. Right: <rs type="material">Glen plaid</rs>
+            <rs type="garment">suit</rs>-- another new ocean-going <rs type="garment">woollen</rs>; and this <rs type="garment">sheath</rs> has flare.</p>
+         <p> In <rs type="color">grey</rs>-plaided Stevens <rs type="material">wool</rs>, about $30.</p>
+         <p> All three, by Brigance of Sportsmaker, at Saks Fifth Avenue; Julius Garfinekel;</p>
+         <p> L.S. Ayres; Montaldo's</p>
+         <p> Sally V <rs type="garment">beach hats</rs>, also at Saks Fifth Avenue.</p>
+         <p> [Photograh of a woman in a semi-transparent beach hat and plaid, button-up dress. She
+            leans against a beach chair.]</p>
+
+         <p> <rs type="garment">Beach pants</rs>--tailoring at new heights</p>
+         <p> Whether they're strong on colour, or conservative, whether they're long or as short as
+            <rs type="garment">shorts</rs>, the best new <rs type="garment">shirts</rs>-with-<rs type="garment">pants</rs> for the south look like this: as if they were cut
+            and tailored on Savile Row (and on the oppoiste page, a London tailor actually did do
+            the designing).</p>
+         <p> This page: <rs type="material">Cotton</rs> <rs type="garment">pants</rs> in <rs type="color">crazy-quilt colours</rs>, about $13. <rs type="garment">Cummerbund</rs> to match, about
+            $3. <rs type="color">Yellow</rs> <rs type="garment">shirt</rs>, tailored of Bates Disciplined <rs type="material">cotton</rs>, about $8. All, by Owen-Morgan at
+            Bonwit Teller; Wanamaker's, Phila.; L.S. Ayres.</p>
+         <p> Facing page: Near right, Bermuda-length <rs type="garment">shorts</rs> of <rs type="color">navy blue</rs> British <rs type="material">woollen</rs>
+            <rs type="material">mohair</rs>-and-worsted; <rs type="color">lime</rs> <rs type="material">cotton</rs> <rs type="garment">cummerbund</rs>. About $17. <rs type="color">Navy blue</rs> <rs type="material">Honan silk</rs> <rs type="garment">shirt</rs> ,about
+            $18. Far right, <rs type="color">sand-beige</rs> <rs type="garment">pants</rs> (also of <rs type="material">mohair</rs> and worsted) with a precise, perfect
+            fit, <rs type="color">orange</rs> <rs type="material">cotton</rs> <rs type="garment">cummerbund</rs>; about $18. <rs type="color">Cream</rs>y <rs type="material">Honan silk</rs> <rs type="garment">shirt</rs> with a classic cut, a
+            modern approach in this sense--it slips over the head. About $17. </p>
+         <p> <rs type="garment">Separates</rs>, this page: designed by <persName>Charles Creed</persName>, These, and the Sally V <rs type="garment">straw hat</rs>:
+            <persName>Henri Bendel</persName>.</p>
+         <p> Separates, also at I. MAgnin.</p>
+         <p> Both pages: Bernardo <rs type="garment">sandals</rs> at Bonwit Teller.</p>
+
+         <p> [Photograph of a dark-haired woman in sandals, patterned pants, and a button-up shirt.
+            She is flying a series of kites.]</p>
+
+         <p> [Continued photograph. Another woman flies a kite. She wears a brimmed hat and dark two
+            piece. A woman stands to the right, wearing light-colored long pants, a light button up,
+            and has her hair tucked into a cap.]</p>
+
+         <p> <rs type="color">curry</rs></p>
+
+         <p> New colours lining up in linen</p>
+
+         <p> Sure to be part of every woman's spectrum by summer, the new <rs type="color">curry</rs> and <rs type="color">blue</rs> tints
+            splashed through the resorts collctions. They combine smartly, too--for instance, a <rs type="color">blue</rs>
+            <rs type="material">linen</rs> <rs type="garment">sheath</rs> might step out in <rs type="color">curry</rs> <rs type="material">leather</rs> <rs type="garment">pumps</rs>; or try a <rs type="color">curry</rs> sheath with a <rs type="color">blue</rs>
+            <rs type="material">chiffon</rs> <rs type="garment">necktie</rs>.</p>
+         <p> The curry linens, this page:</p>
+         <p>First, an Irish <rs type="material">linen</rs> <rs type="garment">sheath</rs> with a <rs type="garment-piece">peplum</rs> buckled front-to-back. By Ike Clark, about
+            $19. Macy's; Harzfeld's. Second, two slender pieces of McBratney Irish <rs type="material">linen</rs>, chalked up
+            with <rs type="color">white</rs>. By Lorch, about $30. Lovemans; Neiman-Marcus. Sketched in <rs type="color">blue</rs>, facing page:
+            First, a beautiful blend of <rs type="color">blue</rs>s-- <rs type="color">bright blue</rs> Irish <rs type="material">linen</rs> <rs type="garment">cardigan coat</rs>, $50,
+            displaying a soft <rs type="garment">shirt-shaped dress</rs> of hydrangea-printed <rs type="material">cotton</rs>, $40. A Kenneth
+            Tischler <rs type="garment">costume</rs>, at Bergdorf Goodman; L.S. Ayres. Far right, new late-day look for
+            wherever the sun shines warm--<rs type="color">pale-blue</rs> <rs type="material">Moygashel linen</rs> <rs type="garment">sheath</rs> with a <rs type="material">lace</rs> <rs type="garment">decolletage</rs>.
+            By Eisenberg, $50. <persName>Rosette Pennington</persName>; Dayton's.</p>
+
+         <p> [Pen and ink-wash illustration of two women. Each are wearing sleek, curry-colored
+            outfits. The leftmost wears a hat, carries a bag, and wears a vest-like top with a long
+            skirt. The rightmost wears a collared shirt with bow decor at the bottom and a long
+            skirt. Both wear heels.]</p>
+
+         <p> <rs type="color">blue</rs></p>
+
+         <p> [Pen and ink-wash illustration of two women. Both are wearing blue outfits. The
+            leftmost has short, light hair, and wears a long blue coat with a collared floral dress.
+            The rightmost also has short hair, with a choker-styled necklace, and wears a slightly
+            off-the-shoulder long dress, a braclet, and holds a bag. Both wear heels.]</p>
+
+
+      </body>
+   </text>
+</TEI>
