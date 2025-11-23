@@ -60,7 +60,7 @@ img {
 height: 300px;
 width: auto;
 padding: 15px;
-background: lightgray;
+background: #f244a2;
 }
 img:hover{
 transform: scale(1.8);
