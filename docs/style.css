@@ -118,7 +118,7 @@ border: 1px solid black; }
 /* NAV BAR */
 
 #navBar {
-    background-color: #FF6EC7;
+    background-color:#FF1493 ;
     padding: 15px 25px;
     border-radius: 50px; /* circular (pill-shaped) edges */
     width: 90%;
@@ -131,7 +131,7 @@ border: 1px solid black; }
 
 /* Links */
 #navBar a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
@@ -156,15 +156,15 @@ body {
 #vogue-title {
     font-size: 80px;
     font-weight: bold;
-    color: #FF1493; /* black text */
+    color: #FF1493; /* pink text */
     text-align: center;
     margin: 20px 0; /* space from top */
 
     /* 3D text shadow */
     text-shadow:
-        2px 2px 0 #FF6EC7,
-        4px 4px 0 #333,
-        6px 6px 0 #111;
+        2px 2px 0 ,
+        4px 4px 0  white,
+        6px 6px 0 lightblue;
 
     /* Spin animation */
     animation: spin 5s linear infinite;
@@ -179,7 +179,7 @@ body {
 }
 
 body {
-    background: linear-gradient(135deg, #e6f0ff, #a7c7e7, #5a8fc7);
+    background:lightgray  ;
 }
 
 body {
@@ -217,3 +217,20 @@ body {
 .subnav a:hover {
     background-color: #FF6EC7;
     transform: translateY(-1px);}
+
+
+  h2.type {
+  width: 28ch;                      /* match number of characters */
+  margin: 0 auto;                   /* center the element */
+  text-align: center;               /* center the text itself */
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid black;    /* cursor */
+  font-family: san-serif;
+  animation: typing 3s steps(28), blink .6s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 28ch; }
+}
