@@ -120,13 +120,13 @@ border: 1px solid black; }
 #navBar {
     background-color:#FF1493 ;
     padding: 15px 25px;
-    border-radius: 50px; /* circular (pill-shaped) edges */
+    border-radius: 50px;
     width: 90%;
     max-width: 900px;
     margin: 20px auto; /* center it */
     display: flex;
     justify-content: center;
-    gap: 30px; /* space between links */
+    gap: 30px;
 }
 
 /* Links */
