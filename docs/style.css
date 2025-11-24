@@ -164,7 +164,7 @@ body {
     text-shadow:
         2px 2px 0 ,
         4px 4px 0  white,
-        6px 6px 0 lightblue;
+        6px 6px 0 #A7D639;
 
     /* Spin animation */
     animation: spin 5s linear infinite;
@@ -179,14 +179,14 @@ body {
 }
 
 body {
-    background:lightgray  ;
+    background:gray  ;
 }
 
 body {
     margin: 0; /* remove default body margin */
     padding: 20px; /* space inside the border */
     border: 20px solid transparent;
-    border-image: url('broder2.jpg') 30 repeat; /* your image */
+    border-color: #A7D639 ; /* your color*/
 }
 
 
