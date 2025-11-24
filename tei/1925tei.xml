@@ -30,7 +30,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>94</p>
+        <div type="page" n="2"> <p>94</p>
          <p><note type="image">Illustration of two women wearing long pleated skirts with hats.</note></p>
          <p>(Left) In the <rs type="color">black</rs> <rs type="material">velvet</rs> <rs type="garment">frock</rs> with stiff <rs type="color">gold</rs> <rs type="garment-piece">inserts</rs>, at the extreme left, the new
             kinetic <rs type="garment-piece">silhouette</rs> gets its motion from a <rs type="material">pleated</rs> <rs type="garment-piece">circular front</rs> that swings free at the
@@ -41,7 +41,7 @@
          <p>(Right) <rs type="garment">Cape</rs>s or ingenious <rs type="garment-piece">swaying panels</rs> at the back transform the static lines of last
             season into the animated silhouette of the moment. Both of these <rs type="material">fur</rs>- trimmed <rs type="material">velvet</rs>
             <rs type="garment">coat</rs>s are plain at the front </p>
-         <p><note type="illustration">Illustration of woman wearing chiffon dress with flying sections</note></p>
+         <p><note type="image">Illustration of woman wearing chiffon dress with flying sections</note></p>
          <p> The fluttering sheerness of <rs type="material">chiffon</rs> lends itself especially well to <rs type="garment-piece">loose hanging
             panels</rs> and <rs type="garment-piece">flying sections</rs> of <rs type="material">chiffon</rs> – a mode that calls for great skill and originality on the
             part of the designers </p>
@@ -66,26 +66,26 @@
 
 
 
-         <p>Copyright 2012 © Condé Nast</p>
+           <p>Copyright 2012 © Condé Nast</p></div>
 
-         <p>December 1, 1925 95</p>
+         <div type="page" n="1">
 
-         <p>The Silhouette Moves!</p>
+         <head>The Silhouette Moves!</head>
          <p>Sketches</p>
          <p>and</p>
          <p>Notes</p>
          <p>That Show the Modern Spirit of the Animated</p>
          <p>Fashion of the Flare</p>
 
-         <p> (Left) The fulness and the pointed cut of the deep <note type="garment">cape</note> on this <note type="velvet">velvet</note> <note type="garment">wrap</note> give it its
+         <p> (Left) The fulness and the pointed cut of the deep <rs type="garment">cape</rs> on this <note type="velvet">velvet</note> <note type="garment">wrap</note> give it its
             animation</p>
 
          <p>On these three models, the motion of the mode is obtained in three ways-by swinging
-            jabots on the <note type="material">velveteen</note> <note type="garment">frock</note> at the left, by circular cut in the <note type="material">broadcloth</note> model in
-            the middle, and by the wide semicircular front of the <note type="material">velours</note> <note type="garment">coat</note> at the right </p>
+            jabots on the <rs type="material">velveteen</rs> <rs type="garment">frock</rs> at the left, by circular cut in the <note type="material">broadcloth</note> model in
+            the middle, and by the wide semicircular front of the <rs type="material">velours</rs> <rs type="garment">coat</rs> at the right </p>
 
-         <p>FLARES that spring from the front, the side, or the back, the circular swing of <note type="garment">coat</note>s,
-            the sweep of new <note type="garment">cape</note>s, the flying lines of the jabot and the scarf, have all called
+         <p>FLARES that spring from the front, the side, or the back, the circular swing of <rs type="garment">coat</rs>s,
+            the sweep of new <rs type="garment">cape</rs>s, the flying lines of the jabot and the scarf, have all called
             into being a new mode--the mode of motion. The straight silhouette of past seasons was
             inert, static. The new, flared line is a living, moving, modern thing. The rough
             sketches on these two pages, showing clothes that smart women are wearing now,
@@ -131,7 +131,7 @@
             chic. And just how the flare is to be adapted to its time and to its wearers is a story
             to be continued in many more issues of Vogue in the weeks to come.</p>
 
-         <p>Copyright ©2012 Condé Nast</p>
+         <p>Copyright ©2012 Condé Nast</p></div>
 
       </body>
    </text>
