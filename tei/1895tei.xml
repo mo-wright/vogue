@@ -4,24 +4,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>HI THIS ISN'T DONE :D</title>
+            <title>What She Wears: Gifts- The Ball Gowns of 1896</title>
+            <author>Molly Wright</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Vogue Magazine. Transcribed and encoded by Molly Wright.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Transcribed from a 1895 Vogue editorial.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-
-         <p>VOGUE</p>
-         <p>CHRISTMAS</p>
-
-         <p>WHAT SHE WEARS</p>
-         <p>GIFTS-THE BALL GOWNS OF 1896</p>
+         <div type="page" n="1"><head>CHRISTMAS</head>
+         <p><note type="image">Above the text, an illustration of a holly branch</note></p>
          <p> On brisk and gay the autumn has been with weddings, two of which were emphatically
             red-letter functions. Then followed the Horse Show, always a dashing affair-a gathering
             of smart men and women, fine horses and equipages, and showy parade of beauty and <rs type="garment">gowns</rs>,
@@ -44,28 +41,27 @@
             <rs type="material">beaver</rs> and <rs type="material">bear</rs>; <rs type="material">ermine</rs>, <rs type="material">chinchilla</rs>, <rs type="material">mink</rs>, the <rs type="material">lambs</rs> of Persia and Thibet, <rs type="material">fox</rs> and <rs type="material">lynx</rs>.
             By the way, there is a new departure in making up <rs type="material">lynx</rs> and <rs type="material">fox</rs> in their natural
             skins.</p>
-         <p> <rs type="material">Lynx</rs> abounds in lovely coloring, the <note type="color">yellows</note> paling into <note type="color">white</note>, and the long hairs
-            flecked with many shades of <note type="color">gray</note>. Thibet is dyed every color, to match different <rs type="material">cloths</rs>,
-            and <note type="material">astrachan</note> has gone a peg higher in exclusiveness than its once proud rival, <note type="material"><placeName>Persian</placeName>
-            lamb</note>, because the latter is now so well imitated by the manufacturers. The medley of
+         <p> <rs type="material">Lynx</rs> abounds in lovely coloring, the <rs type="color">yellows</rs> paling into <rs type="color">white</rs>, and the long hairs
+            flecked with many shades of <rs type="color">gray</rs>. Thibet is dyed every color, to match different <rs type="material">cloths</rs>,
+            and <rs type="material">astrachan</rs> has gone a peg higher in exclusiveness than its once proud rival, <rs type="material"><placeName>Persian</placeName>
+            lamb</rs>, because the latter is now so well imitated by the manufacturers. The medley of
             <rs type="material">furs</rs> now considered the chic thing has brought about a pooling of <rs type="material">furs</rs> in families, by
             which elder daughters profit, and younger ones are better satisfied with newer purchases
             at less value. De gustibus non. </p>
-<<<<<<< HEAD
+
          <p> Now for un petit mot about ball and <rs type="garment">dinner gowns</rs>, for the dinner-dance season is
             staring us in the face. We all know the succés of <rs type="material">flowers</rs> and <rs type="material">tulle</rs> last year, and we
             are glad to learn that both are to reign in ninety-six. All kinds of <rs type="material">nets</rs>, <rs type="material">gauzes</rs>,
             lisses, and the newest and sheerest of <rs type="material" >grenadines</rs>, flowered like watercolored pictures.
             I hope the débutantes at the coming Patriarchs will scorn <rs type="material">silks</rs> and <rs type="material">satins</rs> for their
-            gowns and pay tribute to their own youth and beauty in <rs type="material">tulle</rs>, the ideal <rs type="garment">frock</rs> for that
-=======
+            gowns and pay tribute to their own youth and beauty in <rs type="material">tulle</rs>, the ideal <rs type="garment">frock</rs> for that</p>
+
          <p> Now for un petit mot about ball and dinner gowns, for the dinner-dance season is
             staring us in the face. We all know the succés of flowers and tulle last year, and we
             are glad to learn that both are to reign in ninety-six. All kinds of nets, gauzes,
             lisses, and the newest and sheerest of grenadines, flowered like watercolored pictures.
             I hope the débutantes at the coming Patriarchs will scorn silks and satins for their
-            gowns and pay tribute to their own youth and beauty in <note type="i">tulle</note>, the ideal frock for that
->>>>>>> 8e9614db0014b286ebbad4029eab43d497d68257
+            gowns and pay tribute to their own youth and beauty in <rs type="garment">tulle</rs>, the ideal frock for that
             enchanting occasion.</p>
          <p> The rosebud element will monopolize the strictly floral <rs type="garment">gowns</rs> they are theirs by
             natural right, but all young women, matrons or maids, it is to be hoped, will array
@@ -91,11 +87,11 @@
          <p> Another charming gown has floral effects derived from exquisite <rs type="material">silk</rs> <rs type="garment-piece">embroideries</rs>, the
             newest of the fine trimmings. A <rs type="material">satin</rs> <rs type="material">skirt</rs> is the foundation usually for these
             <rs type="garment-piece">transparent draperies</rs> of <rs type="material">tulle</rs> or <rs type="material">gauzes</rs> favored by matrons young and beautiful. </p>
-         <p>The skirt, in this instance, is <note type="color">cream-white</note> satin, and the tulle overdress a
-            <note type="color">pinkish-mauve</note>, but instead of being hemmed is only doubled, then gathered at the waist,
+         <p>The skirt, in this instance, is <rs type="color">cream-white</rs> satin, and the tulle overdress a
+            <rs type="color">pinkish-mauve</rs>, but instead of being hemmed is only doubled, then gathered at the waist,
             and afterward shirred a little distance, say nine or ten inches below, and drawn down
-            snugly to the figure and tacked to the <note type="material">satin</note> gupe. Two broad bands of <note type="material">silk</note> embroidery,
-            roses in every shade, start en tablier at the bottom of the <note type="material">tulle</note> <rs type="garment">skirt</rs> and are
+            snugly to the figure and tacked to the <rs type="material">satin</rs> gupe. Two broad bands of <rs type="material">silk</rs> embroidery,
+            roses in every shade, start en tablier at the bottom of the <rs type="material">tulle</rs> <rs type="garment">skirt</rs> and are
             graduated a little toward the <rs type="garment-piece">waist</rs>, leaving space for a pointed <rs type="garment">girdle</rs> of the same
             embroidery to show between and encircle the <rs type="garment-piece">waist</rs> in a narrow <rs type="garment">belt</rs>, fastening on the
             left panel with a <rs type="garment">bouquet</rs> of <rs type="material">violets</rs>. <rs type="garment-piece">Corsage bébé</rs>, <rs type="garment-piece">V-shaped décolletage</rs>, headed by a
@@ -106,6 +102,7 @@
             triple <rs type="material">diamond</rs> <rs type="garment">aigrette</rs>. The <rs type="garment">necklace</rs> is an almost invisible gold chain, from which is
             suspended three enormous <rs type="material">jewels</rs>, a <rs type="material">diamond</rs> in the centre, with <rs type="material">ruby</rs> and <rs type="material">emerald</rs> on
             sides.</p>
+         <p><note type="image">Below the text, an illustration of a holly branch</note></p></div>
       </body>
    </text>
 </TEI>

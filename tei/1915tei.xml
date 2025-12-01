@@ -10,9 +10,6 @@
             <title>What She Wears</title>
             <author>Tara McGee</author>
          </titleStmt>
-
-
-
          <publicationStmt>
             <p>Vogue Magazine. Transcribed and encoded by Tara McGee.</p>
          </publicationStmt>
@@ -24,8 +21,7 @@
 
    <text>
       <body>
-         <p>December 1 65</p>
-         <p>SEEN in the SHOPS</p>
+         <div type="page" n="1"><head>SEEN in the SHOPS</head>
 
          <p><rs type="garment">Skating Sets</rs> to Play Up the Latest Sport, Pretty Boudoir Things
             for Christmas Gifts, and Two Practical Waists for a Balance Wheel</p>
@@ -47,8 +43,8 @@
                type="material">silk</rs> called <rs type="material">silk broadcloth</rs>; in <rs
                type="color">white</rs> or <rs type="color">flesh color</rs>; $5.95 </p>
          <p><note type="imge">Illustration of a woman wearing a striped scarf with a fluffy
-               hat.</note>
-            <rs type="color">Black</rs> and <rs type="color">white</rs> striped <rs type="material"
+               hat.</note></p>
+            <p><rs type="color">Black</rs> and <rs type="color">white</rs> striped <rs type="material"
                >velvet</rs> line with brilliant <rs type="color">green</rs>
             <rs type="material">velvet</rs> forms the <rs type="garment">scarf</rs> of a <rs
                type="garment">skating set</rs>; the <rs type="garment">hat</rs> is like the <rs
@@ -147,7 +143,7 @@
             Vogue will buy for you without extra charge. Address Vogue Shopping Service, 443 Fourth
             Ave., New York City.</p>
 
-         <p>Copyright Ⓒ 2012 Condé Nast</p>
+         <p>Copyright Ⓒ 2012 Condé Nast</p></div>
       </body>
    </text>
 </TEI>
