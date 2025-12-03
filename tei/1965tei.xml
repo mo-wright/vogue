@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jewels Abundant</title>
+            <author> Molly Wright </author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Vogue Magazine. Transcribed and encoded by Molly Wright.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcribed from a 1965 Vogue editorial.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><rs type="material">Jewels</rs> abundant</p>
+         <p><note type="image">[Around the text, a photograph of two bare feet, each with intricate
+               amber jewel decoration. Colored jewels align the center.]</note></p>
+         <p>This is the newest makeup of the season - the Scheherazaderie leg. Beaming <rs type="material">paillettes</rs>
+            and <rs type="material">gem</rs>my <rs type="material">flowers</rs> flashing to the tips of the toes, a modern fantaisie played on
+            memories of Cleopatra's serpent <rs type="garment">sandals</rs>, so dense with <rs type="material">jewels</rs> the <rs type="garment-piece">thongs</rs> and <rs type="material">laces</rs> were
+            never seen... of the Indian beauty who adorned her legs with "<rs type="material">jewels</rs> abundant"... of
+            dancers in the Bakst-Diaghilev ballets </p>
+         <p>"Scheherazade" and "Dieu Bleu."</p>
+         <p><note type="image">[Above the text, a leg, adorned in the same amber jewels and floral decoration]</note></p>
+         <p> The lotus foot "...place on this patch of flower-strewn floor your lotus foot, And let
+            your foot through beauty win..." <rs type="material">Jewel</rs>led and pampered, delicately arched and
+            rogued--these were the feet of heroines and goddesses in twelfth-century <placeName>India</placeName>, the
+            lotus feet that drew the smouldering admiration of heroes.... </p>
+         <p><note type="image">[Above and to the right of the text, photographs of feet. One has a piece of warm-toned
+            jewelery around the ankle snaking to the big toe. The second has jewels in arch
+            patterns.]</note></p>
+         <p> For Vogue, <persName>Elizabeth Arden</persName>'s gifted makeup man - <persName>Pablo</persName> of Coty Award fame - designed
+            these gala <rs type="material">jewels</rs> patterns for heroines treading the lotus way right now. <rs type="material">Paillettes</rs> and
+            <rs type="material">fake gems</rs> - attached one by one - trace <rs type="garment">sandal</rs> shapes on bare feet. The toenail <rs type="garment">lacquer</rs>
+            is <rs type="color">Flame</rs> by <persName>Elizabeth Arden</persName> </p>
+         <p> <persName>BERT STERN</persName></p>
+         <p><note type="image">[A photograph of a foot with gemstone decoration in cooler colors. A centerpiece of
+            pink, white, and blue pearls is present near the ankle. The model wears pastel pink
+            polish.]</note></p>
+      </body>
+   </text>
+</TEI>
