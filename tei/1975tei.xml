@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../out/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pretty Color; Easy Fashion</title>
-            <author>Trinity Taylor</author>
+            <title>Pretty Color, Easy Fashion — Together Again</title>
+            <author>Vogue Magazine</author>
+            <editor>Trinity Rose Taylor</editor>
          </titleStmt>
+
          <publicationStmt>
-            <p>Vogue Magazine. Transcribed and encoded by Trinity Taylor.</p>
+            <publisher>Penn State University, Digital Humanities</publisher>
+            <date when="2025">2025</date>
+            <availability status="free">
+               <p>Distributed for educational and research use only.</p>
+            </availability>
          </publicationStmt>
+
          <sourceDesc>
-            <p>Transcribed from a 1975 Vogue editorial, photographed by Avedon and published by
-               Condé Nast.</p>
+            <bibl>
+               <title level="a">Pretty Color, Easy Fashion — Together Again</title>
+               <author>Vogue Magazine</author>
+               <pubPlace>New York</pubPlace>
+               <publisher>Condé Nast</publisher>
+               <date when="1975">1975</date>
+               <note>Transcribed from a 1975 issue of <title level="j">Vogue</title>, published by
+                  Condé Nast in New York.</note>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -22,186 +36,228 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
 
-         <div type="page" n="1">
-            <p>Pretty color; easy fashion</p>
-            <p>TOGETHER AGAIN!</p>
+         <p><note type="image">Page 1: Fort Worth Water Garden with opening text layout.</note></p>
 
-            <p>News at night, right—the look of a <rs type="garment">top</rs> and, instead of <rs
-                  type="garment">pants</rs>, a <rs type="garment">long slim skirt</rs>—this season’s
-               newest “pijama dressing!” Here’s Geoffrey Beene’s super-soft, north-of-south-version—
-                  <rs type="color">blue</rs>-eyed, <rs type="color">gray-pink</rs> plaid <rs
-                  type="material">silk crepe</rs>. Geoffrey designed the <rs type="garment-piece"
-                  >shirt-and-sash-side</rs> and one of his new <rs type="garment">T-shirt-based
-                  tops</rs>. And a beautiful way it unwraps—beautifully. Gianfranco Ferré, about
-               $950. At Lord &amp; Taylor, <placeName>N.Y.</placeName>; Gattle’s, <placeName>Bal
-                  Harbour</placeName>; <placeName>Magnin</placeName>; Liberty House,
-                  <placeName>Hawaii</placeName>. Accessories and men’s fashion details, next to last
-               page. These 12 pages: hair, Harry King of Cinandre; makeup, Way Bandy.</p>
+         <p>The big news— the big change!— in fashion is <rs type="color">color</rs>. Clean, soft,
+            tint-of-color <rs type="color">color</rs>— the prettiest to come along in years (if
+            ever!). <rs type="color">Color</rs> that gives a whole new feeling to all the clothes
+            you want for warm-weather places now, for summer later… Photographed by
+               <persName>Avedon</persName> — as a scenario for modern lovers — in the extraordinary
+            Fort Worth Water Garden designed by <persName>Philip Johnson</persName> and
+               <persName>John Burgee</persName>.</p>
 
-            <p>The kind of dress a lot of women have been beating the bushes for years, left— a
-               short, simply pretty late-day/little- <rs type="garment">dinner dress</rs>— <rs
-                  type="color">banana</rs>
-               <rs type="material">silk crepe de Chine</rs>, <rs type="garment-piece"
-                  >bare-necked</rs>, with <rs type="garment-piece">sleeves</rs> that just slip off
-               the shoulder. Monty Susman for Mollie Parnis; Altair, Coondogale Silk Company. About
-               $385. Bergdorf Goodman; Saks; Neiman-Marcus; Lillie Rubin—South and West; Swanson’s.
-               A reminder: those woodsy, misty scents for men (Aramis for one) are a nice
-               mood-changer at night. And who knows, maybe your scents won’t clash.</p>
+         <p>Pretty color, easy fashion</p>
 
-            <p><note type="image">Models in gray-pink plaid dress and yellow wrap dress, leaning and
-                  walking on stairs. Series of smaller frames showing playful stairway
-                  scenes.</note></p>
-            <p>Copyright © 2012 Condé Nast</p>
-         </div>
+         <p>TOGETHER AGAIN!</p>
 
-         <div type="page" n="2">
+         <p>Go for <rs type="color">color</rs>! — the freshness of <rs type="color">white</rs> with
+            surprises of <rs type="color">pastel yellow</rs>. <persName>Halston</persName>’s easy
+            double-sided <rs type="color">white</rs>
+            <rs type="material">wool</rs>
+            <rs type="garment">coat</rs> that goes all year, all places. With a <rs type="color"
+               >white</rs>
+            <rs type="material">wool</rs>
+            <rs type="garment">skirt</rs>, and bare little <rs type="garment">tank top</rs> in <rs
+               type="color">yellow</rs> ribbed <rs type="material">cashmere</rs>. Go for pleasure —
+            the Fort Worth Water Garden, the scene of these 12 pages of you-and-yours. It’s a
+            fascinating architects’ conceived setting — and wonderfully romantic in unexpected ways.
+            Designed by <persName>Philip Johnson</persName> and <persName>John
+            Burgee</persName>.</p>
 
-            <p>Part of the fashion idiom: “easy dressing”—meaning dressing that’s unstudied,
-               uncomplicated, easy to wear… all in an attractive, polished, real-life way. The
-               concept’s American. We started it. We do it best. And we keep doing it better. This
-               season, “easy” goes to a whole new level—racier, sharper, more sophisticated. What
-               does it: fabric with more character, patterns with more strength, more precision…
-               color!</p>
+         <p>Go for pleasure! — the Fort Worth Water Garden, Texas scene of these 12 pages —
+            four-and-a-half city blocks of terraced concrete steps and “rooms” with waterfalls
+            reflecting pools, small spraying fountains — an unexpected city oasis designed by
+               <persName>Philip Johnson</persName> and <persName>John Burgee</persName>. …
+               <persName>Halston</persName> III <rs type="garment">coat</rs> and <rs type="garment"
+               >skirt</rs> (<rs type="material">Amicale fabric</rs>), about $480. Mid-January,
+            Bergdorf Goodman; Wanamaker’s; Stanley Korshak; Neusteters; I. Magnin. <rs
+               type="garment">Top</rs>, about $50, Halston Ltd. Hair, <persName>Harry
+               King</persName>; makeup, <persName>Way Bandy</persName>. Accessories and men’s
+            fashion details, next to last page of this issue.</p>
 
-            <p>There’s a new character to Ralph Lauren’s sportier American classics, like his
-               traditional <rs type="garment">trousers</rs>, this page, are in a bold floral print
-               of <rs type="material">silk</rs>, and his <rs type="garment">shawl-collared
-                  “robe”</rs> is vivid <rs type="color">purple</rs> in soft, languorous <rs
-                  type="material">silk charmeuse</rs>. Another plus: these looks needn’t wait for
-               warm weather, a resort—this is terrific at-home dressing any time. <rs type="garment"
-                  >Trousers</rs>, about $358. <rs type="garment">Robe-jacket</rs>, about $658. Late
-               Dec. at Saks Fifth Avenue, <placeName>NYC</placeName>; Hudson-Belk’s,
-                  <placeName>Raleigh NC</placeName>; Polo/Ralph Lauren, <placeName>San
-                  Antonio</placeName>. Ring and bracelet, Paloma Picasso for Tiffany &amp; Co.
-               Donald Judd chair, courtesy Max Protetch Gallery, <placeName>NYC</placeName>.</p>
+         <p><persName>Avedon</persName></p>
 
-            <p>Everybody loved the look, the Fred Astaire nonchalance of Ralph Lauren’s impeccable,
-               classic <rs type="garment">trousers</rs>… in brilliant <rs type="color">chrome</rs>
-               <rs type="material">silk charmeuse</rs>, opposite. Here, played against a <rs
-                  type="color">navy</rs> double-breasted <rs type="material">wool gabardine</rs>
-               <rs type="garment">jacket</rs> and <rs type="color">white</rs>
-               <rs type="garment">tank</rs>. <rs type="garment">Trousers</rs>, about $358. <rs
-                  type="garment">Jacket</rs>, about $396. Late December at Barneys <placeName>New
-                  York</placeName>; Polo/Ralph Lauren, <placeName>Costa Mesa CA</placeName>;
-               Polo/Ralph Lauren, <placeName>Denver</placeName>; Polo/Ralph Lauren, <placeName>San
-                  Francisco</placeName>. Rings and bracelets, Bulgari at the Pierre Hotel,
-                  <placeName>NYC</placeName>. Elizabeth Jackson chair for Arc International, Inc.,
-                  <placeName>NYC</placeName>. These, next two pages: hair, Madeleine Cofano for
-               Bruno Dessange; makeup, Laura Mercier. Details, more stores, last pages.</p>
+         <p>Copyright © 2012 Condé Nast</p>
 
-            <p><note type="image">Models in bold floral trousers, purple robe, and yellow scarf;
-                  second in bright yellow pants and black jacket with polka-dot scarf.</note></p>
-            <p>Copyright © 2012 Condé Nast</p>
+         <!-- PAGE 2 -->
+         <p><note type="image">Page 2: Woman in tan suit walking along water fountain concrete
+               structure</note></p>
 
-         </div>
+         <p>Copyright © 2012 Condé Nast</p>
 
-         <div type="page" n="3">
+         <!-- PAGE 3 -->
+         <p><note type="image">Page 3: Man laying his head on woman who is sitting cross
+               legged</note></p>
 
-            <p>A STRONG SENSE OF EASE</p>
+         <p>Copyright © 2012 Condé Nast</p>
 
-            <p>Typical of this “laid back” American approach: very polished sweater-and-skirt
-               dressing for low-key evenings. And what a sweater-and-skirt this is! By Ralph Lauren,
-               this page, a long, soft-moving, bias-cut skirt of flag-red <rs type="material">silk
-                  crepe de Chine</rs> with a generously sized <rs type="color">navy</rs>
-               <rs type="material">cotton</rs>
-               <rs type="garment">turtleneck sweater</rs>. The <rs type="garment">turtleneck</rs>—so
-               important this winter—keeps evolving for warm weather, with <rs type="garment-piece"
-                  >long sleeves</rs>, <rs type="garment-piece">short sleeves</rs>, even on <rs
-                  type="garment-piece">halters</rs>. <rs type="garment">Skirt</rs>, about $258. <rs
-                  type="garment">Sweater</rs>, about $198. Turnout late December at Allcott &amp;
-               Andrews, NYC; Short Hills NJ; Hartford CT; Washington DC; Polo/Ralph Lauren, Atlanta;
-               Polo/Ralph Lauren, Ft. Lauderdale. Elizabeth Jackson chair for Arc International,
-               Inc., NYC.</p>
+         <!-- PAGE 4 -->
+         <p><note type="image">Page 4: close up of concrete foutain. Man and woman standing next to
+               each other laughing</note></p>
+         <p>Pretty color, easy fashion</p>
 
-            <p>Pure pow! The dress everybody applauded, wanted!—Donna Karan’s—opposite. In
-               double-faced, full-bodied <rs type="color">bright red</rs>
-               <rs type="material">silk</rs>— strong shouldered, tightly cinched at the <rs
-                  type="garment-piece">waist</rs>, with a graceful, ankle-length <rs type="garment"
-                  >skirt</rs>—it sets up a whole new definition of shape and kind of dressing for
-               easy evenings. Donna Karan New York. About $890. Late December. At Bloomingdale’s,
-               L.H. Rogers, Salem MA; Alexander’s, Virginia Beach; Hudson’s, Hattie; Palm Beach FL
-               and Scottsdale AZ; Eleanor Keeshan, Los Angeles. Chair, Lawrence Originals, c. 1960,
-               courtesy Fifty-50, NYC. Details, more stores, see last pages.</p>
+         <p>TOGETHER AGAIN!</p>
 
-            <p><note type="image">Models in red silk dress, navy sweater and red skirt, posed on
-                  geometric red-and-white chairs.</note></p>
-            <p>Copyright © 2012 Condé Nast</p>
-         </div>
+         <p>Seasonless, versatile, a find!—left: <persName>Geoffrey Beene</persName>’s
+            shirting-striped <rs type="garment">pyjama</rs> in <rs type="color">palest yellow</rs>,
+               <rs type="color">grey</rs>, and <rs type="color">bisque</rs>
+            <rs type="material">silk crepe de Chine</rs>, with an <rs type="garment">oversmock</rs>
+            of <rs type="color">bisque</rs>
+            <rs type="material">handkerchief linen</rs> (to wash and wash—it gets softer and
+            softer). Pieces to move around—in… just the <rs type="garment">smock</rs>, the <rs
+               type="garment">pants</rs>, and the bare open neckline at night—or wear together, as
+            here—super hot-weather layering for day! Gandini <rs type="material">silk</rs>; Sisan
+               <rs type="material">linen</rs>. About $1,000. At Bergdorf Goodman; John Baldwin;
+            Claire Pearone; Neiman-Marcus; I. Magnin; Frederick &amp; Nelson. (Something for
+            everybody—the cool, whistley-clean scent of Chanel for Men—one of those male fragrances
+            women snap up for their own.)</p>
 
-         <div type="page" n="4">
-            <p>A STRONG SENSE OF EASE… PATTERNS ARE PRECISE, SHARP—UNSENTIMENTAL</p>
+         <p>The unbeatable cool of all-<rs type="color">white</rs> for hot weather, above—the soft,
+            easy <rs type="garment">shirt</rs> that just falls open, in <rs type="material">white
+               crepe de Chine</rs>; the lean <rs type="material">cotton</rs>
+            <rs type="garment">skirt</rs> with a couple of stitched pleats for ease. By
+               <persName>Oscar de la Renta</persName>. <rs type="garment">Shirt</rs>, of <rs
+               type="material">silk</rs>; about $58; <rs type="garment">skirt</rs>, about $48. At
+            Saks Fifth Avenue; Montaldo’s; O’Neil’s; Sakowitz; Ballett’s; I. Magnin. <rs
+               type="garment">Necklace</rs>, <persName>Elsa Peretti</persName> of Tiffany.
+            Accessories and men’s fashion details, next to last page of this issue.</p>
 
-            <p>The best of these patterns, when they aren’t in strong color, are in strong <rs
-                  type="color">black</rs> or <rs type="color">navy</rs> with <rs type="color"
-                  >white</rs>, like this very attractive city dressing for working women—easy to
-               wear, but polished, meant to be taken seriously. David Hayes’s <rs type="color"
-                  >black</rs>-and- <rs type="color">white</rs>
-               <rs type="garment">suit</rs>, left: a body-close, pointed-edge <rs type="garment"
-                  >jacket</rs> and short, narrow <rs type="garment">skirt</rs>, both in strongly
-               textured <rs type="material">silk cloque</rs>—a look that moves from day into
-               evening. About $460.</p>
+         <p><persName>Avedon</persName></p>
 
-            <p>Regimental precision—the <rs type="color">navy</rs>-and-<rs type="color">white</rs>
-               stripes, right—of Gloria Sachs’s <rs type="material">silk</rs>
-               <rs type="garment-piece">button-back</rs>
-               <rs type="garment">blouse</rs> and classic <rs type="garment">trouser</rs>, all the
-               raciness of a <rs type="garment">jumpsuit</rs>. <rs type="garment">Top</rs>, about
-               $220. <rs type="garment">Trousers</rs>, about $290. And then there are patterns so
-               precise, they give you a feeling of texture. Anne Klein’s starring <rs type="garment"
-                  >jacket</rs>, left—long, clean, collarless—continues in <rs type="color"
-                  >black</rs>-and-<rs type="color">white</rs>, perfect proportion with this short,
-               slim <rs type="material">linen</rs>/<rs type="material">satin</rs>
-               <rs type="garment">skirt</rs>; with <rs type="garment">trousers</rs>. Louis Dell’Olio
-               for Anne Klein &amp; Co. <rs type="garment">Jacket</rs>, about $380; <rs
-                  type="garment">skirt</rs>, about $160. <rs type="garment">Jewelry</rs>, Paloma
-               Picasso for Tiffany &amp; Co.</p>
+         <!-- PAGE 5 -->
+         <p><note type="image">Page 5: Left side man and woman standing next to eachother; right
+               side people laying on stairs.</note></p>
 
-            <p>Another attractive <rs type="garment">jacket</rs>, right, by Mondi, in <rs
-                  type="color">navy</rs>
-               <rs type="material">gabardine</rs>, slightly more classic but not <rs type="garment"
-                  >blazer</rs>-y—it’s longer, more relaxed, it moves. Here, over matching <rs
-                  type="garment">trousers</rs>, a <rs type="color">white</rs>
-               <rs type="garment">shirt</rs>. <rs type="garment">Jacket</rs>, about $209. <rs
-                  type="garment">Trousers</rs>, about $160. <rs type="garment">Shirt</rs>, about
-               $120. Hair, Edward Tricomi for Pipino-Buccheri, NYC; makeup, Laura Mercier. Details,
-               more stores, see last pages.</p>
+         <p>Seasonless! left — <rs type="garment">sweater-and-skirt</rs> dressing in one of the
+            freshest — prettiest! — new <rs type="color">colors</rs> — <rs type="color">pale celadon
+               green</rs>. <persName>Halston</persName>’s ribbed <rs type="material">silk</rs>
+            <rs type="garment">pullover</rs>, matching <rs type="garment">cardigan</rs>, and his new
+            diagonal-wrap <rs type="material">Ultrasuede</rs>
+            <rs type="garment">skirt</rs>. <rs type="garment">Sweater set</rs>, about $150. At
+            Halston Ltd. <rs type="garment">Skirt</rs> (<rs type="material">Spring Mills
+            fabric</rs>), about $200. At Bergdorf Goodman; Wanamaker’s; Jacobson’s; Stix, Baer &amp;
+            Fuller.</p>
 
-            <p><note type="image">Models in patterned black-and-white and navy outfits, posed in
-                  studio and seated near luxury car.</note></p>
-            <p>Copyright © 2012 Condé Nast</p>
-         </div>
+         <p>Key to warm-weather dressing, right — a perfect small-fitting <rs type="material">black
+               cotton knit</rs>
+            <rs type="garment">T-shirt</rs> and good-looking <rs type="garment">trousers</rs> in <rs
+               type="color">soft beige</rs>
+            <rs type="material">pongee</rs> — what everyone always wants more of! Beene Bag. <rs
+               type="garment">Pants</rs>, about $92; <rs type="garment">top</rs>, about $34. Lord
+            &amp; Taylor; Nan Duskin; Claire Pearone; Sakowitz; Neusteters; Frederick &amp; Nelson.
+            Accessories and men’s fashion details, next to last page.</p>
 
-         <div type="page" n="5">
-            <p>A STRONG SENSE OF EASE… THE SINGULAR CHARM OF A SOFT SUIT IN A STRONG MIX OF
-               PATTERNS</p>
+         <p><persName>Avedon</persName></p>
 
-            <p>Usually hard to find: <rs type="garment">suit</rs> dressing that strikes the right
-               balance between crispness and ease. You find it, opposite, in Oscar de la Renta’s
-               striking plaid/check <rs type="garment">suit</rs> of <rs type="color"
-                  >navy</rs>-and-<rs type="color">white</rs>
-               <rs type="material">wool</rs>—the <rs type="garment">jacket</rs> lightly shaped and
-               rounded; the <rs type="garment">skirt</rs> short, narrow, slit; the look sharpened by
-               the jolt of a <rs type="color">red</rs>-and-<rs type="color">white</rs> striped <rs
-                  type="material">silk</rs>
-               <rs type="garment">blouse</rs>. About $1190. Late January at Saks Fifth Avenue; Sara
-               Fredericks, Boston &amp; Palm Beach; Montaldo’s; Higbee’s; Balle’s. Jean Prouvé
-               chair, Global Furniture, NYC.</p>
 
-            <p>In a more dressed mood, this page, Bill Blass’s soft-falling <rs type="garment">7/8
-                  coat</rs> and slim <rs type="garment">skirt</rs>, in a deep, knee-length shaft of
-                  <rs type="color">gray</rs>
-               <rs type="material">silk</rs>, in a controlled, allover “palmette” print (fabric,
-               Abraham) with a striped <rs type="material">silk</rs>
-               <rs type="garment">halter</rs> that wraps at the waist (Blass, Telos). Gray at night,
-               a pulled-together, charming way to look. About $2570. Late January at Saks Fifth
-               Avenue, NYC; Sara Fredericks, Boston; Martha, Palm Beach &amp; Bloomingdale’s, Holt
-               Baldwin, St. Petersburg, OH; Frost Bros. Hair, Ray Allington for Vidal Sassoon;
-               makeup, Margaret Avery. Details, more stores, last pages.</p>
+         <!-- PAGE 6 -->
+         <p><note type="image"> Man and woman laying on stairs together</note></p>
 
-            <p><note type="image">Models in plaid suit with striped blouse and gray patterned coat,
-                  posed leaning against luxury car at night.</note></p>
-            <p>Copyright © 2012 Condé Nast</p>
-         </div>
+         <p>Pretty color, easy fashion TOGETHER AGAIN!</p>
+
+         <p>145</p>
+
+         <!-- PAGE 7 -->
+         <p><note type="image">Page 7: woman and man submergered in water</note></p>
+
+         <p>Copyright © 2012 Condé Nast</p>
+
+         <!-- PAGE 8 -->
+         <p><note type="image">Page 8: Left side image of water; right side shows a black maillot
+               and a terry poncho.</note></p>
+
+         <p>Pretty color, easy fashion TOGETHER AGAIN!</p>
+
+         <p>The thinner-than-thin <rs type="garment">maillot</rs> opposite, in an ultra-light,
+            lustrous (<rs type="color">pretty</rs>) <rs type="color">black</rs>
+            <rs type="material">jersey</rs> with a low-cut <rs type="garment">tank top</rs> and
+            narrow <rs type="color">white</rs>
+            <rs type="garment">belt</rs>. By <persName>John Anthony</persName>; Nyesta <rs
+               type="material">jersey</rs> of <rs type="material">Antron nylon</rs> (Roselon
+            Industries). About $50. Elizabeth Arden Salons; Nan Duskin; Hovland-Swanson; Miss
+            Jackson’s; Sakowitz.</p>
+
+         <p>The perfect wrap-up, this page — <rs type="color">white</rs>
+            <rs type="material">terry</rs> and enough of it! — a wonderful oversized <rs
+               type="garment">poncho</rs> to pull over a bathing suit, to slip on at home after a
+            bath. By <persName>Calvin Klein</persName>. Of <rs type="material">cotton terry</rs>
+            (Gloversville Mills fabric). About $54. Bloomingdale’s; Nan Duskin; Hudson’s; Woolf
+            Brothers; Bullock’s. Accessories, next to last page of this issue.</p>
+
+         <p><persName>Avedon</persName></p>
+
+         <p>147</p>
+
+         <!-- PAGE 9 -->
+         <p><note type="image">Page 9: Left side heading and photo of woman uo against wall kicking
+               man; right side has film reel of models interacting in diffrent ways .</note></p>
+
+         <p>Pretty color, easy fashion TOGETHER AGAIN!</p>
+
+         <p>Nifty pieces to have for warm weather, above: soft, super warmed-up new neutrals — a <rs
+               type="color">pinky-beige</rs> lisle <rs type="garment">cardigan</rs>, a dash of <rs
+               type="color">cinnamon</rs>
+            <rs type="garment">tank top</rs>, and great <rs type="garment">shorts</rs> —
+            trouser-tailored <rs type="material">natural muslin</rs>. By <persName>John
+               Anthony</persName>. <rs type="garment">Cardigan</rs>, of <rs type="material">Dacron
+               and cotton</rs> (Klopman Mills fabric), about $60; Nyesta <rs type="garment">tank
+               top</rs>, of <rs type="material">Antron nylon</rs> (Gloversville Mills fabric), about
+            $16; <rs type="garment">shorts</rs> (<rs type="material">Alaric Textiles International
+               cotton</rs>), about $40. At Elizabeth Arden Salons; Nan Duskin; Jacobson’s; Sakowitz;
+            Liberty House, San Francisco.</p>
+
+         <p>The palest, prettiest tint of <rs type="color">peach</rs>, right, in the hottest new <rs
+               type="garment">pants</rs> look — the <rs type="garment">jumpsuit</rs>! Here,
+            shirt-shaped, slit to a drawstring waist. In thin <rs type="material">cotton-y
+               lisle</rs>, cool enough to really take the heat, easy enough to really move in —
+            q.v., right… By <persName>John Anthony</persName>, of <rs type="material">Dacron and
+               cotton</rs> (Klopman Mills fabric). About $140. Saks Fifth Avenue; Jacobson’s; Woolf
+            Brothers; Miss Jackson’s; Marie Leavell; Nordstrom. Accessories and men’s fashions
+            details, next to last page this issue.</p>
+         <p><persName>Avedon</persName></p>
+
+         <p>148</p>
+
+         <!-- PAGE 10 -->
+         <p><note type="image">Page 10: Image only; woman and man playfull</note></p>
+
+         <p>Copyright © 2012 Condé Nast</p>
+
+         <!-- PAGE 11 -->
+         <p><note type="image">Page 11: Man abd woman playfullung leaning against a wall</note></p>
+
+         <p>Pretty color, easy fashion TOGETHER AGAIN!</p>
+
+
+
+         <p>News at night, right — the look of a <rs type="garment">top</rs> and, instead of <rs
+               type="garment">pants</rs>, a long slim <rs type="garment">skirt</rs> — this season’s
+            newest “pyjama dressing”! Here (seen from every angle), <persName>Geoffrey
+               Beene</persName>’s super-soft north-or-south version — <rs type="color"
+               >bisque-yellow-and-grey plaid</rs>
+            <rs type="material">silk crepe de Chine</rs>. With the slip-and-slide ease of his new
+               <rs type="garment">T-shirt-based top</rs>. And a <rs type="garment">skirt</rs> that
+            wraps — and unwraps — beautifully. Gandini <rs type="material">silk</rs>; about $1,050.
+            At Lord &amp; Taylor, N.Y.; Claire Pearone; I. Magnin; Liberty House, Hawaii.
+            Accessories and men’s fashion details, next to last page. These 12 pages: hair,
+               <persName>Harry King</persName> of Cinandre; makeup, <persName>Way
+            Bandy</persName>.</p>
+
+         <p>The kind of <rs type="garment">dress</rs> a lot of women have been beating the bushes
+            for for years, left — a short, simple pretty late-day/little-dinner <rs type="garment"
+               >dress</rs> — <rs type="color">banana</rs>
+            <rs type="material">silk crepe de Chine</rs>, bare-necked, with sleeves that just slip
+            off the shoulder. <persName>Morty Sussman</persName> for <persName>Mollie
+               Parnis</persName>; fabric, Onondaga Silk Company. About $365. Bergdorf Goodman;
+            Wanamaker’s; Lillie Rubin–South and West; Neiman-Marcus; Swanson’s. … A reminder: those
+            woodsy, misty scents for men (<persName>Kanou</persName> for one) are a nice
+            mood-changer at night. And who knows, maybe your scents won’t clash…</p>
+
+
+         <!-- PAGE 12 -->
+         <p><note type="image">Page 12: image of women laughing and running up stairs</note></p>
+
+         <p>Copyright © 2012 Condé Nast</p>
 
       </body>
    </text>
