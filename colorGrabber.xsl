@@ -6,8 +6,9 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" include-content-type="no"
         indent="yes"/>
+    
+    <xsl:variable name="corpus" as="document-node()+" select="collection('tei/?select=*xml')"/>
 
-<!--  this code will auto-populate many colors mentioned with their swatches, but not all of them. Output will have to be edited a bit once database is finalized. -->
 
     <xsl:template match="/">
         <html>
@@ -20,9 +21,9 @@
                 <h2>DIGIT 110 Semester Project</h2>
                 <div id="navBar">
                     <a href="index.html">Home</a>
-                    <a href="original.html">Original Texts</a>
+                    <a href="original.html">Vogue Pages</a>
+                    <a href="reader.html">Text View</a>
                     <a href="swatches.html">Swatch Gallery</a>
-                    
                 </div>
 
 
@@ -30,7 +31,7 @@
                 <p>Below are the unique colors used within the articles on this page.</p>
 
                 <div class="colorGrid">
-                    <xsl:for-each-group select="distinct-values(//rs[@type = 'color'])"
+                    <xsl:for-each-group select="distinct-values($corpus//rs[@type = 'color'])"
                         group-by="upper-case(.)">
                         <div class="swatch">
                             <p>
