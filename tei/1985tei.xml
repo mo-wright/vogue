@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+  type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +33,7 @@
                concept’s American. We started it. We do it best. And we keep doing it better. This
                season, “easy” goes to a whole new level—racier, sharper, more sophisticated. What
                does it: fabric with more character… patterns with more strength, more precision…
-                  color!</p>
+               color!</p>
 
             <p>There’s a new character to <persName>Ralph Lauren</persName>’s sportive American
                classics, like his traditional <rs type="garment">trousers</rs>, this page, are in a
@@ -35,33 +41,23 @@
                shawl-collared “<rs type="garment">robe</rs>” is vivid <rs type="color">purple</rs>
                on soft, languorous <rs type="material">silk charmeuse</rs>. Another plus: these
                looks needn’t wait for warm weather, a resort—this is terrific at-home dressing any
-               time. <rs type="garment">Trousers</rs>, about <rs type="price">$358</rs>. <rs
-                  type="garment">Robe-jacket</rs>, about <rs type="price">$658</rs>. Late Dec. at
-                  <orgName>Saks Fifth Avenue</orgName>, <placeName>NYC</placeName>;
-                  <orgName>Hudson-Belk’s</orgName>, <placeName>Raleigh NC</placeName>;
-                  <orgName>Polo/Ralph Lauren</orgName>, <placeName>San Antonio</placeName>. Ring and
-               bracelet, <persName>Paloma Picasso</persName> for <orgName>Tiffany &amp;
-                  Co.</orgName>
-               <persName>Donald Judd</persName> chair, courtesy <orgName>Max Protech
-                  Gallery</orgName>, <placeName>NYC</placeName>.</p>
+               time. <rs type="garment">Trousers</rs>, about . <rs type="garment">Robe-jacket</rs>,
+               about . Late Dec. at Saks Fifth Avenue, ; Hudson-Belk’s, ; Polo/Ralph Lauren, . Ring
+               and bracelet, <persName>Paloma Picasso</persName> for Tiffany &amp; Co.
+                  <persName>Donald Judd</persName> chair, courtesy Max Protech Gallery, .</p>
 
             <p>… Everybody loved the look, the <persName>Fred Astaire</persName> nonchalance of
                   <persName>Ralph Lauren</persName>’s impeccable, classic <rs type="garment"
                   >trousers</rs>… in brilliant <rs type="color">chrome</rs>
                <rs type="material">silk charmeuse</rs>!, opposite. Here, played against a navy
                double-breasted <rs type="garment">wool gabardine jacket</rs> and <rs type="garment"
-                  >white tank</rs>. <rs type="garment">Trousers</rs>, about <rs type="price"
-                  >$358</rs>. <rs type="garment">Jacket</rs>, about <rs type="price">$658</rs>. Late
-               December at <orgName>Barneys New York</orgName>; <orgName>Polo/Ralph
-               Lauren</orgName>, <placeName>Costa Mesa CA</placeName>; <orgName>Polo/Ralph
-                  Lauren</orgName>, <placeName>Denver</placeName>; <orgName>Polo/Ralph
-                  Lauren</orgName>, <placeName>San Francisco</placeName>. Rings and bracelets,
-                  <orgName>Bulgari</orgName> at the <orgName>Pierre Hotel</orgName>,
-                  <placeName>NYC</placeName>; <persName>Elizabeth Jackson</persName> chair for
-                  <orgName>Arc International, Inc.</orgName>, <placeName>NYC</placeName>. These,
-               next two pages: hair, <persName>Madeleine Cofano</persName> for <orgName>Bruno
-                  Dessange</orgName>; makeup, <persName>Laura Mercier</persName>. Details, more
-               stores, last pages.</p>
+                  >white tank</rs>. <rs type="garment">Trousers</rs>, about . <rs type="garment"
+                  >Jacket</rs>, about . Late December at Barneys New York; Polo/Ralph Lauren, ;
+               Polo/Ralph Lauren, ; Polo/Ralph Lauren, . Rings and bracelets, Bulgari at the Pierre
+               Hotel, ; <persName>Elizabeth Jackson</persName> chair for Arc International, Inc., .
+               These, next two pages: hair, <persName>Madeleine Cofano</persName> for Bruno
+               Dessange; makeup, <persName>Laura Mercier</persName>. Details, more stores, last
+               pages.</p>
 
             <p><persName>Andrea Blanch</persName></p>
          </div>
@@ -86,30 +82,21 @@
                <rs type="material">silk crepe de Chine</rs> with a generously sized navy cotton <rs
                   type="garment">turtleneck sweater</rs>. The turtleneck—so important this
                winter—keeps evolving for warm weather, with long sleeves, short sleeves, even on
-               halters. <rs type="garment">Skirt</rs>, about <rs type="price">$258</rs>. <rs
-                  type="garment">Sweater</rs>, about <rs type="price">$198</rs>. Turnout late
-               December at <orgName>Allcott &amp; Andrews</orgName>, <placeName>NYC</placeName>;
-                  <placeName>Short Hills NJ</placeName>; <placeName>Hartford CT</placeName>;
-                  <placeName>Washington DC</placeName>; <orgName>Polo/Ralph Lauren</orgName>,
-                  <placeName>Atlanta</placeName>. Skirt, <orgName>Polo/Ralph Lauren</orgName>,
-                  <placeName>Ft. Lauderdale</placeName>. <persName>Elizabeth Jackson</persName>
-               chair for <orgName>Arc International, Inc.</orgName>, <placeName>NYC</placeName>.</p>
+               halters. <rs type="garment">Skirt</rs>, about . <rs type="garment">Sweater</rs>,
+               about . Turnout late December at Allcott &amp; Andrews, ; ; ; ; Polo/Ralph Lauren, .
+               Skirt, Polo/Ralph Lauren, . <persName>Elizabeth Jackson</persName> chair for Arc
+               International, Inc., .</p>
 
             <p>… Pure pow! The <rs type="garment">dress</rs> everybody applauded,
                   wanted!—<persName>Donna Karan</persName>’s—opposite. In double-faced, full-bodied
                bright <rs type="color">red</rs>
                <rs type="material">silk</rs>—strong-shouldered, tightly cinched at the waist, with a
                graceful, ankle-length <rs type="garment">skirt</rs>—it sets up a whole new
-               definition of shape and a new kind of dressing for easy evenings. <orgName>Donna
-                  Karan New York</orgName>. About <rs type="price">$890</rs>. Late December at
-                  <orgName>Bloomingdale’s</orgName>, <orgName>L.H. Rogers</orgName>,
-                  <placeName>Salem MA</placeName>; <orgName>Alexander’s</orgName>,
-                  <placeName>Virginia Beach</placeName>; <orgName>Hudson’s</orgName>;
-                  <orgName>Hattie</orgName>, <placeName>Palm Beach FL</placeName> and
-                  <placeName>Scottsdale AZ</placeName>; <persName>Eleanor Keeshan</persName>,
-                  <placeName>Los Angeles</placeName>. Chair, <orgName>LaVerne Originals</orgName>,
-               c. 1960, courtesy <orgName>Fifty–50</orgName>, <placeName>NYC</placeName>. Details,
-               more stores, next to last pages.</p>
+               definition of shape and a new kind of dressing for easy evenings. Donna Karan New
+               York. About . Late December at Bloomingdale’s, L.H. Rogers, ; Alexander’s, ;
+               Hudson’s; Hattie, and ; <persName>Eleanor Keeshan</persName>, . Chair, LaVerne
+               Originals, c. 1960, courtesy Fifty–50, . Details, more stores, next to last
+               pages.</p>
 
          </div>
 
@@ -132,13 +119,12 @@
                   type="garment">black-and-white suit</rs>, left: a body-close, pointed-edge <rs
                   type="garment">jacket</rs> and short, narrow <rs type="garment">skirt</rs>, both
                in strongly textured <rs type="material">silk cloque</rs>… a look that moves from day
-               into evening. About <rs type="price">$460</rs>.</p>
+               into evening. About .</p>
 
             <p>… Regimental precision—the navy-and-white stripes, right, of <persName>Gloria
                   Sachs</persName>’s <rs type="garment">silk button-back blouse</rs> and classic <rs
                   type="garment">trouser</rs>; all the raciness of a jumpsuit. <rs type="garment"
-                  >Top</rs>, about <rs type="price">$220</rs>. <rs type="garment">Trousers</rs>,
-               about <rs type="price">$290</rs>.</p>
+                  >Top</rs>, about . <rs type="garment">Trousers</rs>, about .</p>
 
          </div>
 
@@ -152,20 +138,17 @@
                left—long, clean, collarless—continues; in <rs type="color">black-and-white</rs>,
                perfect proportion with this short, slim <rs type="material">linen/satin</rs>
                <rs type="garment">skirt</rs>; with <rs type="garment">trousers</rs>. <persName>Louis
-                  Dell’Olio</persName> for <orgName>Anne Klein &amp; Co.</orgName>
-               <rs type="garment">Jacket</rs>, about <rs type="price">$380</rs>; <rs type="garment"
-                  >skirt</rs>, about <rs type="price">$160</rs>. Jewelry, <persName>Paloma
-                  Picasso</persName> for <orgName>Tiffany &amp; Co.</orgName></p>
+                  Dell’Olio</persName> for Anne Klein &amp; Co. <rs type="garment">Jacket</rs>,
+               about ; <rs type="garment">skirt</rs>, about . Jewelry, <persName>Paloma
+                  Picasso</persName> for Tiffany &amp; Co.</p>
 
-            <p>… Another attractive <rs type="garment">jacket</rs>, right, by
-                  <orgName>Mondi</orgName>, in navy <rs type="material">gabardine</rs>, slightly
-               more classic but not blazer-y—it’s longer, more relaxed, it moves. Here, over
-               matching <rs type="garment">trousers</rs>, a <rs type="garment">white shirt</rs>. <rs
-                  type="garment">Jacket</rs>, about <rs type="price">$209</rs>. <rs type="garment"
-                  >Trousers</rs>, about <rs type="price">$160</rs>. <rs type="garment">Shirt</rs>,
-               about <rs type="price">$120</rs>. Hair, <persName>Edward Tricomi</persName> for
-                  <orgName>Fijiko-Buccheri</orgName>, <placeName>NYC</placeName>; makeup,
-                  <persName>Laura Mercier</persName>. Details, more stores, see last pages.</p>
+            <p>… Another attractive <rs type="garment">jacket</rs>, right, by Mondi, in navy <rs
+                  type="material">gabardine</rs>, slightly more classic but not blazer-y—it’s
+               longer, more relaxed, it moves. Here, over matching <rs type="garment">trousers</rs>,
+               a <rs type="garment">white shirt</rs>. <rs type="garment">Jacket</rs>, about . <rs
+                  type="garment">Trousers</rs>, about . <rs type="garment">Shirt</rs>, about . Hair,
+                  <persName>Edward Tricomi</persName> for Fijiko-Buccheri, ; makeup, <persName>Laura
+                  Mercier</persName>. Details, more stores, see last pages.</p>
          </div>
 
          <!-- PAGE 7 -->
@@ -185,31 +168,21 @@
                <rs type="material">wool</rs>—the <rs type="garment">jacket</rs> lightly shaped and
                rounder; the <rs type="garment">skirt</rs> short, narrow, slit; the look sharpened by
                the jolt of a <rs type="color">red-and-white</rs> striped <rs type="material">silk
-                  blouse</rs>. About <rs type="price">$1190</rs>. Late January at <orgName>Saks
-                  Fifth Avenue</orgName>; <orgName>Sara Fredericks</orgName>,
-                  <placeName>Boston</placeName> &amp; <placeName>Palm Beach</placeName>;
-                  <orgName>Montaldo’s</orgName>; <orgName>Higbee’s</orgName>;
-                  <orgName>Baillef’s</orgName>. <persName>Jean Prouvé</persName> chair,
-                  <orgName>Global Furniture</orgName>, <placeName>NYC</placeName>.</p>
+                  blouse</rs>. About . Late January at Saks Fifth Avenue; Sara Fredericks, &amp; ;
+               Montaldo’s; Higbee’s; Baillef’s. <persName>Jean Prouvé</persName> chair, Global
+               Furniture, .</p>
 
             <p>… In a more dressed mood, this page, <persName>Bill Blass</persName>’s soft-falling
                   <rs type="garment">7/8 coat</rs> and slim, soft, ankle-length <rs type="garment"
                   >skirt</rs>, done in a controlled, allover “<rs type="pattern">palmette</rs>”
-               print (<rs type="material">fabric</rs>, <orgName>Abraham</orgName>), with a striped
-                  <rs type="material">silk</rs>
+               print (<rs type="material">fabric</rs>, Abraham), with a striped <rs type="material"
+                  >silk</rs>
                <rs type="garment">halter</rs> that wraps at the waist ( <rs type="garment"
-                  >blouse</rs>, <orgName>Teso</orgName>), for night, a pulled-together, altogether
-               charming way to look. About <rs type="price">$2570</rs>. Late January at
-                  <orgName>Saks Fifth Avenue</orgName>, <placeName>NYC</placeName>; <orgName>Sara
-                  Fredericks</orgName>, <placeName>Boston</placeName>; <orgName>Martha</orgName>,
-                  <placeName>Palm Beach</placeName> &amp; <orgName>Baillef’s</orgName>;
-                  <orgName>Lord &amp; Taylor</orgName>, <placeName>St. Petersburg,
-                  Florida</placeName>; <orgName>John Baldwin</orgName>, <placeName>St. Petersburg,
-                  Florida</placeName>; <orgName>St. John Shops</orgName>,
-                  <placeName>Cleveland</placeName> and <placeName>Ohio</placeName>; <orgName>Frost
-                  Bros.</orgName> Hair, <persName>Ray Allington</persName> for <orgName>Vidal
-                  Sassoon</orgName>; makeup, <persName>Margaret Avery</persName>. Details, more
-               stores, last pages.</p>
+                  >blouse</rs>, Teso), for night, a pulled-together, altogether charming way to
+               look. About . Late January at Saks Fifth Avenue, ; Sara Fredericks, ; Martha, &amp;
+               Baillef’s; Lord &amp; Taylor, ; John Baldwin, ; St. John Shops, and ; Frost Bros.
+               Hair, <persName>Ray Allington</persName> for Vidal Sassoon; makeup,
+                  <persName>Margaret Avery</persName>. Details, more stores, last pages.</p>
 
             <p><persName>Andrea Blanch</persName></p>
          </div>
