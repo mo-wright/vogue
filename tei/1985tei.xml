@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A Strong Sense of Ease</title>
-            <author>Trinity Taylor</author>
+            <title>Vogue Spread: A Strong Sense of Ease</title>
          </titleStmt>
          <publicationStmt>
-            <p>Vogue Magazine. Transcribed and encoded by Trinity Taylor.</p>
+            <p>Class encoding project.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Transcribed from a 1985 Vogue editorial, photographed by Andrea Blanch and published
-               by Condé Nast.</p>
+            <p>Encoded from 8 scanned Vogue magazine pages.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -24,177 +17,201 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
 
-         <div type="page" n="1">
+         <!-- PAGE 1 -->
+         <div n="1">
+            <note type="image">Page 1: Model seated wearing purple robe and floral silk
+               trousers.</note>
 
-            <p>Part of the fashion idiom, “easy dressing”—meaning dressing that’s unstudied,
-               uncomplicated, easy to wear… all in an attractive, polished, real-life way. The
+            <p>Part of the fashion idiom: “easy dressing”—meaning dressing that’s unstudied,
+               uncomplicated, easy to wear… all in an attractive polished, real-life way. The
                concept’s American. We started it. We do it best. And we keep doing it better. This
                season, “easy” goes to a whole new level—racier, sharper, more sophisticated. What
-               does it: fabric with more character, patterns with more strength, more precision…
-               color!</p>
+               does it: fabric with more character… patterns with more strength, more precision…
+                  color!</p>
 
-            <p>There’s a new character to Ralph Lauren’s sportive American classics, like his
-               traditional <rs type="garment">trousers</rs>, this page, are in a bold floral print
-               of <rs type="material">silk</rs>, and his <rs type="garment-piece"
-                  >shawl-collared</rs>
-               <rs type="garment">robe</rs> is vivid <rs type="color">purple</rs> in soft,
-               languorous <rs type="material">silk charmeuse</rs>. Another plus: these looks needn’t
-               wait for warm weather, a resort—this is terrific at-home dressing any time. <rs
-                  type="garment">Trousers</rs>, about $358. <rs type="garment">Robe-jacket</rs>,
-               about $658. Late Dec. at Saks Fifth Avenue, NYC; Hudson-Belk’s, Raleigh NC;
-               Polo/Ralph Lauren, San Antonio. Ring and bracelet, Paloma Picasso for Tiffany &amp;
-               Co. Donald Judd chair, courtesy Max Protetch Gallery, NYC.</p>
+            <p>There’s a new character to <persName>Ralph Lauren</persName>’s sportive American
+               classics, like his traditional <rs type="garment">trousers</rs>, this page, are in a
+               bold <rs type="pattern">floral print</rs> of <rs type="material">silk</rs>, and his
+               shawl-collared “<rs type="garment">robe</rs>” is vivid <rs type="color">purple</rs>
+               on soft, languorous <rs type="material">silk charmeuse</rs>. Another plus: these
+               looks needn’t wait for warm weather, a resort—this is terrific at-home dressing any
+               time. <rs type="garment">Trousers</rs>, about <rs type="price">$358</rs>. <rs
+                  type="garment">Robe-jacket</rs>, about <rs type="price">$658</rs>. Late Dec. at
+                  <orgName>Saks Fifth Avenue</orgName>, <placeName>NYC</placeName>;
+                  <orgName>Hudson-Belk’s</orgName>, <placeName>Raleigh NC</placeName>;
+                  <orgName>Polo/Ralph Lauren</orgName>, <placeName>San Antonio</placeName>. Ring and
+               bracelet, <persName>Paloma Picasso</persName> for <orgName>Tiffany &amp;
+                  Co.</orgName>
+               <persName>Donald Judd</persName> chair, courtesy <orgName>Max Protech
+                  Gallery</orgName>, <placeName>NYC</placeName>.</p>
 
-            <p>Everybody loved the look, the Fred Astaire nonchalance of Ralph Lauren’s impeccable,
-               classic <rs type="garment">trousers</rs>, in brilliant chrome <rs type="material"
-                  >silk charmeuse</rs>, opposite. Here, played against a <rs type="color">navy</rs>
-               <rs type="garment-piece">double-breasted</rs>
-               <rs type="material">wool gabardine</rs>
-               <rs type="garment">jacket</rs> and <rs type="color">white</rs>
-               <rs type="garment">tank</rs>. <rs type="garment">Trousers</rs>, about $358. <rs
-                  type="garment">Jacket</rs>, about $396. Late December at Barneys New York;
-               Polo/Ralph Lauren, Costa Mesa CA; Polo/Ralph Lauren, Denver; Polo/Ralph Lauren, San
-               Francisco. <rs type="garment">Rings</rs> and <rs type="garment">bracelets</rs>,
-               Bulgari at the Pierre Hotel, NYC. Elizabeth Jackson chair for Arc International,
-               Inc., NYC. These, next two pages: hair, Madeleine Cofano for Bruno Dessange; makeup,
-               Laura Mercier. Details, more stores, last pages.</p>
+            <p>… Everybody loved the look, the <persName>Fred Astaire</persName> nonchalance of
+                  <persName>Ralph Lauren</persName>’s impeccable, classic <rs type="garment"
+                  >trousers</rs>… in brilliant <rs type="color">chrome</rs>
+               <rs type="material">silk charmeuse</rs>!, opposite. Here, played against a navy
+               double-breasted <rs type="garment">wool gabardine jacket</rs> and <rs type="garment"
+                  >white tank</rs>. <rs type="garment">Trousers</rs>, about <rs type="price"
+                  >$358</rs>. <rs type="garment">Jacket</rs>, about <rs type="price">$658</rs>. Late
+               December at <orgName>Barneys New York</orgName>; <orgName>Polo/Ralph
+               Lauren</orgName>, <placeName>Costa Mesa CA</placeName>; <orgName>Polo/Ralph
+                  Lauren</orgName>, <placeName>Denver</placeName>; <orgName>Polo/Ralph
+                  Lauren</orgName>, <placeName>San Francisco</placeName>. Rings and bracelets,
+                  <orgName>Bulgari</orgName> at the <orgName>Pierre Hotel</orgName>,
+                  <placeName>NYC</placeName>; <persName>Elizabeth Jackson</persName> chair for
+                  <orgName>Arc International, Inc.</orgName>, <placeName>NYC</placeName>. These,
+               next two pages: hair, <persName>Madeleine Cofano</persName> for <orgName>Bruno
+                  Dessange</orgName>; makeup, <persName>Laura Mercier</persName>. Details, more
+               stores, last pages.</p>
 
-            <p><note type="image">Image: full-page color spread of Ralph Lauren trousers and
-                  robe.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
-
+            <p><persName>Andrea Blanch</persName></p>
          </div>
 
-         <div type="page" n="2">
+         <!-- PAGE 2 -->
+         <div n="2">
+            <note type="image">Page 2: Model in yellow trousers sitting in geometric chair, headline
+               only.</note>
+            <head>A STRONG SENSE OF EASE</head>
+         </div>
 
-            <p>A STRONG SENSE OF EASE</p>
+         <!-- PAGE 3 -->
+         <div n="3">
+            <note type="image">Page 3: Model in navy sweater and red silk skirt.</note>
+
+            <head>A STRONG SENSE OF EASE… COLOR — AND SUDDENLY EVERYTHING CHANGES</head>
 
             <p>Typical of this “laid back” American approach: very polished <rs type="garment"
-                  >sweater</rs>-and-<rs type="garment">skirt</rs> dressing for low-key evenings. And
-               what a <rs type="garment">sweater</rs>-and-<rs type="garment">skirt</rs> this is! By
-               Ralph Lauren, this page, a long, soft-moving, <rs type="garment-piece">bias-cut
-                  skirt</rs> of <rs type="color">flag-red</rs>
-               <rs type="material">silk crepe de Chine</rs> with a generously sized <rs type="color"
-                  >navy</rs>
-               <rs type="material">cotton</rs>
-               <rs type="garment">turtleneck sweater</rs>. The <rs type="garment">turtleneck</rs>—so
-               important this winter—keeps evolving for warm weather, with <rs type="garment-piece"
-                  >long sleeves</rs>, <rs type="garment-piece">short sleeves</rs>, even on <rs
-                  type="garment-piece">halters</rs>. <rs type="garment">Skirt</rs>, about $258. <rs
-                  type="garment">Sweater</rs>, about $198. Turnout late December at Alcott &amp;
-               Andrews, NYC; Short Hills NJ; Hartford CT; Washington DC; Polo/Ralph Lauren, Atlanta.
-               Skirt, Polo/Ralph Lauren, Ft. Lauderdale. Elizabeth Jackson chair for Arc
-               International, Inc., NYC.</p>
+                  >sweater-and-skirt</rs> dressing for low-key evenings. And what a
+               sweater-and-skirt this is! By <persName>Ralph Lauren</persName>, this page, a long,
+               soft-moving, bias-cut <rs type="garment">skirt</rs> of flag-<rs type="color">red</rs>
+               <rs type="material">silk crepe de Chine</rs> with a generously sized navy cotton <rs
+                  type="garment">turtleneck sweater</rs>. The turtleneck—so important this
+               winter—keeps evolving for warm weather, with long sleeves, short sleeves, even on
+               halters. <rs type="garment">Skirt</rs>, about <rs type="price">$258</rs>. <rs
+                  type="garment">Sweater</rs>, about <rs type="price">$198</rs>. Turnout late
+               December at <orgName>Allcott &amp; Andrews</orgName>, <placeName>NYC</placeName>;
+                  <placeName>Short Hills NJ</placeName>; <placeName>Hartford CT</placeName>;
+                  <placeName>Washington DC</placeName>; <orgName>Polo/Ralph Lauren</orgName>,
+                  <placeName>Atlanta</placeName>. Skirt, <orgName>Polo/Ralph Lauren</orgName>,
+                  <placeName>Ft. Lauderdale</placeName>. <persName>Elizabeth Jackson</persName>
+               chair for <orgName>Arc International, Inc.</orgName>, <placeName>NYC</placeName>.</p>
 
-            <p>Pure pow! The dress everybody applauded, wanted!—Donna Karan’s—opposite. In
-               double-faced, full-bodied <rs type="color">bright red</rs>
-               <rs type="material">silk</rs>—strong shouldered, tightly cinched at the <rs
-                  type="garment-piece">waist</rs>, with a graceful, ankle-length <rs type="garment"
-                  >skirt</rs>—it sets up a whole new definition of shape and a new kind of dressing
-               for easy evenings. Donna Karan New York. About $890. Late January. At Bloomingdale’s;
-               L.H. Rogers, Salem MA; Alexander’s Edge, Virginia Beach; Hudson’s, Hattie, Palm Beach
-               FL and Scottsdale AZ; Eleanor Keehan, Los Angeles. Chair, Lawrence Originals, c.
-               1960, courtesy Fifty-50, NYC. Details, more stores, see next to last pages.</p>
+            <p>… Pure pow! The <rs type="garment">dress</rs> everybody applauded,
+                  wanted!—<persName>Donna Karan</persName>’s—opposite. In double-faced, full-bodied
+               bright <rs type="color">red</rs>
+               <rs type="material">silk</rs>—strong-shouldered, tightly cinched at the waist, with a
+               graceful, ankle-length <rs type="garment">skirt</rs>—it sets up a whole new
+               definition of shape and a new kind of dressing for easy evenings. <orgName>Donna
+                  Karan New York</orgName>. About <rs type="price">$890</rs>. Late December at
+                  <orgName>Bloomingdale’s</orgName>, <orgName>L.H. Rogers</orgName>,
+                  <placeName>Salem MA</placeName>; <orgName>Alexander’s</orgName>,
+                  <placeName>Virginia Beach</placeName>; <orgName>Hudson’s</orgName>;
+                  <orgName>Hattie</orgName>, <placeName>Palm Beach FL</placeName> and
+                  <placeName>Scottsdale AZ</placeName>; <persName>Eleanor Keeshan</persName>,
+                  <placeName>Los Angeles</placeName>. Chair, <orgName>LaVerne Originals</orgName>,
+               c. 1960, courtesy <orgName>Fifty–50</orgName>, <placeName>NYC</placeName>. Details,
+               more stores, next to last pages.</p>
 
-            <p><note type="image">Image: model seated in red silk skirt and navy sweater.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
          </div>
 
-         <div type="page" n="3">
-            <p><note type="image">Image only page: full-page visual continuation of “A Strong Sense
-                  of Ease” — two models in monochrome knits and silk, photographed mid-motion
-                  against a neutral backdrop.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         <!-- PAGE 4 -->
+         <div n="4">
+            <note type="image">Page 4: Model in red draped dress, no printed text.</note>
          </div>
 
-         <div type="page" n="4">
+         <!-- PAGE 5 -->
+         <div n="5">
+            <note type="image">Page 5: Two models, black-and-white jacket and navy striped
+               outfit.</note>
 
-            <p>A STRONG SENSE OF EASE… PATTERNS ARE PRECISE, SHARP—UNSENTIMENTAL</p>
+            <head>A STRONG SENSE OF EASE… PATTERNS ARE PRECISE, SHARP—UNSENTIMENTAL</head>
 
             <p>The best of these patterns, when they aren’t in strong color, are in strong <rs
                   type="color">black</rs> or <rs type="color">navy</rs> with <rs type="color"
                   >white</rs>, like this very attractive city dressing for working women—easy to
-               wear, but polished, meant to be taken seriously. David Hayes’s <rs type="color"
-                  >black</rs>-and-<rs type="color">white</rs>
-               <rs type="garment">suit</rs>, left: a body-close, pointed-edge <rs type="garment"
-                  >jacket</rs> and short, narrow <rs type="garment">skirt</rs>, both in strongly
-               textured <rs type="material">silk cloque</rs>—a look that moves from day into
-               evening. About $460.</p>
+               wear, polished, meant to be taken seriously… <persName>David Hayes</persName>’s <rs
+                  type="garment">black-and-white suit</rs>, left: a body-close, pointed-edge <rs
+                  type="garment">jacket</rs> and short, narrow <rs type="garment">skirt</rs>, both
+               in strongly textured <rs type="material">silk cloque</rs>… a look that moves from day
+               into evening. About <rs type="price">$460</rs>.</p>
 
-            <p>Regimental precision—the <rs type="color">navy</rs>-and-<rs type="color">white</rs>
-               stripes, right, of Gloria Sachs’s <rs type="material">silk</rs>
-               <rs type="garment-piece">button-back</rs>
-               <rs type="garment">blouse</rs> and classic <rs type="garment">trouser</rs>: all the
-               raciness of a <rs type="garment">jumpsuit</rs>. <rs type="garment">Top</rs>, about
-               $220. <rs type="garment">Trousers</rs>, about $290. And then there are patterns so
-               precise, they give you a feeling of texture. Anne Klein’s starring <rs type="garment"
-                  >jacket</rs>, left—long, clean, collarless—continues in <rs type="color"
-                  >black</rs>-and-<rs type="color">white</rs>, perfect proportion with this short,
-               slim <rs type="material">linen</rs>/<rs type="material">satin</rs>
-               <rs type="garment">skirt</rs>; with <rs type="garment">trousers</rs>. Louis Dell’Olio
-               for Anne Klein &amp; Co. <rs type="garment">Jacket</rs>, about $380; <rs
-                  type="garment">skirt</rs>, about $160. <rs type="garment">Jewelry</rs>, Paloma
-               Picasso for Tiffany &amp; Co.</p>
-
-            <p>Another attractive <rs type="garment">jacket</rs>, right, by Mondi, in <rs
-                  type="color">navy</rs><rs type="material"> gabardine</rs>, slightly more classic
-               but not <rs type="garment">blazer</rs>-y—it’s longer, more relaxed, it moves. Here,
-               over matching <rs type="garment">trousers</rs>, a <rs type="color">white</rs>
-               <rs type="garment">shirt</rs>. <rs type="garment">Jacket</rs>, about $209. <rs
-                  type="garment">Trousers</rs>, about $160. <rs type="garment">Shirt</rs>, about
-               $120. Hair, Edward Tricomi for Pipino-Buccheri, NYC; makeup, Laura Mercier. Details,
-               more stores, see last pages.</p>
-
-            <p><note type="image">Image: two standing models, one in a black-and-white Hayes suit,
-                  another in navy stripes.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+            <p>… Regimental precision—the navy-and-white stripes, right, of <persName>Gloria
+                  Sachs</persName>’s <rs type="garment">silk button-back blouse</rs> and classic <rs
+                  type="garment">trouser</rs>; all the raciness of a jumpsuit. <rs type="garment"
+                  >Top</rs>, about <rs type="price">$220</rs>. <rs type="garment">Trousers</rs>,
+               about <rs type="price">$290</rs>.</p>
 
          </div>
 
-         <div type="page" n="5">
-            <p><note type="image">Image only page: editorial photo featuring models seated in
-                  tailored jackets and striped blouses, architectural background.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+         <!-- PAGE 6 -->
+         <div n="6">
+            <note type="image">Page 6: Two models: Anne Klein jacket and Mondi navy gabardine
+               suit.</note>
+
+            <p>… And then there are patterns so precise, they give you a feeling of texture.
+                  <persName>Anne Klein</persName>’s starring <rs type="garment">jacket</rs>,
+               left—long, clean, collarless—continues; in <rs type="color">black-and-white</rs>,
+               perfect proportion with this short, slim <rs type="material">linen/satin</rs>
+               <rs type="garment">skirt</rs>; with <rs type="garment">trousers</rs>. <persName>Louis
+                  Dell’Olio</persName> for <orgName>Anne Klein &amp; Co.</orgName>
+               <rs type="garment">Jacket</rs>, about <rs type="price">$380</rs>; <rs type="garment"
+                  >skirt</rs>, about <rs type="price">$160</rs>. Jewelry, <persName>Paloma
+                  Picasso</persName> for <orgName>Tiffany &amp; Co.</orgName></p>
+
+            <p>… Another attractive <rs type="garment">jacket</rs>, right, by
+                  <orgName>Mondi</orgName>, in navy <rs type="material">gabardine</rs>, slightly
+               more classic but not blazer-y—it’s longer, more relaxed, it moves. Here, over
+               matching <rs type="garment">trousers</rs>, a <rs type="garment">white shirt</rs>. <rs
+                  type="garment">Jacket</rs>, about <rs type="price">$209</rs>. <rs type="garment"
+                  >Trousers</rs>, about <rs type="price">$160</rs>. <rs type="garment">Shirt</rs>,
+               about <rs type="price">$120</rs>. Hair, <persName>Edward Tricomi</persName> for
+                  <orgName>Fijiko-Buccheri</orgName>, <placeName>NYC</placeName>; makeup,
+                  <persName>Laura Mercier</persName>. Details, more stores, see last pages.</p>
          </div>
 
-         <div type="page" n="6">
+         <!-- PAGE 7 -->
+         <div n="7">
+            <note type="image">Page 7: Reclining model in soft suit; no printed text.</note>
+         </div>
 
-            <p>A STRONG SENSE OF EASE… THE SINGULAR CHARM OF A SOFT SUIT IN A STRONG MIX OF
-               PATTERNS</p>
+         <!-- PAGE 8 -->
+         <div n="8">
+            <note type="image">Page 8: Model standing beside car in grey patterned coat and striped
+               halter dress.</note>
 
-            <p>Usually hard to find: <rs type="garment">suit</rs> dressing that strikes the right
-               balance between crispness and ease. You find it, opposite, in Oscar de la Renta’s
-               striking plaid/check <rs type="garment">suit</rs> of navy-and-white <rs
-                  type="material">wool</rs>—the <rs type="garment">jacket</rs> lightly shaped and
-               rounder, the <rs type="garment">skirt</rs> short, narrow, slit; the look sharpened by
-               the jolt of a <rs type="color">red</rs>-and-<rs type="color">white</rs> striped <rs
-                  type="material">silk</rs>
-               <rs type="garment">blouse</rs>. About $1190. Late January at Saks Fifth Avenue; Sara
-               Fredericks, Boston &amp; Palm Beach; Montaldo’s; Higbee’s; Balle’s. Jean Prouvé
-               chair, Global Furniture, NYC.</p>
+            <p>Usually hard to find: <rs type="garment">suit dressing</rs> that strikes the right
+               balance between crispness and ease. You find it, opposite, in <persName>Oscar de la
+                  Renta</persName>’s striking <rs type="pattern">plaid/check</rs>
+               <rs type="garment">suit</rs> of <rs type="color">navy-and-white</rs>
+               <rs type="material">wool</rs>—the <rs type="garment">jacket</rs> lightly shaped and
+               rounder; the <rs type="garment">skirt</rs> short, narrow, slit; the look sharpened by
+               the jolt of a <rs type="color">red-and-white</rs> striped <rs type="material">silk
+                  blouse</rs>. About <rs type="price">$1190</rs>. Late January at <orgName>Saks
+                  Fifth Avenue</orgName>; <orgName>Sara Fredericks</orgName>,
+                  <placeName>Boston</placeName> &amp; <placeName>Palm Beach</placeName>;
+                  <orgName>Montaldo’s</orgName>; <orgName>Higbee’s</orgName>;
+                  <orgName>Baillef’s</orgName>. <persName>Jean Prouvé</persName> chair,
+                  <orgName>Global Furniture</orgName>, <placeName>NYC</placeName>.</p>
 
-            <p>In a more dressed mood, this page, Bill Blass’s soft-falling <rs type="garment">7/8
-                  coat</rs> and slim, softly shaped, <rs type="garment">knee-length straight
-                  skirt</rs>, in a controlled, allover “palmette” print (fabric, Abraham) with
-               stripes: a striped <rs type="material">silk</rs>
-               <rs type="garment">halter</rs> that wraps at the throat (Delbos, Teseo), glory at
-               night, a pulled-together, altogether charming way to look. About $2570. Late January
-               at Saks Fifth Avenue, NYC; Sara Fredericks, Boston; Martha, Palm Beach &amp; Bal
-               Harbour; John Baldwin, St. Petersburg FL; Frost Bros., San Antonio and Ohio; Frost
-               Bros. Hair, Ray Allington for Vidal Sassoon; makeup, Margaret Avery. Details, more
+            <p>… In a more dressed mood, this page, <persName>Bill Blass</persName>’s soft-falling
+                  <rs type="garment">7/8 coat</rs> and slim, soft, ankle-length <rs type="garment"
+                  >skirt</rs>, done in a controlled, allover “<rs type="pattern">palmette</rs>”
+               print (<rs type="material">fabric</rs>, <orgName>Abraham</orgName>), with a striped
+                  <rs type="material">silk</rs>
+               <rs type="garment">halter</rs> that wraps at the waist ( <rs type="garment"
+                  >blouse</rs>, <orgName>Teso</orgName>), for night, a pulled-together, altogether
+               charming way to look. About <rs type="price">$2570</rs>. Late January at
+                  <orgName>Saks Fifth Avenue</orgName>, <placeName>NYC</placeName>; <orgName>Sara
+                  Fredericks</orgName>, <placeName>Boston</placeName>; <orgName>Martha</orgName>,
+                  <placeName>Palm Beach</placeName> &amp; <orgName>Baillef’s</orgName>;
+                  <orgName>Lord &amp; Taylor</orgName>, <placeName>St. Petersburg,
+                  Florida</placeName>; <orgName>John Baldwin</orgName>, <placeName>St. Petersburg,
+                  Florida</placeName>; <orgName>St. John Shops</orgName>,
+                  <placeName>Cleveland</placeName> and <placeName>Ohio</placeName>; <orgName>Frost
+                  Bros.</orgName> Hair, <persName>Ray Allington</persName> for <orgName>Vidal
+                  Sassoon</orgName>; makeup, <persName>Margaret Avery</persName>. Details, more
                stores, last pages.</p>
 
-            <p><note type="image">Image: model in de la Renta check suit and red striped
-                  blouse.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
-
-         </div>
-
-         <div type="page" n="7">
-            <p><note type="image">Image only page: full-page color photograph closing the series —
-                  model in plaid Oscar de la Renta suit, seated beside red-striped fabric
-                  backdrop.</note></p>
-            <p>Andrea Blanch<lb/>Copyright © 2012 Condé Nast</p>
+            <p><persName>Andrea Blanch</persName></p>
          </div>
 
       </body>
