@@ -14,9 +14,6 @@
             <bibl>
                <date>1995</date>
             </bibl>
-            <p>Transcribed from a 1995 Vogue editorial, photographed by Van Lamsweerde/Matadin and
-               published by Condé Nast.</p>
-            <p xml:id="year">1995</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -57,13 +54,13 @@
          <div type="page" n="3">
             <p>The new urban suit, THIS PAGE, is a slim-fitting sleeveless <rs type="garment"
                   >top</rs> with matching cigarette <rs type="garment">pants</rs> in <rs
-                  type="material">high-tech stretch fabric</rs>. Top, Vogue Pattern #9407. Pants,
+                  type="material">high-tech stretch fabric</rs>. Top, Vogue Pattern #9407. <rs type="garment">Pants</rs>,
                Vogue Pattern #9042. Fabric from Schoeller Textil USA. </p>
 
             <p>OPPOSITE PAGE: An <rs type="color">orange</rs>
                <rs type="material">wool</rs>
                <rs type="garment">jersey dress</rs> with the new little <rs type="garment-piece">cap
-                  sleeves</rs> for dancing to a city beat. Dress, Vogue Pattern #8981. Fabric from
+                  sleeves</rs> for dancing to a city beat. <rs type="garment">Dress</rs>, Vogue Pattern #8981. Fabric from
                Tessuti. Details, pattern information, see in This Issue. </p>
 
             <p><note type="image">Image: model seated in gray stretch top and cigarette
@@ -72,8 +69,8 @@
 
 
          <div type="page" n="4">
-            <p><note type="image">Image only page: orange cap-sleeve shift dress in motion, skyline
-                  background.</note></p>
+            <p><note type="image">[Image only page: orange cap-sleeve shift dress in motion, skyline
+                  background.]</note></p>
          </div>
 
 
@@ -83,16 +80,16 @@
                Everyday Makeup SPF 10 in Ivory. Hair is boosted by J. F. Lazartigue’s Nature L
                Volume Conditioner/Styling Gel.</p>
 
-            <p><note type="image">Image: close portrait with glossy short-sleeve <rs type="garment"
-                     >shirt</rs> and tailored <rs type="garment">trousers</rs>.</note></p>
+            <p><note type="image">[Image: close portrait with glossy short-sleeve <rs type="garment"
+                     >shirt</rs> and tailored <rs type="garment">trousers</rs>.]</note></p>
          </div>
 
 
          <div type="page" n="6">
-            <p><note type="image">Image only page: glossy <rs type="color">orange</rs>
+            <p><note type="image">[Image only page: glossy <rs type="color">orange</rs>
                   <rs type="material">gloss-finish fabric</rs>
                   <rs type="garment">short-sleeve shirt</rs>, high-waist <rs type="garment"
-                     >trousers</rs>, city-night backdrop.</note></p>
+                     >trousers</rs>, city-night backdrop.]</note></p>
          </div>
 
       </body>
