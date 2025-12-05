@@ -26,11 +26,12 @@
                         <tr>
                             <th>Garment</th>
                             <th>Count</th>
+                            <th>Appears In</th>
                         </tr>
                         <xsl:for-each select="
                                 $vogueColl//rs[@type = 'garment']
                                 ! normalize-space()
-                                => distinct-values()
+                                 => distinct-values()
                                 => sort()">
 
                             <tr>
@@ -42,7 +43,17 @@
                                         select="count($vogueColl//rs[@type = 'garment'][normalize-space() = current()])"
                                     />
                                 </td>
+                                <td>
+                                    <xsl:value-of select="
+                                        $vogueColl//rs[@type = 'garment'][normalize-space() = current()]
+                                        ! root(.)//bibl//date
+                                        ! normalize-space()
+                                        => distinct-values()
+                                        => sort()" 
+                                        separator=", "/>
+                                </td>
                             </tr>
+                            
 
                         </xsl:for-each>
                     </table>
@@ -70,6 +81,16 @@
                                     <xsl:value-of
                                         select="count($vogueColl//rs[@type = 'material'][normalize-space() = current()])"
                                     />
+                                </td>
+                                
+                                <td>
+                                    <xsl:value-of select="
+                                        $vogueColl//rs[@type = 'material'][normalize-space() = current()]
+                                        ! root(.)//bibl//date
+                                        ! normalize-space()
+                                        => distinct-values()
+                                        => sort()" 
+                                        separator=", "/>
                                 </td>
                             </tr>
 
@@ -102,6 +123,16 @@
                                             $vogueColl//note[@type = 'color'])
                                             [normalize-space() = current()]
                                             )"/>
+                                </td>
+                                
+                                <td>
+                                    <xsl:value-of select="
+                                        $vogueColl//rs[@type = 'color'][normalize-space() = current()]
+                                        ! root(.)//bibl//date
+                                        ! normalize-space()
+                                        => distinct-values()
+                                        => sort()" 
+                                        separator=", "/>
                                 </td>
                             </tr>
 

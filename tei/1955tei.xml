@@ -12,7 +12,9 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <bibl>
+               <date>1955</date>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

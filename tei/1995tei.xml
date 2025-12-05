@@ -11,8 +11,12 @@
             <p>Vogue Magazine. Transcribed and encoded by Trinity Taylor.</p>
          </publicationStmt>
          <sourceDesc>
+            <bibl>
+               <date>1995</date>
+            </bibl>
             <p>Transcribed from a 1995 Vogue editorial, photographed by Van Lamsweerde/Matadin and
                published by Condé Nast.</p>
+            <p xml:id="year">1995</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

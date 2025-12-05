@@ -14,7 +14,9 @@
             <p>Vogue Magazine. Transcribed and encoded by Miracle Williams.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Transcribed from a 1945 Vogue editorial.</p>
+            <bibl>
+               <date>1945</date>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

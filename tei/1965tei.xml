@@ -13,7 +13,9 @@
             <p>Vogue Magazine. Transcribed and encoded by Molly Wright.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Transcribed from a 1965 Vogue editorial.</p>
+            <bibl>
+               <date>1965</date>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

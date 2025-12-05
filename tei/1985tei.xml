@@ -15,7 +15,9 @@
             <p>Class encoding project.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Encoded from 8 scanned Vogue magazine pages.</p>
+            <bibl>
+               <date>1985</date>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

@@ -14,7 +14,9 @@
             <p>Vogue Magazine. Transcribed and encoded by Tara McGee.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Transcribed from a 1915 Vogue article.</p>
+            <bibl>
+               <date>1915</date>
+            </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
