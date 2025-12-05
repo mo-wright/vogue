@@ -56,13 +56,13 @@ margin-right: auto;
 padding:1%;
 }
 
-img {
+.imgExpand img {
 height: 300px;
 width: auto;
 padding: 15px;
 background: #f244a2;
 }
-img:hover{
+.imgExpand img:hover{
 transform: scale(1.8);
 transition-duration: 0.4s;
     }
@@ -238,3 +238,4 @@ body {
 .articleImg{
     color: gray;
 }
+
