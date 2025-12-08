@@ -238,13 +238,23 @@ body {
 .articleImg{
     color: gray;
 }
-
-.sublogos{
-    display:inline;
+.mlcontain {
+    display: flex;
+    margin-left: 40%;
+    margin-right: auto;
     
 }
-
-.tinylogo{
-    width:40px;
-    height:40px;
+.mlcontain2 {
+    display: flex;
+    margin-left: 35%;
+    margin-right: auto;
+    
 }
+.minilogo {
+    height: 30px;
+    width: auto;
+    padding: 0;
+    background: none;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
