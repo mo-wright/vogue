@@ -1,275 +1,282 @@
+@font-face {
+    font-family: vogueDupe;
+    src: url(fonts/DubielPlain.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E2C99E;
+    font-family: Georgia, serif;
+    perspective: 1000px;
+}
+
 h1 {
     text-align: center;
     font-family: vogueDupe;
     font-weight: normal;
-    font-size:3em;
+    font-size: 3em;
+    color: #414B9E;
 }
 
-
-
-@font-face {
-  font-family: vogueDupe;
-  src: url(fonts/DubielPlain.ttf);
-}
-
-
-h2{
-    text-align: center;
-}
-
-#navBar {
-  position: sticky; /* A sticky navBar stays at the top when you scroll downwards. I like having these. Change as needed :). - Molly */
-  top: 0;
-  overflow: hidden;
-  background-color: #333;
-  }
-  
-#navBar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  }
-  
-#navBar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navBar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.imgExpand{ 
-display: flex;
-flex-flow: row wrap ;
-justify-content: space-evenly;
-align-items: center;
-background-color: #ededed;
-width: 75%;
-height:auto;
-margin-left: auto;
-margin-right: auto;
-padding:1%;
-}
-
-.imgExpand img {
-height: 300px;
-width: auto;
-padding: 15px;
-background: #f244a2;
-}
-.imgExpand img:hover{
-transform: scale(1.8);
-transition-duration: 0.4s;
-    }
-
-.sectionBox {
-    background:
-        linear-gradient(to bottom, #f7f7f7, #efefef),
-        url("https://www.transparenttextures.com/patterns/paper.png");
-    background-size: cover;
-    
-    padding: 25px;
-    margin: 40px auto;
-    width: 75%;
-
-    border: 1px solid #d0d0d0;
-    border-radius: 4px;
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
-
-    column-width: 350px;
-    column-gap: 40px;
-}
-
-
-.colorGrid{
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-width:70%;
-height:auto;
-margin: 0 auto;
-}
-
-.swatch{
-display: flex;
-align-items: center;
-gap: 12px;
-background: lightGray;
-padding: 15px;
-border-radius: 8px;
-min-width: 200px;}
-
-.swatch:hover{
-transform:scale(1.2);
-transition-duration:0.2s;
-}
-
-.sampleColor{
-width: 100%;
-height: 50px;
-border-radius: 4px;
-border: 1px solid black; }
-            
-/* NAV BAR */
-
-#navBar {
-    background-color:#FF1493 ;
-    padding: 15px 25px;
-    border-radius: 50px;
-    width: 90%;
-    max-width: 900px;
-    margin: 20px auto; /* center it */
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-/* Links */
-#navBar a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 25px; /* rounded hover effect */
-    transition: 0.3s;
-}
-
-/* Hover effect */
-#navBar a:hover {
-    background-color: #8ACE00;
-    transform: translateY(-2px); /* small float up */
-}
-
-
-body {
-    margin: 0;
-    background: #fff; /* or your gradient background */
-    perspective: 1000px; /* enables 3D rotation */
-}
-
-/* Vogue title styling */
 #vogue-title {
     font-size: 80px;
     font-weight: bold;
-    color: #FF1493; /* pink text */
+    color: #414B9E;
     text-align: center;
-    margin: 20px 0; /* space from top */
-
-    /* 3D text shadow */
+    margin-top: 20px;
     text-shadow:
-        2px 2px 0 ,
-        4px 4px 0  white,
-        6px 6px 0 #A7D639;
-
-    /* Spin animation */
+        2px 2px 0 #E2C99E,
+        4px 4px 0 white,
+        6px 6px 0 #AA74A0;
     animation: spin 5s linear infinite;
     transform-style: preserve-3d;
     transform-origin: center;
+    display: block;
 }
 
-/* Keyframes for spinning */
 @keyframes spin {
     from { transform: rotateY(0deg); }
     to { transform: rotateY(360deg); }
 }
 
-body {
-    background:gray  ;
+.typewriter {
+    width: 28ch;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #852736;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    color: #852736;
+    animation: typing 3s steps(28) forwards, blink .6s step-end infinite alternate;
 }
 
-body {
-    margin: 0; /* remove default body margin */
-    padding: 20px; /* space inside the border */
-    border: 20px solid transparent;
-    border-color: #A7D639 ; /* your color*/
+@keyframes typing {
+    from { width: 0; }
+    to { width: 28ch; }
 }
 
-.entry{
-    background-color:white;
-    padding:20px;
-    margin-bottom: 5%;
+@keyframes blink {
+    50% { border-color: transparent; }
 }
 
-.subnav {
-    background-color: #8ACE00;
+.decor-divider {
+    width: 100%;
+    height: 180px;
+    background-image: url("images/animation.gif");
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+#navBar {
+    background-color: #414B9E;
     padding: 15px 25px;
-    border-radius: 50px; 
-    width: 50%;
-    height: 20%;
-    margin: 20px auto;
+    border-radius: 50px;
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto 40px auto;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.subnav a { /* comment for testing */
+#navBar a {
+    color: #E2C99E;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+#navBar a:hover {
+    background-color: #AA74A0;
+    transform: translateY(-2px);
+}
+
+.sectionBox {
+    background-color: #9792CB;
+    width: 85%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
     color: white;
+}
+
+.sectionBox.alt {
+    background-color: #AA74A0;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.flex-text, .flex-img {
+    flex: 1;
+    min-width: 320px;
+}
+
+.flex-img img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    border: 8px solid #E2C99E;
+}
+
+.year-nav {
+    background-color: #414B9E;
+    color: #E2C99E;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.readerBox {
+    border: 6px solid #E2C99E;
+    padding: 25px;
+    background: white;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 12px;
+}
+
+.colorGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.swatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 180px;
+    border: 2px solid #414B9E;
+    transition: 0.2s;
+}
+
+.swatch:hover {
+    transform: scale(1.15);
+}
+
+.sampleColor {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.soft-gradient {
+    background: linear-gradient(to bottom,
+        #E2C99E 0%,
+        #C8B4DE 40%,
+        #AA74A0 100%
+    );
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.imgExpand {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f5e7ce;
+    width: 85%;
+    margin: 20px auto;
+    padding: 1%;
+    border-radius: 12px;
+    border: 6px solid #E2C99E;
+}
+
+.imgExpand img {
+    height: 300px;
+    width: auto;
+    padding: 15px;
+    background: #ffffff;
+    transition: 0.4s;
+    border-radius: 12px;
+    border: 4px solid #AA74A0;
+}
+
+.imgExpand img:hover {
+    transform: scale(1.8);
+}
+
+.subnav {
+    background-color: #414B9E;
+    padding: 12px 20px;
+    border-radius: 50px;
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.subnav a {
+    color: #E2C99E;
     text-decoration: none;
     font-size: 1em;
     border-radius: 25px;
-    transition: 0.3s;}
-    
+    padding: 8px 14px;
+    transition: 0.3s;
+}
+
 .subnav a:hover {
-    background-color: #FF6EC7;
-    transform: translateY(-1px);}
-
-
-  h2.type {
-  width: 28ch;                      /* match number of characters */
-  margin: 0 auto;                   /* center the element */
-  text-align: center;               /* center the text itself */
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 3px solid black;    /* cursor */
-  font-family: san-serif;
-  animation: typing 3s steps(28), blink .6s step-end infinite alternate;
+    background-color: #AA74A0;
+    transform: translateY(-1px);
 }
 
-@keyframes typing {
-  from { width: 0; }
-  to { width: 28ch; }
+.entry {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    width: 80%;
+    margin: 40px auto;
+    border: 6px solid #E2C99E;
+    color: #852736;
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
 
-.articleImg{
-    color: gray;
+.articleImg {
+    font-style: italic;
+    color: #AA74A0;
 }
-.mlcontain {
-    display: flex;
-    margin-left: 40%;
-    margin-right: auto;
-    
+
+.mlcontain, .mlcontain2 {
+    text-align: center;
+    padding: 20px;
+    color: #852736;
 }
-.mlcontain2 {
-    display: flex;
-    margin-left: 35%;
-    margin-right: auto;
-    
-}
+
 .minilogo {
     height: 30px;
     width: auto;
-    padding: 0;
-    background: none;
-    display: flex;
     margin-left: 5px;
-    margin-top: 5px; }
-
-.typing {
-  font-family: sans serif;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid black;
-  width: 0;
-  animation: typing 3s steps(30, end) forwards,
-             blink 0.8s infinite;
 }
 
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
