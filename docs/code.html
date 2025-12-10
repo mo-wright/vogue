@@ -3,20 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Vogue - Code </title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
     </head>
-    
+<!-- The <pre> tag is super finnicky - be careful pretty printing! -Molly -->
     <body>
-        
         <div class="title-container">
             <h1 id="vogue-title">VOGUE</h1>
         </div>
-        
         <h2 class="typewriter" id="digit110">DIGIT 110 Semester Project</h2>
-        
         <div class="decor-divider"></div>
-        
         <div id="navBar">
             <a href="index.html">Home</a>
             <a href="original.html">Vogue Pages</a>
@@ -24,6 +20,135 @@
             <a href="swatches.html">Swatch Gallery</a>
             <a href="vogue-lists-output.html">Summary</a>
             <a href="code.html">Code</a>
+        </div>
+       
+        <section class="sectionBox">
+            <p style="text-align: center;">For our full code, please refer to our GitHub.</p>
+        </section>
+        
+        <div class="entry">
+            <h2>Initial TEI Formatting</h2>
+            <p>This project makes use of simplified TEI formatting in order to retrieve the relevant
+                fashion items our team was interested in analyzing. We made heavy use, in
+                particular, of the 'referencing string' element <a
+                    href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html">([14.2.1
+                    Personal Names 3.6.1 Referring Strings])</a> and implemented a regex that
+                allowed for four possible values, each designating a point of interest.</p>
+            <pre>
+                <code>&lt;rs type='material'&gt;satin&lt;/rs&gt; </code>
+                <code>&lt;rs type='color'&gt;green&lt;/rs&gt;</code>
+                <code>&lt;rs type='garment'&gt;dress&lt;/rs&gt;</code>
+                <code>&lt;rs type='garment-piece'&gt;sleeve&lt;/rs&gt;</code>
+            </pre>
+            <p>For historical reasons, we also marked <code>&lt;persName&gt;</code> and
+                    <code>&lt;placeName&gt;</code> when use of these topics was particularly
+                intriguing. However, for the purpose of our final analyses, the above are the most
+                relevant. </p>
+        </div>
+        <div class="entry">
+            <h2>Reading View Creation</h2>
+            <p>We host each archival article analyzed on this website via the scans available through the Vogue Archive service. Although we've consolidated this resource, we also utilized XSLT for a more user-friendly reading view page, accessable from the navigation bar or by clicking the corresponding article on the <a href="reader.html">pages view</a>.</p>
+            <p>The code to create the pages view looks as so:</p>
+            <pre>
+              <code>  &lt;xsl:template match="/"&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Reading View&lt;/title&gt;
+                &lt;link rel="stylesheet" type="text/css" href="style.css"/&gt;
+            &lt;/head&gt;
+            
+            [...Navigation bar and other elements present across each page...]
+                
+                &lt;nav class="subnav"&gt;
+                    &lt;xsl:for-each select="$corpus//body"&gt;
+                        &lt;a href="#article{position()}"&gt;&lt;xsl:value-of select="1885 + 10*position()"/&gt;&lt;/a&gt;
+                    &lt;/xsl:for-each&gt;
+                &lt;/nav&gt;
+                &lt;div id="reader"&gt;
+                    &lt;xsl:apply-templates select="$corpus//body"/&gt;
+                &lt;/div&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;
+        
+    &lt;/xsl:template&gt;
+    
+    &lt;xsl:template match="body"&gt;
+        &lt;div class="entry" id="article{position()}"&gt;&lt;xsl:apply-templates/&gt;&lt;/div&gt;
+    &lt;/xsl:template&gt;
+    
+    &lt;xsl:template match="p"&gt;
+        &lt;p&gt;&lt;xsl:apply-templates/&gt;&lt;/p&gt;
+    &lt;/xsl:template&gt;
+    
+    &lt;xsl:template match="rs[@type='material'] | rs[@type='garment'] | rs[@type='color']"&gt;
+        &lt;strong&gt;&lt;xsl:apply-templates/&gt;&lt;/strong&gt;
+    &lt;/xsl:template&gt;
+    
+    &lt;xsl:template match="note[@type='image']"&gt;
+        &lt;span class="articleImg"&gt;&lt;xsl:apply-templates/&gt;&lt;/span&gt;
+    &lt;/xsl:template&gt;
+</code>
+            </pre>
+        </div>
+        <div class="entry">
+            <h2>Swatch Gallery Breakdown</h2>
+            <p>The swatch page on this website takes inspiration from fabric and color swatches seen in fashion design. It was created through XSLT. First, a list of all marked-up colors were retrieved:</p>
+            <pre>
+                
+                    <code>&lt;div class="colorGrid"&gt;</code>
+                    <code>&lt;xsl:for-each-group select="distinct-values($corpus//rs[@type = 'color'])"</code>
+                        <code>group-by="upper-case(.)"&gt;</code>
+                        <code>&lt;div class="swatch"&gt;</code>
+                            <code>&lt;p&gt;</code>
+                                <code>&lt;xsl:value-of select="upper-case(.)"/&gt;</code>
+                            <code>&lt;/p&gt;</code>
+                            <code>&lt;div class="sampleColor" style="background-color: {.};"/&gt;</code>
+                        <code>&lt;/div&gt;</code>
+                    <code>&lt;/xsl:for-each-group&gt;</code>
+            </pre>
+            <p>As seen above, each unique color was transformed into an html <code>&lt;div&gt;</code> element. In a more human readable format, the end result looks like so:</p>
+            <pre>
+                <code>&lt;div class="swatch"&gt;</code>
+                    <code>&lt;p&gt;COLOR NAME&lt;/p&gt;</code>
+                    <code>&lt;div class="sampleColor" style="background-color: COLOR NAME;"/&gt;</code>
+                <code>&lt;/div&gt;</code>
+            </pre>
+            <p>The intent was for the color name to auto-populate the <code>&lt;div&gt;</code> containing the color preview, however, CSS does not recognize many colors by text name (and certainly not in the somewhat archaic ways archival Vogue tended to refer to these colors!). We went through each unique color and selected custom hex values closest to how we interpreted the colors to be used within their original contexts.</p>
+            <p>For the most part, this code was functional at avoiding repeats, but we went through and removed the colors that weren't meaningfully different enough from each other, e.g., Gray and Grey or Olive Green and Olive Toned Green. This page is focused on displaying the multitude of unique colors in our selected articles. For more generalized color trends across this data, refer to the <a href="vogue-lists-output.html">Summary</a> page. </p>
+        </div>
+        
+        <div class="entry">
+            <h2>Summary Workflow</h2>
+            <p>The sumamry page, at its base, is also built around XSLT retrieval. Every unique color, garment, and material was <a href="Old-website/vogue-lists-output-1.html">originally</a> listed and counted, like so: </p>
+            <pre>
+                 <code>&lt;xsl:for-each select="
+                                $vogueColl//rs[@type = 'VALUE']
+                                ! normalize-space()
+                                 =&gt; distinct-values()
+                                =&gt; sort()"&gt;
+
+                            &lt;tr&gt;
+                                &lt;td&gt;
+                                    &lt;xsl:value-of select="."/&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;xsl:value-of
+                                        select="count($vogueColl//rs[@type = 'VALUE'][normalize-space() = current()])"
+                                    /&gt;
+                                &lt;/td&gt;
+                                &lt;td&gt;
+                                    &lt;xsl:value-of select="
+                                        $vogueColl//rs[@type = 'VALUE'][normalize-space() = current()]
+                                        ! root(.)//bibl//date
+                                        ! normalize-space()
+                                        =&gt; distinct-values()
+                                        =&gt; sort()" 
+                                        separator=", "/&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/xsl:for-each&gt;</code>
+            </pre>
+            <p></p>
         </div>
     </body>
 </html>

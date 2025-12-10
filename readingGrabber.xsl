@@ -31,7 +31,7 @@
                 
                 <nav class="subnav">
                     <xsl:for-each select="$corpus//body">
-                        <a href="#article{position()}"><xsl:value-of select="1885 + 10*position()"/></a> <!-- this doesn't quite work the way intended due to 1945 being split into 2 files. / 1965 being missing. -->
+                        <a href="#article{position()}"><xsl:value-of select="1885 + 10*position()"/></a>
                     </xsl:for-each>
                 </nav>
                 <div id="reader">
