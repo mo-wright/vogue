@@ -262,17 +262,25 @@ h1 {
     font-style: italic;
     color: #AA74A0;
 }
-
-.mlcontain, .mlcontain2 {
+.mlcontain{
+    margin-left:42%;
+    display:flex;
+    
+}
+.mlcontain2 {
     text-align: center;
     padding: 20px;
     color: #852736;
 }
 
 .minilogo {
-    height: 30px;
+   height: 30px;
     width: auto;
+    padding: 0;
+    background: none;
+    display: flex;
     margin-left: 5px;
+    margin-top: 5px;
 }
 
 .title-container {
