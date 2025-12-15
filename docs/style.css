@@ -189,6 +189,11 @@ h1 {
     border: 1px solid #333;
 }
 
+.pattern {
+    height:50px;
+    width:auto;
+}
+
 .soft-gradient {
     background: linear-gradient(to bottom, 
 #E2C99E 0%, 
